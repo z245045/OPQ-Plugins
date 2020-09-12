@@ -1,0 +1,642 @@
+2020-08-22 20:41 INFO	Connecting to the server...
+2020-08-22 20:41 SUCCESS	Connected to server successfully!
+2020-08-22 20:41 INFO	Heartbeat -> 845324058
+2020-08-22 20:41 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598154064, 'MsgSeq': 5309, 'MsgRandom': 541339892, 'RedBaginfo': None}
+2020-08-22 20:41 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (20385), thread 'ThreadPoolExecutor-0_3' (139954965427968):
+Traceback (most recent call last):
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 571, in connect
+    **kwargs)
+      └ {}
+
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+          └ ConnectionRefusedError(111, 'Connection refused')
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+    │    │       └ ('127.0.0.1', 3306)
+    │    └ <method 'connect' of '_socket.socket' objects>
+    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=2049, proto=6>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f49f6f400d0>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139954965427968)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f49f6f3ee18>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139954965427968)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 139954965427968)>
+    │    │        │    └ (<weakref at 0x7f49f017a548; to 'ThreadPoolExecutor' at 0x7f49f0161198>, <queue.Queue object at 0x7f49f01611d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 139954965427968)>
+    │    └ <function _worker at 0x7f49f4ed8d90>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139954965427968)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f49f4ed8ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0179860>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+    │    │      └ <function Future.set_exception at 0x7f49f4f59bf8>
+    │    └ <Future at 0x7f49f0179198 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0179860>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f49f4f59598>
+    └ <Future at 0x7f49f0179198 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f49f0179198 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f49f0179860>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f49f01796a0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f49f0179860>
+             │    └ <function receive_group_msg at 0x7f49f5241ae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f49f0179860>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f49f01796a0>
+    │  └ <function insert_group_msg at 0x7f49f361c9d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f49f3612c50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f49f3612c50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f49f3615620>
+    └ <pymysql.connections.Connection object at 0x7f49f0179978>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 619, in connect
+    raise exc
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2020-08-22 20:41 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n只有群主和管理员可以使用“最近撤回”指令","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598154065, 'MsgSeq': 5310, 'MsgRandom': 1598154064, 'RedBaginfo': None}
+2020-08-22 20:41 ERROR	An error has been caught in function 'add_done_callback', process 'MainProcess' (20385), thread 'ThreadPoolExecutor-0_2' (139954973820672):
+Traceback (most recent call last):
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 571, in connect
+    **kwargs)
+      └ {}
+
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+          └ ConnectionRefusedError(111, 'Connection refused')
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+    │    │       └ ('127.0.0.1', 3306)
+    │    └ <method 'connect' of '_socket.socket' objects>
+    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=2049, proto=6>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f49f6f400d0>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 139954973820672)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f49f6f3ee18>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 139954973820672)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_2, started daemon 139954973820672)>
+    │    │        │    └ (<weakref at 0x7f49f017a408; to 'ThreadPoolExecutor' at 0x7f49f0161198>, <queue.Queue object at 0x7f49f01611d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_2, started daemon 139954973820672)>
+    │    └ <function _worker at 0x7f49f4ed8d90>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 139954973820672)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f49f4ed8ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0124240>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f49f0124240>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f49f0124d68>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f49f0124240>
+             │    └ <bound method IOTBOT.__group_context_distributor of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f49f0124240>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 230, in __group_context_distributor
+    .add_done_callback(self.__thread_pool_callback))
+                       └ IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>
+
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 403, in add_done_callback
+    fn(self)
+    │  └ <Future at 0x7f49f00e94a8 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f49f00e9438>
+    │  └ <function insert_group_msg at 0x7f49f361c9d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f49f3612c50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f49f3612c50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f49f3615620>
+    └ <pymysql.connections.Connection object at 0x7f49f00e95c0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 619, in connect
+    raise exc
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2020-08-22 20:42 INFO	Heartbeat -> 845324058
+2020-08-22 20:43 INFO	Heartbeat -> 845324058
+2020-08-22 20:43 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 1052651375, 'FromNickName': '三吉', 'Content': '{"GroupPic":[{"FileId":2473289232,"FileMd5":"sE9XjY6PtbNWWx4VQ2jscg==","FileSize":34228,"ForwordBuf":"Eip7QjA0RjU3OEQtOEU4Ri1CNUIzLTU2NUItMUUxNTQzNjhFQzcyfS5qcGcyXBU2IDkya0ExBDkzNmI2NjEwICAgICAgIDAgICAgICAgMEpGc0E0RnJua0ZzTW1wd0Z7QjA0RjU3OEQtOEU4Ri1CNUIzLTU2NUItMUUxNTQzNjhFQzcyfS5qcGdBOJDMrZsJQABIAFAEWhBKRnNBNEZybmtGc01tcHdGYAFqELBPV42Oj7WzVlseFUNo7HJyWy9nY2hhdHBpY19uZXcvMTA1MjY1MTM3NS81ODExNjg4NDgtMjQ3MzI4OTIzMi1CMDRGNTc4RDhFOEZCNUIzNTY1QjFFMTU0MzY4RUM3Mi8xOTg/dGVybT0yNTWCAVkvZ2NoYXRwaWNfbmV3LzEwNTI2NTEzNzUvNTgxMTY4ODQ4LTI0NzMyODkyMzItQjA0RjU3OEQ4RThGQjVCMzU2NUIxRTE1NDM2OEVDNzIvMD90ZXJtPTI1NaABBLABrAK4AawCwAGsAsgBtIsC0AEA2AHGAeABxgHoAQDwAQD6AVsvZ2NoYXRwaWNfbmV3LzEwNTI2NTEzNzUvNTgxMTY4ODQ4LTI0NzMyODkyMzItQjA0RjU3OEQ4RThGQjVCMzU2NUIxRTE1NDM2OEVDNzIvNDAwP3Rlcm09MjU1gAKsAogCrAKSAhkIBxAAGABKBVvppotdUABaAGIAagByAHgF","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1052651375/581168848-2534335053-B04F578D8E8FB5B3565B1E154368EC72/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598154201, 'MsgSeq': 499230, 'MsgRandom': 1433950098, 'RedBaginfo': None}
+2020-08-22 20:43 ERROR	An error has been caught in function 'add_done_callback', process 'MainProcess' (20385), thread 'ThreadPoolExecutor-0_12' (139954806032128):
+Traceback (most recent call last):
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 571, in connect
+    **kwargs)
+      └ {}
+
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+          └ ConnectionRefusedError(111, 'Connection refused')
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+    │    │       └ ('127.0.0.1', 3306)
+    │    └ <method 'connect' of '_socket.socket' objects>
+    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=2049, proto=6>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f49f6f400d0>
+    └ <Thread(ThreadPoolExecutor-0_12, started daemon 139954806032128)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f49f6f3ee18>
+    └ <Thread(ThreadPoolExecutor-0_12, started daemon 139954806032128)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_12, started daemon 139954806032128)>
+    │    │        │    └ (<weakref at 0x7f49f0098cc8; to 'ThreadPoolExecutor' at 0x7f49f0161198>, <queue.Queue object at 0x7f49f01611d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_12, started daemon 139954806032128)>
+    │    └ <function _worker at 0x7f49f4ed8d90>
+    └ <Thread(ThreadPoolExecutor-0_12, started daemon 139954806032128)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f49f4ed8ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f00e9c18>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f49f00e9c18>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f49f00e9c88>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f49f00e9c18>
+             │    └ <bound method IOTBOT.__group_context_distributor of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f49f00e9c18>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 230, in __group_context_distributor
+    .add_done_callback(self.__thread_pool_callback))
+                       └ IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>
+
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 403, in add_done_callback
+    fn(self)
+    │  └ <Future at 0x7f49f00e9f28 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f49f00e9f98>
+    │  └ <function insert_group_msg at 0x7f49f361c9d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f49f3612c50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f49f3612c50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f49f3615620>
+    └ <pymysql.connections.Connection object at 0x7f49f00b72b0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 619, in connect
+    raise exc
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2020-08-22 20:43 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 510190902, 'FromNickName': '迪亚瓦尔', 'Content': '{"Content":"@三吉 三古早呀","UserID":[1052651375]}', 'MsgType': 'AtMsg', 'MsgTime': 1598154227, 'MsgSeq': 499231, 'MsgRandom': 1949083031, 'RedBaginfo': None}
+2020-08-22 20:43 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (20385), thread 'ThreadPoolExecutor-0_18' (139954764068608):
+Traceback (most recent call last):
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 571, in connect
+    **kwargs)
+      └ {}
+
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+          └ ConnectionRefusedError(111, 'Connection refused')
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+    │    │       └ ('127.0.0.1', 3306)
+    │    └ <method 'connect' of '_socket.socket' objects>
+    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=2049, proto=6>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f49f6f400d0>
+    └ <Thread(ThreadPoolExecutor-0_18, started daemon 139954764068608)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f49f6f3ee18>
+    └ <Thread(ThreadPoolExecutor-0_18, started daemon 139954764068608)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_18, started daemon 139954764068608)>
+    │    │        │    └ (<weakref at 0x7f49f00ac368; to 'ThreadPoolExecutor' at 0x7f49f0161198>, <queue.Queue object at 0x7f49f01611d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_18, started daemon 139954764068608)>
+    │    └ <function _worker at 0x7f49f4ed8d90>
+    └ <Thread(ThreadPoolExecutor-0_18, started daemon 139954764068608)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f49f4ed8ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f00b7ef0>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+    │    │      └ <function Future.set_exception at 0x7f49f4f59bf8>
+    │    └ <Future at 0x7f49f00b7e48 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f00b7ef0>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f49f4f59598>
+    └ <Future at 0x7f49f00b7e48 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f49f00b7e48 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f49f00b7ef0>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f49f00b7e10>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f49f00b7ef0>
+             │    └ <function receive_group_msg at 0x7f49f5241ae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f49f00b7ef0>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f49f00b7e10>
+    │  └ <function insert_group_msg at 0x7f49f361c9d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f49f3612c50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f49f3612c50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f49f3615620>
+    └ <pymysql.connections.Connection object at 0x7f49f00b7d30>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 619, in connect
+    raise exc
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2020-08-22 20:43 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2741292486, 'FromNickName': 'da', 'Content': '{"GroupPic":[{"FileId":2408290021,"FileMd5":"D5+STkiRfv7JZeRAvIZp/w==","FileSize":778,"ForwordBuf":"EiQwRjlGOTI0RTQ4OTE3RUZFQzk2NUU0NDBCQzg2NjlGRi5qcGcyVhU2IDg2ZUExQjhmOGI5NmU1NzhmMWJhZmUgICAgMWY5MEdqWURkaVV5cDc5VWVTSTQwRjlGOTI0RTQ4OTE3RUZFQzk2NUU0NDBCQzg2NjlGRi5qcGdBOOWtrvwIQP71xscHSJA/UEJaEEdqWURkaVV5cDc5VWVTSTRgAWoQD5+STkiRfv7JZeRAvIZp/3JbL2djaGF0cGljX25ldy8yNzQxMjkyNDg2LzkyODMwODk2MS0yNDA4MjkwMDIxLTBGOUY5MjRFNDg5MTdFRkVDOTY1RTQ0MEJDODY2OUZGLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMjc0MTI5MjQ4Ni85MjgzMDg5NjEtMjQwODI5MDAyMS0wRjlGOTI0RTQ4OTE3RUZFQzk2NUU0NDBCQzg2NjlGRi8wP3Rlcm09MjU1oAHoB7ABOrgBMMABZ8gBigbQAQDYATrgATDoAQDwAQD6AVsvZ2NoYXRwaWNfbmV3LzI3NDEyOTI0ODYvOTI4MzA4OTYxLTI0MDgyOTAwMjEtMEY5RjkyNEU0ODkxN0VGRUM5NjVFNDQwQkM4NjY5RkYvNDAwP3Rlcm09MjU1gAI6iAIwkgIaCAEQADIASg5b5Yqo55S76KGo5oOFXVAAeAU=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2741292486/928308961-2534335053-0F9F924E48917EFEC965E440BC8669FF/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598154229, 'MsgSeq': 524118, 'MsgRandom': 1159892341, 'RedBaginfo': None}
+2020-08-22 20:43 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (20385), thread 'ThreadPoolExecutor-0_24' (139954705319680):
+Traceback (most recent call last):
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 571, in connect
+    **kwargs)
+      └ {}
+
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+          └ ConnectionRefusedError(111, 'Connection refused')
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+    │    │       └ ('127.0.0.1', 3306)
+    │    └ <method 'connect' of '_socket.socket' objects>
+    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=2049, proto=6>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f49f6f400d0>
+    └ <Thread(ThreadPoolExecutor-0_24, started daemon 139954705319680)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f49f6f3ee18>
+    └ <Thread(ThreadPoolExecutor-0_24, started daemon 139954705319680)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_24, started daemon 139954705319680)>
+    │    │        │    └ (<weakref at 0x7f49f00acd68; to 'ThreadPoolExecutor' at 0x7f49f0161198>, <queue.Queue object at 0x7f49f01611d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_24, started daemon 139954705319680)>
+    │    └ <function _worker at 0x7f49f4ed8d90>
+    └ <Thread(ThreadPoolExecutor-0_24, started daemon 139954705319680)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f49f4ed8ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042240>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+    │    │      └ <function Future.set_exception at 0x7f49f4f59bf8>
+    │    └ <Future at 0x7f49f00421d0 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042240>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f49f4f59598>
+    └ <Future at 0x7f49f00421d0 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f49f00421d0 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042240>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f49f0042278>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042240>
+             │    └ <function receive_group_msg at 0x7f49f5241ae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042240>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f49f0042278>
+    │  └ <function insert_group_msg at 0x7f49f361c9d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f49f3612c50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f49f3612c50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f49f3615620>
+    └ <pymysql.connections.Connection object at 0x7f49f00b79b0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 619, in connect
+    raise exc
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2020-08-22 20:43 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 1052651375, 'FromNickName': '三吉', 'Content': '{"GroupPic":[{"FileId":3094584184,"FileMd5":"Q1+e5/3gJShzmVCY/Ibaiw==","FileSize":6911,"ForwordBuf":"Eip7NDM1RjlFRTctRkRFMC0yNTI4LTczOTktNTA5OEZDODZEQThCfS5qcGcyXBU2IDkya0ExBGI4NzM5Yjc4ICAgICAgIDAgICAgICAgMEpGc0E0RnJua0ZzTW1wd0Z7NDM1RjlFRTctRkRFMC0yNTI4LTczOTktNTA5OEZDODZEQThCfS5qcGdBOPi2zsMLQABIAFAEWhBKRnNBNEZybmtGc01tcHdGYAFqEENfnuf94CUoc5lQmPyG2otyWy9nY2hhdHBpY19uZXcvMTA1MjY1MTM3NS81ODExNjg4NDgtMzA5NDU4NDE4NC00MzVGOUVFN0ZERTAyNTI4NzM5OTUwOThGQzg2REE4Qi8xOTg/dGVybT0yNTWCAVkvZ2NoYXRwaWNfbmV3LzEwNTI2NTEzNzUvNTgxMTY4ODQ4LTMwOTQ1ODQxODQtNDM1RjlFRTdGREUwMjUyODczOTk1MDk4RkM4NkRBOEIvMD90ZXJtPTI1NaABBLABrAK4AawCwAGsAsgB/zXQAQDYAcYB4AHGAegBAPABAPoBWy9nY2hhdHBpY19uZXcvMTA1MjY1MTM3NS81ODExNjg4NDgtMzA5NDU4NDE4NC00MzVGOUVFN0ZERTAyNTI4NzM5OTUwOThGQzg2REE4Qi80MDA/dGVybT0yNTWAAqwCiAKsApICGQgHEAAYAEoFW+aXqV1QAFoAYgBqAHIAeAU=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1052651375/581168848-2534335053-435F9EE7FDE0252873995098FC86DA8B/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598154237, 'MsgSeq': 499232, 'MsgRandom': 1384739625, 'RedBaginfo': None}
+2020-08-22 20:43 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (20385), thread 'ThreadPoolExecutor-0_30' (139954663356160):
+Traceback (most recent call last):
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 571, in connect
+    **kwargs)
+      └ {}
+
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+          └ ConnectionRefusedError(111, 'Connection refused')
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+    │    │       └ ('127.0.0.1', 3306)
+    │    └ <method 'connect' of '_socket.socket' objects>
+    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=2049, proto=6>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f49f6f400d0>
+    └ <Thread(ThreadPoolExecutor-0_30, started daemon 139954663356160)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f49f6f3ee18>
+    └ <Thread(ThreadPoolExecutor-0_30, started daemon 139954663356160)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_30, started daemon 139954663356160)>
+    │    │        │    └ (<weakref at 0x7f49f00b6408; to 'ThreadPoolExecutor' at 0x7f49f0161198>, <queue.Queue object at 0x7f49f01611d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_30, started daemon 139954663356160)>
+    │    └ <function _worker at 0x7f49f4ed8d90>
+    └ <Thread(ThreadPoolExecutor-0_30, started daemon 139954663356160)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f49f4ed8ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042320>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+    │    │      └ <function Future.set_exception at 0x7f49f4f59bf8>
+    │    └ <Future at 0x7f49f0042470 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042320>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f49f4f59598>
+    └ <Future at 0x7f49f0042470 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f49f0042470 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042320>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f49f0042438>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042320>
+             │    └ <function receive_group_msg at 0x7f49f5241ae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f49f0042320>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f49f0042438>
+    │  └ <function insert_group_msg at 0x7f49f361c9d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f49f3612c50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f49f3612c50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f49f3615620>
+    └ <pymysql.connections.Connection object at 0x7f49f00b7ac8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 619, in connect
+    raise exc
+          └ OperationalError(2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2020-08-22 20:44 INFO	Heartbeat -> 845324058

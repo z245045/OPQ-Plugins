@@ -1,0 +1,25 @@
+2020-08-20 20:33 INFO	Connecting to the server...
+2020-08-20 20:33 ERROR	启动失败
+Traceback (most recent call last):
+
+  File "bot.py", line 30, in <module>
+    bot.run()
+    │   └ <function IOTBOT.run at 0x7f25a01d9f28>
+    └ IOTBOT <845324058> <host-http://0.0.0.0> <port-9000>
+
+> File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 151, in run
+    self.socketio.connect(f'{self.host}:{self.port}', transports=['websocket'])
+    │    │        └ <function Client.connect at 0x7f25a08f7840>
+    │    └ <socketio.client.Client object at 0x7f25a01ca518>
+    └ IOTBOT <845324058> <host-http://0.0.0.0> <port-9000>
+
+  File "/usr/local/lib/python3.6/dist-packages/socketio/client.py", line 282, in connect
+    six.raise_from(exceptions.ConnectionError(exc.args[0]), None)
+    │   │          │          └ <class 'socketio.exceptions.ConnectionError'>
+    │   │          └ <module 'socketio.exceptions' from '/usr/local/lib/python3.6/dist-packages/socketio/exceptions.py'>
+    │   └ <function raise_from at 0x7f25a0d91730>
+    └ <module 'six' from '/usr/local/lib/python3.6/dist-packages/six.py'>
+
+  File "<string>", line 3, in raise_from
+
+socketio.exceptions.ConnectionError: no OPEN packet

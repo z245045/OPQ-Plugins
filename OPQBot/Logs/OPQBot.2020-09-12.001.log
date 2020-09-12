@@ -1,0 +1,2096 @@
+2020/09/11 07:28:09.479 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137509 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1300894976 GroupID:383770908 MsgRandom:1599780480 MsgSeq:137509 UserID:1689236904]
+2020/09/11 08:04:10.119 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{581168848 0 ON_EVENT_GROUP_REVOKE 544971 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:581168848 MsgRandom:332981857 MsgSeq:544971 UserID:1689236904]
+2020/09/11 08:36:37.973 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137515 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3895909251 MsgSeq:137515 UserID:1689236904]
+2020/09/11 09:14:01.643 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137517 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1578789742 MsgSeq:137517 UserID:1689236904]
+2020/09/11 09:15:04.405 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137519 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4077214512 MsgSeq:137519 UserID:1689236904]
+2020/09/11 10:00:55.240 [E]  QQLuaVmRun CallGlobal err <string>:27: attempt to call a non-function object
+stack traceback:
+	<string>:27: in function 'baike'
+	<string>:12: in main chunk
+	[G]: ? detail File baike2.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{581168848 Diamond事务所·伍·楼 1395515275 丶(脑   瘫) 百科傻逼 TextMsg 1599789653 545166 1637212929 <nil>} 
+2020/09/11 10:03:28.135 [E]  QQLuaVmRun CallGlobal err <string>:30: attempt to index a non-table object(nil) with key 'body'
+stack traceback:
+	<string>:30: in function 'baike'
+	<string>:12: in main chunk
+	[G]: ? detail File baike2.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{581168848 Diamond事务所·伍·楼 2450459910 凤飞翱翔兮丷 {"Content":"@迪亚瓦尔 。。。百科没有的词条都不到。。","MsgSeq":545168,"ReplayContent":"@迪亚瓦尔 ","SrcContent":"@凤飞翱翔兮丷（人工智障）","Tips":"[回复]","UserID":[510190902]} ReplayMsg 1599789796 545170 2440526852 <nil>} 
+2020/09/11 10:25:50.969 [E]  QQLuaVmRun CallGlobal err <string>:27: attempt to call a non-function object
+stack traceback:
+	<string>:27: in function 'baike'
+	<string>:12: in main chunk
+	[G]: ? detail File baike2.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{581168848 Diamond事务所·伍·楼 527231292 矢澤妮可Kazawa 百科迪亚瓦尔 TextMsg 1599791150 545186 1252805481 <nil>} 
+2020/09/11 10:34:47.039 [E]  QQLuaVmRun CallGlobal err <string>:27: attempt to call a non-function object
+stack traceback:
+	<string>:27: in function 'baike'
+	<string>:12: in main chunk
+	[G]: ? detail File baike2.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{581168848 Diamond事务所·伍·楼 510190902 迪亚瓦尔 {"Content":"@矢澤妮可Kazawa @矢澤妮可Kazawa 。。。。。，","MsgSeq":545186,"SrcContent":"百科迪亚瓦尔","Tips":"[回复]","UserID":[527231292,527231292,527231292]} AtMsg 1599791686 545195 641608471 <nil>} 
+2020/09/11 10:58:27.451 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{581168848 1689236904 ON_EVENT_GROUP_JOIN 51985 某人进群事件 <nil>}  [2] map[InviteUin:0 UserID:1471216618 UserName:鹤棹]
+2020/09/11 11:50:09.052 [E]  QQLuaVmRun CallGlobal err <string>:349: invalid ')' at 687
+stack traceback:
+	[G]: in function 'find'
+	<string>:349: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{928308961 大 洗 女 子 学 园 2369500214 雷电芽衣 {"Content":"=====================\n- HoshinoBot使用说明 -\n=====================\n发送方括号[]内的关键词即可触发\n※功能采取模块化管理，群管理可控制开关\n\n[!帮助] 会战管理v2\n[怎么拆日和] 竞技场查询\n[星乃来发十连] 转蛋模拟\n[pcr速查] 常用网址\n[官漫132] 四格漫画（日）\n[切噜一下] 切噜语转换\n[lssv] 查看功能模块的开关状态（群管理限定）\n[来杯咖啡] 联系维护组\n\n发送以下关键词查看更多：\n[帮助pcr会战]\n[帮助pcr查询]\n[帮助pcr娱乐]\n[帮助pcr订阅]\n[帮助kancolle]\n[帮助通用]\n========\n※除这里中写明外 另有其他隐藏功能:)\n※隐藏功能属于赠品 不保证可用性\n※本bot开源，可自行搭建\n※服务器运行及开发维护需要成本，赞助支持请私戳作者\n※您的支持是本bot更新维护的动力\n※※调教时请注意使用频率，您的滥用可能会导致bot账号被封禁","UserID":[2885790210]} AtMsg 1599796208 531790 569389830 <nil>} 
+2020/09/11 11:50:31.276 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{928308961 0 ON_EVENT_GROUP_REVOKE 531788 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:928308961 MsgRandom:4053473512 MsgSeq:531788 UserID:1689236904]
+2020/09/11 15:47:23.636 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{581168848 0 ON_EVENT_GROUP_REVOKE 545568 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1052475819 GroupID:581168848 MsgRandom:516712401 MsgSeq:545568 UserID:1052475819]
+2020/09/11 16:47:30.202 [E]  setucomic.lua
+2020/09/11 16:47:30.202 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:43.466 [E]  setucomic.lua
+2020/09/11 16:47:43.466 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:44.178 [E]  setucomic.lua
+2020/09/11 16:47:44.179 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:44.456 [E]  setucomic.lua
+2020/09/11 16:47:44.456 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:47.562 [E]  setucomic.lua
+2020/09/11 16:47:47.562 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:50.506 [E]  setucomic.lua
+2020/09/11 16:47:50.506 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:50.707 [E]  setucomic.lua
+2020/09/11 16:47:50.712 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:54.056 [E]  setucomic.lua
+2020/09/11 16:47:54.065 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:54.172 [E]  setucomic.lua
+2020/09/11 16:47:54.172 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:47:55.388 [E]  setucomic.lua
+2020/09/11 16:47:55.388 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:00.977 [E]  setucomic.lua
+2020/09/11 16:48:00.977 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:10.692 [E]  setucomic.lua
+2020/09/11 16:48:10.692 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:12.812 [E]  setucomic.lua
+2020/09/11 16:48:12.812 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:12.841 [E]  setucomic.lua
+2020/09/11 16:48:12.842 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:16.352 [E]  setucomic.lua
+2020/09/11 16:48:16.352 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:39.625 [E]  setucomic.lua
+2020/09/11 16:48:39.626 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:45.564 [E]  setucomic.lua
+2020/09/11 16:48:45.564 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:48:49.454 [E]  setucomic.lua
+2020/09/11 16:48:49.454 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:49:10.018 [E]  setucomic.lua
+2020/09/11 16:49:10.019 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:49:11.219 [E]  setucomic.lua
+2020/09/11 16:49:11.219 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:49:15.915 [E]  setucomic.lua
+2020/09/11 16:49:15.915 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:49:19.939 [E]  setucomic.lua
+2020/09/11 16:49:19.939 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+	if data.Content == '18涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,1419)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic18/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 16:50:05.783 [E]  setucomic.lua
+2020/09/11 16:50:05.783 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 383770908 
+    or data.FromGroupId == 959562190 
+    or data.FromGroupId == 661780072 
+    then
+
+    if data.FromUin ==1689236904 then--防止自我复读
+		  return 1 end    
+		  
+	if data.Content == '涩图' then 
+	math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 6)))
+	local randomNum = math.random(1,519)
+	-- 图片路径
+	local path = "/home/ffaxx/图片/comic/"..randomNum..".jpg"
+	res = readImg(path)
+	base64 = PkgCodec.EncodeBase64(res)
+	 Api.Api_SendMsg(
+		CurrentQQ,
+		{
+				toUser = data.FromGroupId,
+				sendToType = 2,
+				sendMsgType = "PicMsg",
+				groupid = 0,
+				content = "30s自动撤回",
+				picUrl = "",
+				picBase64Buf = base64,
+				fileMd5 = "",
+				atUser = 0
+		}
+	)
+	end
+	
+    return 1
+end
+
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+
+function readImg(filePath)
+    local f, err = io.open(filePath, "rb")
+    if err ~= nil then
+        return nil, err
+    end
+    local content = f:read("*all")
+    f:close()
+    return content, err
+end
+2020/09/11 17:33:18.373 [E]  QQLuaVmRun CallGlobal err <string>:26: attempt to index a non-table object(nil) with key 'Ret'
+stack traceback:
+	<string>:26: in main chunk
+	[G]: ? detail File grouptogroup.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{1048779434 就业指导群 1689236904 汉教1702-朱晟宏 [表情13] TextMsg 1599816798 36 70137243 <nil>} 
+2020/09/11 18:00:42.413 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{1048779434 1689236904 ON_EVENT_GROUP_JOIN 61758 某人进群事件 <nil>}  [2] map[InviteUin:0 UserID:1312842144 UserName:移天]
+2020/09/11 18:20:24.636 [E]  QQLuaVmRun CallGlobal err <string>:349: unfinished capture at EOS
+stack traceback:
+	[G]: in function 'find'
+	<string>:349: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{928308961 大 洗 女 子 学 园 2741292486 da 别人说是中国风的 不知道会不会讲符华( TextMsg 1599819624 532199 1962886318 <nil>} 
+2020/09/11 18:27:12.737 [E]  QQLuaVmRun CallGlobal err <string>:349: unfinished capture at EOS
+stack traceback:
+	[G]: in function 'find'
+	<string>:349: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{928308961 大 洗 女 子 学 园 2741292486 da 他们怎么知道主线要讲符华的( TextMsg 1599820032 532221 1191708579 <nil>} 
+2020/09/11 21:15:32.467 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137545 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2523342818 MsgSeq:137545 UserID:1689236904]
+2020/09/11 21:15:37.264 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137547 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1498621222 MsgSeq:137547 UserID:1689236904]
+2020/09/11 21:17:19.290 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137549 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3930382903 MsgSeq:137549 UserID:1689236904]
+2020/09/11 21:17:26.728 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137551 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3688914699 MsgSeq:137551 UserID:1689236904]
+2020/09/11 21:17:43.312 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137554 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:688465331 MsgSeq:137554 UserID:1689236904]
+2020/09/11 21:17:44.247 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137556 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3681445648 MsgSeq:137556 UserID:1689236904]
+2020/09/11 21:17:44.807 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137557 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3013862374 MsgSeq:137557 UserID:1689236904]
+2020/09/11 21:26:50.667 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137560 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1968130657 MsgSeq:137560 UserID:1689236904]
+2020/09/11 21:27:02.577 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137562 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3251442373 MsgSeq:137562 UserID:1689236904]
+2020/09/11 21:27:32.054 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137568 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1340188002 MsgSeq:137568 UserID:1689236904]
+2020/09/11 21:33:54.813 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{661780072 0 ON_EVENT_GROUP_REVOKE 125339 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:2369500214 GroupID:661780072 MsgRandom:1724576488 MsgSeq:125339 UserID:2369500214]
+2020/09/11 21:33:55.140 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{661780072 0 ON_EVENT_GROUP_REVOKE 125342 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:2369500214 GroupID:661780072 MsgRandom:259706557 MsgSeq:125342 UserID:2369500214]
+2020/09/11 22:08:25.548 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137574 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1352671848 MsgSeq:137574 UserID:1689236904]
+2020/09/11 22:34:12.698 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137577 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3133046867 MsgSeq:137577 UserID:1689236904]
+2020/09/11 22:34:24.659 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137579 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:830523925 MsgSeq:137579 UserID:1689236904]
+2020/09/11 22:34:37.446 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137582 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1444123599 MsgSeq:137582 UserID:1689236904]
+2020/09/11 22:34:56.883 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137584 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1527878245 MsgSeq:137584 UserID:1689236904]
+2020/09/11 22:35:04.168 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137587 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:279469787 MsgSeq:137587 UserID:1689236904]
+2020/09/11 22:35:13.222 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137590 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3365465356 MsgSeq:137590 UserID:1689236904]
+2020/09/11 22:35:14.594 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137592 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2592300863 MsgSeq:137592 UserID:1689236904]
+2020/09/11 22:35:24.816 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137594 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2064377542 MsgSeq:137594 UserID:1689236904]
+2020/09/11 22:54:38.681 [E]  QQLuaVmRun CallGlobal err runtime error: invalid memory address or nil pointer dereference
+stack traceback:
+	[G]: in function 'Api_SendMsg'
+	<string>:28: in main chunk
+	[G]: ? detail File setucomic.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{383770908 帝豪高級娛樂會所 2450459910 凤飞翱翔兮丷 涩图 TextMsg 1599836078 137595 1863033281 <nil>} 
+2020/09/11 22:55:12.391 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137598 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4057829216 MsgSeq:137598 UserID:1689236904]
+2020/09/11 22:55:24.715 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137600 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2351288951 MsgSeq:137600 UserID:1689236904]
+2020/09/11 22:55:35.585 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137602 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1902206684 MsgSeq:137602 UserID:1689236904]
+2020/09/11 22:55:41.706 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137604 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4027772413 MsgSeq:137604 UserID:1689236904]
+2020/09/11 22:55:46.260 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137606 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2000202467 MsgSeq:137606 UserID:1689236904]
+2020/09/11 22:55:54.180 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137608 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1032185911 MsgSeq:137608 UserID:1689236904]
+2020/09/11 22:55:55.722 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137611 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2603660785 MsgSeq:137611 UserID:1689236904]
+2020/09/11 22:55:59.147 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137613 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:849405306 MsgSeq:137613 UserID:1689236904]
+2020/09/11 22:56:00.975 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137616 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1172075445 MsgSeq:137616 UserID:1689236904]
+2020/09/11 22:56:03.954 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137618 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:247161669 MsgSeq:137618 UserID:1689236904]
+2020/09/11 22:56:32.026 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137620 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3023401767 MsgSeq:137620 UserID:1689236904]
+2020/09/11 22:56:35.362 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137623 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3837149880 MsgSeq:137623 UserID:1689236904]
+2020/09/11 22:56:36.759 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137625 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1699823851 MsgSeq:137625 UserID:1689236904]
+2020/09/11 22:57:04.512 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137627 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4127933653 MsgSeq:137627 UserID:1689236904]
+2020/09/11 22:57:11.269 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137629 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3451673582 MsgSeq:137629 UserID:1689236904]
+2020/09/11 22:57:17.063 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137633 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:826154639 MsgSeq:137633 UserID:1689236904]
+2020/09/11 22:57:24.648 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137635 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:92972003 MsgSeq:137635 UserID:1689236904]
+2020/09/11 22:57:29.810 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137637 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4001669670 MsgSeq:137637 UserID:1689236904]
+2020/09/11 22:57:32.893 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137639 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4217737527 MsgSeq:137639 UserID:1689236904]
+2020/09/11 22:57:40.361 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137641 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3368820021 MsgSeq:137641 UserID:1689236904]
+2020/09/11 22:57:44.034 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137643 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2569185694 MsgSeq:137643 UserID:1689236904]
+2020/09/11 22:57:49.509 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137646 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1064183650 MsgSeq:137646 UserID:1689236904]
+2020/09/11 22:58:35.107 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137651 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2107274407 MsgSeq:137651 UserID:1689236904]

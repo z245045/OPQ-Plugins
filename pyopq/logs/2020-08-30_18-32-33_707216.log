@@ -1,0 +1,192 @@
+2020-08-30 18:32 INFO	Connecting to the server...
+2020-08-30 18:32 SUCCESS	Connected to server successfully!
+2020-08-30 18:32 INFO	Heartbeat -> 845324058
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '状态', 'MsgType': 'TextMsg', 'MsgTime': 1598783557, 'MsgSeq': 5911, 'MsgRandom': 1203022552, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': 'BOT运行状态: \nClusterIP: 172.27.0.11\nGCTime: 0.007s\nVersion:v3.1.1\nTotalAlloc: 296 MB\nServerRuntime: 0天0小时6分47秒\n等级20|今日加速0.0天|累计加速0.0天|升级所需4.2天|升级周期13天|空间访客0人', 'MsgType': 'TextMsg', 'MsgTime': 1598783557, 'MsgSeq': 5913, 'MsgRandom': 1598783557, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'BOT运行状态: \nClusterIP: 172.27.0.11\nGCTime: 0.008s\nVersion:v3.1.1\nTotalAlloc: 301 MB\nServerRuntime: 0天0小时6分47秒\n等级20|今日加速0.0天|累计加速0.0天|升级所需4.2天|升级周期13天|空间访客0人', 'MsgType': 'TextMsg', 'MsgTime': 1598783557, 'MsgSeq': 5912, 'MsgRandom': 1598783557, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '复读签到', 'MsgType': 'TextMsg', 'MsgTime': 1598783561, 'MsgSeq': 5914, 'MsgRandom': 2306095282, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598783561, 'MsgSeq': 5915, 'MsgRandom': 1598783561, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598783561, 'MsgSeq': 5916, 'MsgRandom': 1598783561, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598783562, 'MsgSeq': 5917, 'MsgRandom': 1598783562, 'RedBaginfo': None}
+2020-08-30 18:32 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n","GroupPic":[{"FileId":2758410365,"FileMd5":"t6ue0zbd6pyoxKtJH813wg==","FileSize":340272,"ForwordBuf":"Eip7QjdBQjlFRDMtMzZERC1FQTlDLUE4QzQtQUI0OTFGQ0Q3N0MyfS5qcGc4/YCoowpgAWoQt6ue0zbd6pyoxKtJH813wnJaL2djaGF0cGljX25ldy84NDUzMjQwNTgvOTU5NTYyMTkwLTI3NTg0MTAzNjUtQjdBQjlFRDMzNkRERUE5Q0E4QzRBQjQ5MUZDRDc3QzIvMTk4P3Rlcm09MjU1ggFYL2djaGF0cGljX25ldy84NDUzMjQwNTgvOTU5NTYyMTkwLTI3NTg0MTAzNjUtQjdBQjlFRDMzNkRERUE5Q0E4QzRBQjQ5MUZDRDc3QzIvMD90ZXJtPTI1NbABuAO4AdUCyAGw4hTYAcYB4AGZAfoBWi9nY2hhdHBpY19uZXcvODQ1MzI0MDU4Lzk1OTU2MjE5MC0yNzU4NDEwMzY1LUI3QUI5RUQzMzZEREVBOUNBOEM0QUI0OTFGQ0Q3N0MyLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/959562190-2534335053-B7AB9ED336DDEA9CA8C4AB491FCD77C2/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[1689236904]}', 'MsgType': 'PicMsg', 'MsgTime': 1598783566, 'MsgSeq': 5918, 'MsgRandom': 2837241143, 'RedBaginfo': None}
+2020-08-30 18:33 INFO	Heartbeat -> 845324058
+2020-08-30 18:34 INFO	Heartbeat -> 845324058
+2020-08-30 18:35 INFO	Heartbeat -> 845324058
+2020-08-30 18:35 INFO	EventMsg ->  {'EventData': {'AdminUserID': 2450459910, 'GroupID': 959562190, 'MsgRandom': 440284008, 'MsgSeq': 5928, 'UserID': 1689236904}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5928, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:35 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张r18白丝涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598783751, 'MsgSeq': 133788, 'MsgRandom': 4039995878, 'RedBaginfo': None}
+2020-08-30 18:36 INFO	Heartbeat -> 845324058
+2020-08-30 18:37 INFO	Heartbeat -> 845324058
+2020-08-30 18:38 INFO	Heartbeat -> 845324058
+2020-08-30 18:39 INFO	Heartbeat -> 845324058
+2020-08-30 18:40 INFO	Heartbeat -> 845324058
+2020-08-30 18:40 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来5张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598784035, 'MsgSeq': 5931, 'MsgRandom': 1239995010, 'RedBaginfo': None}
+2020-08-30 18:40 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': '太多了，受不了了~', 'MsgType': 'TextMsg', 'MsgTime': 1598784035, 'MsgSeq': 5932, 'MsgRandom': 1598784035, 'RedBaginfo': None}
+2020-08-30 18:41 INFO	Heartbeat -> 845324058
+2020-08-30 18:42 INFO	Heartbeat -> 845324058
+2020-08-30 18:43 INFO	Heartbeat -> 845324058
+2020-08-30 18:44 INFO	Heartbeat -> 845324058
+2020-08-30 18:44 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784279, 'MsgSeq': 5937, 'MsgRandom': 1598784278, 'RedBaginfo': None}
+2020-08-30 18:44 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784279, 'MsgSeq': 5938, 'MsgRandom': 1598784279, 'RedBaginfo': None}
+2020-08-30 18:44 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784279, 'MsgSeq': 5939, 'MsgRandom': 1598784279, 'RedBaginfo': None}
+2020-08-30 18:44 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784280, 'MsgSeq': 5940, 'MsgRandom': 1598784280, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	Heartbeat -> 845324058
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '复读tdc', 'MsgType': 'TextMsg', 'MsgTime': 1598784336, 'MsgSeq': 5943, 'MsgRandom': 1993261314, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'tdc', 'MsgType': 'TextMsg', 'MsgTime': 1598784336, 'MsgSeq': 5944, 'MsgRandom': 1598784336, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'tdc', 'MsgType': 'TextMsg', 'MsgTime': 1598784337, 'MsgSeq': 5945, 'MsgRandom': 1598784337, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784339, 'MsgSeq': 5946, 'MsgRandom': 1598784339, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784340, 'MsgSeq': 5947, 'MsgRandom': 1598784340, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': 'At 20200829\n186857 people who have died from COVID-19 in USA\n6139467 total cases in USA', 'MsgType': 'TextMsg', 'MsgTime': 1598784341, 'MsgSeq': 5948, 'MsgRandom': 1598784341, 'RedBaginfo': None}
+2020-08-30 18:45 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '复读tdc', 'MsgType': 'TextMsg', 'MsgTime': 1598784352, 'MsgSeq': 5949, 'MsgRandom': 2354426812, 'RedBaginfo': None}
+2020-08-30 18:46 INFO	Heartbeat -> 845324058
+2020-08-30 18:47 INFO	Heartbeat -> 845324058
+2020-08-30 18:47 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': 'tdc', 'MsgType': 'TextMsg', 'MsgTime': 1598784459, 'MsgSeq': 5967, 'MsgRandom': 3075888475, 'RedBaginfo': None}
+2020-08-30 18:47 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': 'tdc', 'MsgType': 'TextMsg', 'MsgTime': 1598784472, 'MsgSeq': 5968, 'MsgRandom': 4206029996, 'RedBaginfo': None}
+2020-08-30 18:48 INFO	Heartbeat -> 845324058
+2020-08-30 18:49 INFO	Heartbeat -> 845324058
+2020-08-30 18:50 INFO	Heartbeat -> 845324058
+2020-08-30 18:51 INFO	Heartbeat -> 845324058
+2020-08-30 18:51 INFO	EventMsg ->  {'EventData': {'AdminUserID': 1689236904, 'GroupID': 959562190, 'MsgRandom': 1503833627, 'MsgSeq': 5980, 'UserID': 1689236904}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5980, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:51 INFO	EventMsg ->  {'EventData': {'AdminUserID': 1689236904, 'GroupID': 959562190, 'MsgRandom': 2397969486, 'MsgSeq': 5981, 'UserID': 1689236904}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5981, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:51 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 959562190, 'MsgRandom': 3971196203, 'MsgSeq': 5982, 'UserID': 845324058}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5982, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:51 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 959562190, 'MsgRandom': 467559390, 'MsgSeq': 5983, 'UserID': 845324058}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5983, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:51 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 1146869436, 'MsgRandom': 409249868, 'MsgSeq': 2025, 'UserID': 845324058}, 'EventMsg': {'FromUin': 1146869436, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 2025, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:51 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 1146869436, 'MsgRandom': 2776953821, 'MsgSeq': 2026, 'UserID': 845324058}, 'EventMsg': {'FromUin': 1146869436, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 2026, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 18:52 INFO	Heartbeat -> 845324058
+2020-08-30 18:53 INFO	Heartbeat -> 845324058
+2020-08-30 18:53 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598784819, 'MsgSeq': 2027, 'MsgRandom': 2825921432, 'RedBaginfo': None}
+2020-08-30 18:53 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598784829, 'MsgSeq': 2028, 'MsgRandom': 1570606796, 'RedBaginfo': None}
+2020-08-30 18:54 INFO	Heartbeat -> 845324058
+2020-08-30 18:54 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张色图', 'MsgType': 'TextMsg', 'MsgTime': 1598784886, 'MsgSeq': 2032, 'MsgRandom': 674867913, 'RedBaginfo': None}
+2020-08-30 18:55 INFO	Heartbeat -> 845324058
+2020-08-30 18:56 INFO	Heartbeat -> 845324058
+2020-08-30 18:57 INFO	Heartbeat -> 845324058
+2020-08-30 18:57 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785055, 'MsgSeq': 2033, 'MsgRandom': 4206504980, 'RedBaginfo': None}
+2020-08-30 18:57 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '.开启色图', 'MsgType': 'TextMsg', 'MsgTime': 1598785061, 'MsgSeq': 2034, 'MsgRandom': 1608849940, 'RedBaginfo': None}
+2020-08-30 18:58 INFO	Heartbeat -> 845324058
+2020-08-30 18:59 INFO	Heartbeat -> 845324058
+2020-08-30 19:00 INFO	Heartbeat -> 845324058
+2020-08-30 19:00 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785250, 'MsgSeq': 2038, 'MsgRandom': 624785695, 'RedBaginfo': None}
+2020-08-30 19:01 INFO	Heartbeat -> 845324058
+2020-08-30 19:02 INFO	Heartbeat -> 845324058
+2020-08-30 19:02 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785355, 'MsgSeq': 2039, 'MsgRandom': 2380078194, 'RedBaginfo': None}
+2020-08-30 19:02 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '复读哈哈', 'MsgType': 'TextMsg', 'MsgTime': 1598785361, 'MsgSeq': 2040, 'MsgRandom': 685431774, 'RedBaginfo': None}
+2020-08-30 19:02 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '哈哈', 'MsgType': 'TextMsg', 'MsgTime': 1598785362, 'MsgSeq': 2041, 'MsgRandom': 1598785361, 'RedBaginfo': None}
+2020-08-30 19:02 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '哈哈', 'MsgType': 'TextMsg', 'MsgTime': 1598785362, 'MsgSeq': 2042, 'MsgRandom': 1598785362, 'RedBaginfo': None}
+2020-08-30 19:02 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '复读哈哈', 'MsgType': 'TextMsg', 'MsgTime': 1598785365, 'MsgSeq': 2043, 'MsgRandom': 3027984414, 'RedBaginfo': None}
+2020-08-30 19:02 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '哈哈', 'MsgType': 'TextMsg', 'MsgTime': 1598785365, 'MsgSeq': 2044, 'MsgRandom': 1598785365, 'RedBaginfo': None}
+2020-08-30 19:03 INFO	Heartbeat -> 845324058
+2020-08-30 19:04 INFO	Heartbeat -> 845324058
+2020-08-30 19:05 INFO	Heartbeat -> 845324058
+2020-08-30 19:06 INFO	Heartbeat -> 845324058
+2020-08-30 19:07 INFO	Heartbeat -> 845324058
+2020-08-30 19:08 INFO	Heartbeat -> 845324058
+2020-08-30 19:08 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '状态', 'MsgType': 'TextMsg', 'MsgTime': 1598785728, 'MsgSeq': 2049, 'MsgRandom': 1061088549, 'RedBaginfo': None}
+2020-08-30 19:08 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': 'BOT运行状态: \nClusterIP: 172.27.0.11\nGCTime: 0.033s\nVersion:v3.1.1\nTotalAlloc: 2.1 GB\nServerRuntime: 0天0小时42分59秒\n168***:\n等级20|今日加速0.0天|累计加速0.0天|升级所需4.2天|升级周期13天|空间访客0人\n845***:\n等级39|今日加速0.5天|累计加速0.9天|升级所需4.2天|升级周期57天|空间访客0人', 'MsgType': 'TextMsg', 'MsgTime': 1598785728, 'MsgSeq': 2050, 'MsgRandom': 1598785728, 'RedBaginfo': None}
+2020-08-30 19:09 INFO	Heartbeat -> 845324058
+2020-08-30 19:10 INFO	Heartbeat -> 845324058
+2020-08-30 19:11 INFO	Heartbeat -> 845324058
+2020-08-30 19:11 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '开启涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785897, 'MsgSeq': 2053, 'MsgRandom': 1387956348, 'RedBaginfo': None}
+2020-08-30 19:11 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785910, 'MsgSeq': 2054, 'MsgRandom': 3156738541, 'RedBaginfo': None}
+2020-08-30 19:12 INFO	Heartbeat -> 845324058
+2020-08-30 19:12 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来张涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785958, 'MsgSeq': 2057, 'MsgRandom': 387433404, 'RedBaginfo': None}
+2020-08-30 19:12 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来份涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598785960, 'MsgSeq': 2058, 'MsgRandom': 2006766073, 'RedBaginfo': None}
+2020-08-30 19:13 INFO	Heartbeat -> 845324058
+2020-08-30 19:14 INFO	Heartbeat -> 845324058
+2020-08-30 19:15 INFO	Heartbeat -> 845324058
+2020-08-30 19:16 INFO	Heartbeat -> 845324058
+2020-08-30 19:16 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来份涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598786206, 'MsgSeq': 2065, 'MsgRandom': 508706482, 'RedBaginfo': None}
+2020-08-30 19:17 INFO	Heartbeat -> 845324058
+2020-08-30 19:17 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 1146869436, 'MsgRandom': 2015434144, 'MsgSeq': 2068, 'UserID': 845324058}, 'EventMsg': {'FromUin': 1146869436, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 2068, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 19:17 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"GroupPic":[{"FileId":2699420528,"FileMd5":"tRbpQKzW2KIOXNwi8Bhwyw==","FileSize":3771527,"ForwordBuf":"Eip7QjUxNkU5NDAtQUNENi1EOEEyLTBFNUMtREMyMkYwMTg3MENCfS5qcGc48MaXhwpgAWoQtRbpQKzW2KIOXNwi8Bhwy3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMTE0Njg2OTQzNi0yNjk5NDIwNTI4LUI1MTZFOTQwQUNENkQ4QTIwRTVDREMyMkYwMTg3MENCLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzExNDY4Njk0MzYtMjY5OTQyMDUyOC1CNTE2RTk0MEFDRDZEOEEyMEU1Q0RDMjJGMDE4NzBDQi8wP3Rlcm09MjU1sAG4A7gB1QLIAYeZ5gHYAcYB4AGZAfoBWy9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzExNDY4Njk0MzYtMjY5OTQyMDUyOC1CNTE2RTk0MEFDRDZEOEEyMEU1Q0RDMjJGMDE4NzBDQi80MDA/dGVybT0yNTWAAoADiAKpAg==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/1146869436-2534335053-B516E940ACD6D8A20E5CDC22F01870CB/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598786273, 'MsgSeq': 2069, 'MsgRandom': 1756816326, 'RedBaginfo': None}
+2020-08-30 19:18 INFO	Heartbeat -> 845324058
+2020-08-30 19:18 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '来份涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598786319, 'MsgSeq': 2071, 'MsgRandom': 3049158489, 'RedBaginfo': None}
+2020-08-30 19:19 INFO	Heartbeat -> 845324058
+2020-08-30 19:20 INFO	Heartbeat -> 845324058
+2020-08-30 19:21 INFO	Heartbeat -> 845324058
+2020-08-30 19:22 INFO	Heartbeat -> 845324058
+2020-08-30 19:23 INFO	Heartbeat -> 845324058
+2020-08-30 19:24 INFO	Heartbeat -> 845324058
+2020-08-30 19:25 INFO	Heartbeat -> 845324058
+2020-08-30 19:26 INFO	Heartbeat -> 845324058
+2020-08-30 19:27 INFO	Heartbeat -> 845324058
+2020-08-30 19:27 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '{"Content":"丢@凤飞翱翔兮丷","UserID":[845324058]}', 'MsgType': 'AtMsg', 'MsgTime': 1598786872, 'MsgSeq': 2075, 'MsgRandom': 4139979450, 'RedBaginfo': None}
+2020-08-30 19:27 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"GroupPic":[{"FileId":2161287503,"FileMd5":"ZFEZWppQkSe4wd9Z+bz7/g==","FileSize":214867,"ForwordBuf":"Eip7NjQ1MTE5NUEtOUE1MC05MTI3LUI4QzEtREY1OUY5QkNGQkZFfS5qcGc4z8LKhghgAWoQZFEZWppQkSe4wd9Z+bz7/nJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMTE0Njg2OTQzNi0yMTYxMjg3NTAzLTY0NTExOTVBOUE1MDkxMjdCOEMxREY1OUY5QkNGQkZFLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzExNDY4Njk0MzYtMjE2MTI4NzUwMy02NDUxMTk1QTlBNTA5MTI3QjhDMURGNTlGOUJDRkJGRS8wP3Rlcm09MjU1sAG4A7gB1QLIAdOODdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMTE0Njg2OTQzNi0yMTYxMjg3NTAzLTY0NTExOTVBOUE1MDkxMjdCOEMxREY1OUY5QkNGQkZFLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/1146869436-2534335053-6451195A9A509127B8C1DF59F9BCFBFE/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598786875, 'MsgSeq': 2076, 'MsgRandom': 3501989619, 'RedBaginfo': None}
+2020-08-30 19:28 INFO	Heartbeat -> 845324058
+2020-08-30 19:29 INFO	Heartbeat -> 845324058
+2020-08-30 19:29 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '{"Content":"ocr","GroupPic":[{"FileId":3045139499,"FileMd5":"dkEdQsJ/mYrdL0F7OP24bw==","FileSize":1246,"ForwordBuf":"Eip7NzY0MTFENDItQzI3Ri05OThBLUREMkYtNDE3QjM4RkRCODZGfS5wbmciACoEAAAAADJcFTYgOTJrQTEAYjU4MTI0MmI0OThkMzM3OSAgICAgIDUwICAgICAgICAgICAgICAgIHs3NjQxMUQ0Mi1DMjdGLTk5OEEtREQyRi00MTdCMzhGREI4NkZ9LnBuZ0E4q8iErAtA+ea0zARIUFAAWgBgAWoQdkEdQsJ/mYrdL0F7OP24b3JcL2djaGF0cGljX25ldy8yNDUwNDU5OTEwLzExNDY4Njk0MzYtMzA0NTEzOTQ5OS03NjQxMUQ0MkMyN0Y5OThBREQyRjQxN0IzOEZEQjg2Ri8xOTg/dGVybT0yNTWCAVovZ2NoYXRwaWNfbmV3LzI0NTA0NTk5MTAvMTE0Njg2OTQzNi0zMDQ1MTM5NDk5LTc2NDExRDQyQzI3Rjk5OEFERDJGNDE3QjM4RkRCODZGLzA/dGVybT0yNTWgAekHsAEwuAE3yAHeCdgBMOABN/oBXC9nY2hhdHBpY19uZXcvMjQ1MDQ1OTkxMC8xMTQ2ODY5NDM2LTMwNDUxMzk0OTktNzY0MTFENDJDMjdGOTk4QUREMkY0MTdCMzhGREI4NkYvNDAwP3Rlcm09MjU1gAIwiAI3","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2450459910/1146869436-2534335053-76411D42C27F998ADD2F417B38FDB86F/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598786982, 'MsgSeq': 2078, 'MsgRandom': 253125887, 'RedBaginfo': None}
+2020-08-30 19:29 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n识别结果：\\n抽签\\n答到\\n","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598786984, 'MsgSeq': 2079, 'MsgRandom': 1598786984, 'RedBaginfo': None}
+2020-08-30 19:30 INFO	Heartbeat -> 845324058
+2020-08-30 19:30 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '看腿', 'MsgType': 'TextMsg', 'MsgTime': 1598787040, 'MsgSeq': 133799, 'MsgRandom': 2658874594, 'RedBaginfo': None}
+2020-08-30 19:30 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2844153788,"FileMd5":"6O3MU4cjllp0hJWCLa/bxQ==","FileSize":29989,"ForwordBuf":"Eip7RThFRENDNTMtODcyMy05NjVBLTc0ODQtOTU4MjJEQUZEQkM1fS5qcGc4vK+ZzApgAWoQ6O3MU4cjllp0hJWCLa/bxXJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yODQ0MTUzNzg4LUU4RURDQzUzODcyMzk2NUE3NDg0OTU4MjJEQUZEQkM1LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjg0NDE1Mzc4OC1FOEVEQ0M1Mzg3MjM5NjVBNzQ4NDk1ODIyREFGREJDNS8wP3Rlcm09MjU1sAG4A7gB1QLIAaXqAdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yODQ0MTUzNzg4LUU4RURDQzUzODcyMzk2NUE3NDg0OTU4MjJEQUZEQkM1LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-E8EDCC538723965A748495822DAFDBC5/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598787042, 'MsgSeq': 133800, 'MsgRandom': 1733768269, 'RedBaginfo': None}
+2020-08-30 19:30 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1689236904, 'FromNickName': '落伍机器人', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2985453789,"FileMd5":"6O3MU4cjllp0hJWCLa/bxQ==","FileSize":29989,"ForwordBuf":"Eip7RThFRENDNTMtODcyMy05NjVBLTc0ODQtOTU4MjJEQUZEQkM1fS5qcGc43dHJjwtgAWoQ6O3MU4cjllp0hJWCLa/bxXJcL2djaGF0cGljX25ldy8xNjg5MjM2OTA0LzI2NDg3NzA5MDgtMjk4NTQ1Mzc4OS1FOEVEQ0M1Mzg3MjM5NjVBNzQ4NDk1ODIyREFGREJDNS8xOTg/dGVybT0yNTWCAVovZ2NoYXRwaWNfbmV3LzE2ODkyMzY5MDQvMjY0ODc3MDkwOC0yOTg1NDUzNzg5LUU4RURDQzUzODcyMzk2NUE3NDg0OTU4MjJEQUZEQkM1LzA/dGVybT0yNTWwAbgDuAHVAsgBpeoB2AHGAeABmQH6AVwvZ2NoYXRwaWNfbmV3LzE2ODkyMzY5MDQvMjY0ODc3MDkwOC0yOTg1NDUzNzg5LUU4RURDQzUzODcyMzk2NUE3NDg0OTU4MjJEQUZEQkM1LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1689236904/383770908-2534335053-E8EDCC538723965A748495822DAFDBC5/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598787042, 'MsgSeq': 133801, 'MsgRandom': 1733768269, 'RedBaginfo': None}
+2020-08-30 19:31 INFO	Heartbeat -> 845324058
+2020-08-30 19:31 INFO	EventMsg ->  {'EventData': {'AdminUserID': 1689236904, 'GroupID': 959562190, 'MsgRandom': 2446379294, 'MsgSeq': 5986, 'UserID': 1689236904}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5986, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 19:31 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2364527014,"FileMd5":"Ml00r9HVnxeUOdUXlfn6Fg==","FileSize":253360,"ForwordBuf":"Eip7MzI1RDM0QUYtRDFENS05RjE3LTk0MzktRDUxNzk1RjlGQTE2fS5qcGc4pqO/5whgAWoQMl00r9HVnxeUOdUXlfn6FnJaL2djaGF0cGljX25ldy84NDUzMjQwNTgvOTU5NTYyMTkwLTIzNjQ1MjcwMTQtMzI1RDM0QUZEMUQ1OUYxNzk0MzlENTE3OTVGOUZBMTYvMTk4P3Rlcm09MjU1ggFYL2djaGF0cGljX25ldy84NDUzMjQwNTgvOTU5NTYyMTkwLTIzNjQ1MjcwMTQtMzI1RDM0QUZEMUQ1OUYxNzk0MzlENTE3OTVGOUZBMTYvMD90ZXJtPTI1NbABuAO4AdUCyAGwuw/YAcYB4AGZAfoBWi9nY2hhdHBpY19uZXcvODQ1MzI0MDU4Lzk1OTU2MjE5MC0yMzY0NTI3MDE0LTMyNUQzNEFGRDFENTlGMTc5NDM5RDUxNzk1RjlGQTE2LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/959562190-2534335053-325D34AFD1D59F179439D51795F9FA16/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598787101, 'MsgSeq': 5991, 'MsgRandom': 2754074204, 'RedBaginfo': None}
+2020-08-30 19:31 INFO	GroupMsg ->  {'FromGroupId': 1146869436, 'FromGroupName': '845324058', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2955962250,"FileMd5":"Ml00r9HVnxeUOdUXlfn6Fg==","FileSize":253360,"ForwordBuf":"Eip7MzI1RDM0QUYtRDFENS05RjE3LTk0MzktRDUxNzk1RjlGQTE2fS5qcGc4is/BgQtgAWoQMl00r9HVnxeUOdUXlfn6FnJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMTE0Njg2OTQzNi0yOTU1OTYyMjUwLTMyNUQzNEFGRDFENTlGMTc5NDM5RDUxNzk1RjlGQTE2LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzExNDY4Njk0MzYtMjk1NTk2MjI1MC0zMjVEMzRBRkQxRDU5RjE3OTQzOUQ1MTc5NUY5RkExNi8wP3Rlcm09MjU1sAG4A7gB1QLIAbC7D9gBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMTE0Njg2OTQzNi0yOTU1OTYyMjUwLTMyNUQzNEFGRDFENTlGMTc5NDM5RDUxNzk1RjlGQTE2LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/1146869436-2534335053-325D34AFD1D59F179439D51795F9FA16/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598787102, 'MsgSeq': 2085, 'MsgRandom': 1898812217, 'RedBaginfo': None}
+2020-08-30 19:31 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 1689236904, 'FromNickName': '麻衣酱', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2668160245,"FileMd5":"Ml00r9HVnxeUOdUXlfn6Fg==","FileSize":253360,"ForwordBuf":"Eip7MzI1RDM0QUYtRDFENS05RjE3LTk0MzktRDUxNzk1RjlGQTE2fS5qcGc49cmj+AlgAWoQMl00r9HVnxeUOdUXlfn6FnJbL2djaGF0cGljX25ldy8xNjg5MjM2OTA0Lzk1OTU2MjE5MC0yNjY4MTYwMjQ1LTMyNUQzNEFGRDFENTlGMTc5NDM5RDUxNzk1RjlGQTE2LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMTY4OTIzNjkwNC85NTk1NjIxOTAtMjY2ODE2MDI0NS0zMjVEMzRBRkQxRDU5RjE3OTQzOUQ1MTc5NUY5RkExNi8wP3Rlcm09MjU1sAG4A7gB1QLIAbC7D9gBxgHgAZkB+gFbL2djaGF0cGljX25ldy8xNjg5MjM2OTA0Lzk1OTU2MjE5MC0yNjY4MTYwMjQ1LTMyNUQzNEFGRDFENTlGMTc5NDM5RDUxNzk1RjlGQTE2LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1689236904/959562190-2534335053-325D34AFD1D59F179439D51795F9FA16/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598787103, 'MsgSeq': 5992, 'MsgRandom': 1898812217, 'RedBaginfo': None}
+2020-08-30 19:31 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 959562190, 'MsgRandom': 2863943280, 'MsgSeq': 5988, 'UserID': 845324058}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5988, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 19:31 INFO	EventMsg ->  {'EventData': {'AdminUserID': 1689236904, 'GroupID': 959562190, 'MsgRandom': 2384057158, 'MsgSeq': 5989, 'UserID': 1689236904}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5989, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-30 19:31 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '买家秀', 'MsgType': 'TextMsg', 'MsgTime': 1598787115, 'MsgSeq': 5993, 'MsgRandom': 2161814708, 'RedBaginfo': None}
+2020-08-30 19:32 INFO	Heartbeat -> 845324058
+2020-08-30 19:33 INFO	Heartbeat -> 845324058
+2020-08-30 19:33 INFO	EventMsg ->  {'EventData': {'UserID': 845324058}, 'EventMsg': {'FromUin': 1146869436, 'ToUin': 845324058, 'MsgType': 'ON_EVENT_GROUP_EXIT', 'MsgSeq': 0, 'Content': '群成员退出群聊事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_EXIT'}
+2020-08-30 19:33 INFO	EventMsg ->  {'EventData': {'GroupID': 1146869436}, 'EventMsg': {'FromUin': 0, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_EXIT_SUCC', 'MsgSeq': 0, 'Content': '主动退群成功事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_EXIT_SUCC'}
+2020-08-30 19:34 INFO	Heartbeat -> 845324058
+2020-08-30 19:35 INFO	Heartbeat -> 845324058
+2020-08-30 19:36 INFO	Heartbeat -> 845324058
+2020-08-30 19:37 INFO	Heartbeat -> 845324058
+2020-08-30 19:38 INFO	Heartbeat -> 845324058
+2020-08-30 19:39 INFO	Heartbeat -> 845324058
+2020-08-30 19:40 INFO	Heartbeat -> 845324058
+2020-08-30 19:40 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '涩图', 'MsgType': 'TextMsg', 'MsgTime': 1598787653, 'MsgSeq': 6000, 'MsgRandom': 1862514031, 'RedBaginfo': None}
+2020-08-30 19:41 INFO	Heartbeat -> 845324058
+2020-08-30 19:41 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '看腿', 'MsgType': 'TextMsg', 'MsgTime': 1598787704, 'MsgSeq': 6002, 'MsgRandom': 2221780344, 'RedBaginfo': None}
+2020-08-30 19:41 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2781449165,"FileMd5":"GxVif1WaM2fhqRvZ4OGPTQ==","FileSize":21530,"ForwordBuf":"Eip7MUIxNTYyN0YtNTU5QS0zMzY3LUUxQTktMUJEOUUwRTE4RjREfS5qcGc4zZemrgpgAWoQGxVif1WaM2fhqRvZ4OGPTXJaL2djaGF0cGljX25ldy84NDUzMjQwNTgvOTU5NTYyMTkwLTI3ODE0NDkxNjUtMUIxNTYyN0Y1NTlBMzM2N0UxQTkxQkQ5RTBFMThGNEQvMTk4P3Rlcm09MjU1ggFYL2djaGF0cGljX25ldy84NDUzMjQwNTgvOTU5NTYyMTkwLTI3ODE0NDkxNjUtMUIxNTYyN0Y1NTlBMzM2N0UxQTkxQkQ5RTBFMThGNEQvMD90ZXJtPTI1NbABuAO4AdUCyAGaqAHYAcYB4AGZAfoBWi9nY2hhdHBpY19uZXcvODQ1MzI0MDU4Lzk1OTU2MjE5MC0yNzgxNDQ5MTY1LTFCMTU2MjdGNTU5QTMzNjdFMUE5MUJEOUUwRTE4RjRELzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/959562190-2534335053-1B15627F559A3367E1A91BD9E0E18F4D/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598787705, 'MsgSeq': 6003, 'MsgRandom': 2666663654, 'RedBaginfo': None}
+2020-08-30 19:42 INFO	Heartbeat -> 845324058
+2020-08-30 19:43 INFO	Heartbeat -> 845324058
+2020-08-30 19:44 INFO	Heartbeat -> 845324058
+2020-08-30 19:45 INFO	Heartbeat -> 845324058
+2020-08-30 19:46 SUCCESS	Connected to server successfully!
+2020-08-30 19:46 INFO	Heartbeat -> 845324058
+2020-08-30 19:46 INFO	Heartbeat -> 845324058
+2020-08-30 19:47 INFO	Heartbeat -> 845324058
+2020-08-30 19:47 INFO	Heartbeat -> 845324058
+2020-08-30 19:48 INFO	Heartbeat -> 845324058
+2020-08-30 19:48 INFO	Heartbeat -> 845324058
+2020-08-30 19:49 INFO	Heartbeat -> 845324058
+2020-08-30 19:49 INFO	Heartbeat -> 845324058
+2020-08-30 19:50 INFO	Heartbeat -> 845324058
+2020-08-30 19:50 INFO	Heartbeat -> 845324058
+2020-08-30 19:51 INFO	Heartbeat -> 845324058
+2020-08-30 19:51 INFO	Heartbeat -> 845324058
+2020-08-30 19:52 INFO	Heartbeat -> 845324058
+2020-08-30 19:52 INFO	Heartbeat -> 845324058
+2020-08-30 19:53 INFO	Heartbeat -> 845324058
+2020-08-30 19:53 INFO	Heartbeat -> 845324058
+2020-08-30 19:54 INFO	Heartbeat -> 845324058
+2020-08-30 19:54 INFO	Heartbeat -> 845324058
+2020-08-30 19:55 INFO	Heartbeat -> 845324058
+2020-08-30 19:55 INFO	Heartbeat -> 845324058
+2020-08-30 19:55 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 769276289, 'FromNickName': 'Vio·沉船（中）', 'Content': '看来我又要出马拯救世界了？', 'MsgType': 'TextMsg', 'MsgTime': 1598788538, 'MsgSeq': 526269, 'MsgRandom': 1930268254, 'RedBaginfo': None}
+2020-08-30 19:56 INFO	Heartbeat -> 845324058
+2020-08-30 19:56 INFO	Heartbeat -> 845324058
+2020-08-30 19:57 INFO	Heartbeat -> 845324058
+2020-08-30 19:57 INFO	Heartbeat -> 845324058
+2020-08-30 19:58 INFO	Heartbeat -> 845324058
+2020-08-30 19:58 INFO	Heartbeat -> 845324058
+2020-08-30 19:58 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2741292486, 'FromNickName': 'da', 'Content': '勉强能冲', 'MsgType': 'TextMsg', 'MsgTime': 1598788730, 'MsgSeq': 526271, 'MsgRandom': 1063770458, 'RedBaginfo': None}
+2020-08-30 19:59 INFO	Heartbeat -> 845324058
+2020-08-30 19:59 INFO	Heartbeat -> 845324058
+2020-08-30 19:59 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2741292486, 'FromNickName': 'da', 'Content': '原来是补上去的 之前估计没有', 'MsgType': 'TextMsg', 'MsgTime': 1598788784, 'MsgSeq': 526272, 'MsgRandom': 1262055250, 'RedBaginfo': None}
+2020-08-30 20:00 INFO	Heartbeat -> 845324058
+2020-08-30 20:00 INFO	Heartbeat -> 845324058
+2020-08-30 20:01 INFO	Heartbeat -> 845324058
+2020-08-30 20:01 INFO	Heartbeat -> 845324058
+2020-08-30 20:02 INFO	Heartbeat -> 845324058
+2020-08-30 20:02 INFO	Heartbeat -> 845324058
+2020-08-30 20:03 INFO	Heartbeat -> 845324058
+2020-08-30 20:03 INFO	Heartbeat -> 845324058
+2020-08-30 20:04 INFO	Heartbeat -> 845324058
+2020-08-30 20:04 INFO	Heartbeat -> 845324058
+2020-08-30 20:05 INFO	Heartbeat -> 845324058
+2020-08-30 20:05 INFO	Heartbeat -> 845324058

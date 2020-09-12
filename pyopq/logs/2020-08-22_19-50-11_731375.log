@@ -1,0 +1,222 @@
+2020-08-22 19:50 INFO	Connecting to the server...
+2020-08-22 19:50 SUCCESS	Connected to server successfully!
+2020-08-22 19:50 INFO	Heartbeat -> 845324058
+2020-08-22 19:50 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598151033, 'MsgSeq': 5282, 'MsgRandom': 325286891, 'RedBaginfo': None}
+2020-08-22 19:50 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (19730), thread 'ThreadPoolExecutor-0_3' (139927333361408):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f43880dc0d0>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139927333361408)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f43880dae18>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139927333361408)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 139927333361408)>
+    │    │        │    └ (<weakref at 0x7f4380314548; to 'ThreadPoolExecutor' at 0x7f43802fb198>, <queue.Queue object at 0x7f43802fb1d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 139927333361408)>
+    │    └ <function _worker at 0x7f4386074d90>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139927333361408)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f4386074ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f43803137f0>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1049, "Unknown database 'root'")
+    │    │      └ <function Future.set_exception at 0x7f43860f7bf8>
+    │    └ <Future at 0x7f43803135c0 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f43803137f0>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f43860f7598>
+    └ <Future at 0x7f43803135c0 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f43803135c0 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1049, "Unknown database 'root'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f43803137f0>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f43803130f0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f43803137f0>
+             │    └ <function receive_group_msg at 0x7f43863ddae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f43803137f0>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f43803130f0>
+    │  └ <function insert_group_msg at 0x7f43847b89d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'root'
+             │      │                    └ <util.db.config._config object at 0x7f43847aec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f43847aec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'root', 'password': '123456', 'database': 'root', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f43847b1620>
+    └ <pymysql.connections.Connection object at 0x7f4380313908>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f43847b1a60>
+    └ <pymysql.connections.Connection object at 0x7f4380313908>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f43847b1730>
+                  └ <pymysql.connections.Connection object at 0x7f4380313908>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f43847a8c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f438008d320>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f438008d320>
+    │   └ <function raise_mysql_exception at 0x7f438484d1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Unknown database 'root'"
+          │          └ 1049
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1049, "Unknown database 'root'")
+2020-08-22 19:50 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n只有群主和管理员可以使用“最近撤回”指令","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598151036, 'MsgSeq': 5283, 'MsgRandom': 1598151036, 'RedBaginfo': None}
+2020-08-22 19:50 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (19730), thread 'ThreadPoolExecutor-0_10' (139927199143680):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f43880dc0d0>
+    └ <Thread(ThreadPoolExecutor-0_10, started daemon 139927199143680)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f43880dae18>
+    └ <Thread(ThreadPoolExecutor-0_10, started daemon 139927199143680)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_10, started daemon 139927199143680)>
+    │    │        │    └ (<weakref at 0x7f4380314e58; to 'ThreadPoolExecutor' at 0x7f43802fb198>, <queue.Queue object at 0x7f43802fb1d0>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_10, started daemon 139927199143680)>
+    │    └ <function _worker at 0x7f4386074d90>
+    └ <Thread(ThreadPoolExecutor-0_10, started daemon 139927199143680)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f4386074ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f4380024438>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1049, "Unknown database 'root'")
+    │    │      └ <function Future.set_exception at 0x7f43860f7bf8>
+    │    └ <Future at 0x7f4380024278 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f4380024438>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f43860f7598>
+    └ <Future at 0x7f4380024278 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f4380024278 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1049, "Unknown database 'root'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f4380024438>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f43800241d0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f4380024438>
+             │    └ <function receive_group_msg at 0x7f43863ddae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f4380024438>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f43800241d0>
+    │  └ <function insert_group_msg at 0x7f43847b89d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'root'
+             │      │                    └ <util.db.config._config object at 0x7f43847aec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f43847aec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'root', 'password': '123456', 'database': 'root', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f43847b1620>
+    └ <pymysql.connections.Connection object at 0x7f4380024550>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f43847b1a60>
+    └ <pymysql.connections.Connection object at 0x7f4380024550>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f43847b1730>
+                  └ <pymysql.connections.Connection object at 0x7f4380024550>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f43847a8c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f438008ddd8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f438008ddd8>
+    │   └ <function raise_mysql_exception at 0x7f438484d1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Unknown database 'root'"
+          │          └ 1049
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1049, "Unknown database 'root'")
+2020-08-22 19:51 INFO	Heartbeat -> 845324058

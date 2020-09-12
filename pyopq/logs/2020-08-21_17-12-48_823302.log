@@ -1,0 +1,1097 @@
+2020-08-21 17:12 INFO	Connecting to the server...
+2020-08-21 17:12 SUCCESS	Connected to server successfully!
+2020-08-21 17:12 INFO	Heartbeat -> 845324058
+2020-08-21 17:13 INFO	Heartbeat -> 845324058
+2020-08-21 17:14 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598055247, 'MsgSeq': 130743, 'MsgRandom': 3190300671, 'RedBaginfo': None}
+2020-08-21 17:14 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_2' (140091118724864):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 140091118724864)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 140091118724864)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_2, started daemon 140091118724864)>
+    │    │        │    └ (<weakref at 0x7f69ac180458; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_2, started daemon 140091118724864)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 140091118724864)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ac17da20>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ac17d828 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ac17da20>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ac17d828 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ac17d828 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ac17da20>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ac17d860>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ac17da20>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ac17da20>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ac17d860>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69ac17db38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69ac17db38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69ac17db38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f69a0034518>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f69a0034518>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:14 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598055250, 'MsgSeq': 119943, 'MsgRandom': 4223399526, 'RedBaginfo': None}
+2020-08-21 17:14 ERROR	An error has been caught in function 'add_done_callback', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_7' (140091076761344):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_7, started daemon 140091076761344)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_7, started daemon 140091076761344)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_7, started daemon 140091076761344)>
+    │    │        │    └ (<weakref at 0x7f69ac180b88; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_7, started daemon 140091076761344)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_7, started daemon 140091076761344)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f697bcc9908>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f697bcc9908>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f697bcc97f0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f697bcc9908>
+             │    └ <bound method IOTBOT.__group_context_distributor of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f697bcc9908>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 230, in __group_context_distributor
+    .add_done_callback(self.__thread_pool_callback))
+                       └ IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>
+
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 403, in add_done_callback
+    fn(self)
+    │  └ <Future at 0x7f697bcc9be0 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f697bcc9da0>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f697bcc9f60>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f697bcc9f60>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f697bcc9f60>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f697bcdf0f0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f697bcdf0f0>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:14 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '\u3000', 'Content': '{"Content":"【@凤飞翱翔兮丷 】发起了签到\\r\\r★：获得人品值：78\\r☆：获得抽奖次数：1\\r▲：当前签到次数已高达：2次\\r◆：您是今天第3位签到的！\\r◇：恭喜获得水晶币：2518\\r●：您当前水晶币总合：3239\\r○：签到时间：2020年8月22日8时14分11秒\\r","GroupPic":[{"FileId":2601656191,"FileMd5":"OrJklZihQg0k6vWmCTHjLQ==","FileSize":5545,"ForwordBuf":"Eip7M0FCMjY0OTUtOThBMS00MjBELTI0RUEtRjVBNjA5MzFFMzJEfS5qcGciACoEAAAAADJcFTYgOTJrQTFDOWIxMjFmN2Y2ZDhmZTM2NSAgICAgIDUwICAgICAgICAgICAgICAgIHszQUIyNjQ5NS05OEExLTQyMEQtMjRFQS1GNUE2MDkzMUUzMkR9LmpwZ0E4/77I2AlA5ca/7AZIUFBDWgBgAWoQOrJklZihQg0k6vWmCTHjLXJbL2djaGF0cGljX25ldy8zMjYxODUyOTIzLzY2MTc4MDA3Mi0yNjAxNjU2MTkxLTNBQjI2NDk1OThBMTQyMEQyNEVBRjVBNjA5MzFFMzJELzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMzI2MTg1MjkyMy82NjE3ODAwNzItMjYwMTY1NjE5MS0zQUIyNjQ5NTk4QTE0MjBEMjRFQUY1QTYwOTMxRTMyRC8wP3Rlcm09MjU1sAHGAbgBuQHIAakr2AHGAeABuQH6AVsvZ2NoYXRwaWNfbmV3LzMyNjE4NTI5MjMvNjYxNzgwMDcyLTI2MDE2NTYxOTEtM0FCMjY0OTU5OEExNDIwRDI0RUFGNUE2MDkzMUUzMkQvNDAwP3Rlcm09MjU1gALGAYgCuQE=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/3261852923/661780072-2534335053-3AB2649598A1420D24EAF5A60931E32D/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2450459910]}', 'MsgType': 'PicMsg', 'MsgTime': 1598055252, 'MsgSeq': 119944, 'MsgRandom': 3335063832, 'RedBaginfo': None}
+2020-08-21 17:14 ERROR	An error has been caught in function 'add_done_callback', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_12' (140091025135360):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_12, started daemon 140091025135360)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_12, started daemon 140091025135360)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_12, started daemon 140091025135360)>
+    │    │        │    └ (<weakref at 0x7f697bcda778; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_12, started daemon 140091025135360)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_12, started daemon 140091025135360)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f697bcdf8d0>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f697bcdf8d0>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f697bcdf630>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f697bcdf8d0>
+             │    └ <bound method IOTBOT.__group_context_distributor of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f697bcdf8d0>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 230, in __group_context_distributor
+    .add_done_callback(self.__thread_pool_callback))
+                       └ IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>
+
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 403, in add_done_callback
+    fn(self)
+    │  └ <Future at 0x7f697bcdfba8 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f697bcdfc18>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f697bcdff28>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f697bcdff28>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f697bcdff28>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f6978c680b8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f6978c680b8>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:14 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n","GroupPic":[{"FileId":2165207801,"FileMd5":"ZKOX+5+qIVgE5fkYq1dimA==","FileSize":406803,"ForwordBuf":"Eip7NjRBMzk3RkItOUZBQS0yMTU4LTA0RTUtRjkxOEFCNTc2Mjk4fS5qcGc4+eW5iAhgAWoQZKOX+5+qIVgE5fkYq1dimHJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMTY1MjA3ODAxLTY0QTM5N0ZCOUZBQTIxNTgwNEU1RjkxOEFCNTc2Mjk4LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjE2NTIwNzgwMS02NEEzOTdGQjlGQUEyMTU4MDRFNUY5MThBQjU3NjI5OC8wP3Rlcm09MjU1sAG4A7gB1QLIAZPqGNgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMTY1MjA3ODAxLTY0QTM5N0ZCOUZBQTIxNTgwNEU1RjkxOEFCNTc2Mjk4LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-64A397FB9FAA215804E5F918AB576298/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2450459910]}', 'MsgType': 'PicMsg', 'MsgTime': 1598055254, 'MsgSeq': 130744, 'MsgRandom': 3904462910, 'RedBaginfo': None}
+2020-08-21 17:14 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_0' (140091137705728):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140091137705728)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140091137705728)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 140091137705728)>
+    │    │        │    └ (<weakref at 0x7f69ac180318; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 140091137705728)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140091137705728)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f6978c689e8>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f6978c68940 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f6978c689e8>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f6978c68940 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f6978c68940 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f6978c689e8>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f6978c689b0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f6978c689e8>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f6978c689e8>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f6978c689b0>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69ac17deb8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69ac17deb8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69ac17deb8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f697bcdf080>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f697bcdf080>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:14 INFO	Heartbeat -> 845324058
+2020-08-21 17:15 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '抽签', 'MsgType': 'TextMsg', 'MsgTime': 1598055309, 'MsgSeq': 119945, 'MsgRandom': 3961998667, 'RedBaginfo': None}
+2020-08-21 17:15 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_3' (140091110332160):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140091110332160)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140091110332160)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 140091110332160)>
+    │    │        │    └ (<weakref at 0x7f69ac180598; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 140091110332160)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140091110332160)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5668>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ad0b5b38 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5668>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ad0b5b38 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ad0b5b38 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5668>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ad0b55c0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5668>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5668>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ad0b55c0>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69aa5cfe80>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69aa5cfe80>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69aa5cfe80>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f697bcc9f98>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f697bcc9f98>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:15 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '\u3000', 'Content': '{"Content":"@凤飞翱翔兮丷 \\r抽取成功！\\r当前签数：第60签\\r吉凶：下签 | 宫位：寅宫\\r诗曰：抱薪救火大皆燃烧遍三千亦复然若问荣华并出入不如收拾枉劳心\\r适宜：此卦抱薪救火之象凡事亦自谨防也","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598055310, 'MsgSeq': 119946, 'MsgRandom': 3972352601, 'RedBaginfo': None}
+2020-08-21 17:15 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_30' (140090882197248):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_30, started daemon 140090882197248)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_30, started daemon 140090882197248)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_30, started daemon 140090882197248)>
+    │    │        │    └ (<weakref at 0x7f6978c639a8; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_30, started daemon 140090882197248)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_30, started daemon 140090882197248)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5a58>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ad0b5fd0 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5a58>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ad0b5fd0 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ad0b5fd0 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5a58>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ad0b5cf8>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5a58>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0b5a58>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ad0b5cf8>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69ad0b5c18>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69ad0b5c18>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69ad0b5c18>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0b5240>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0b5240>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:15 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '抽签', 'MsgType': 'TextMsg', 'MsgTime': 1598055320, 'MsgSeq': 130745, 'MsgRandom': 3818900720, 'RedBaginfo': None}
+2020-08-21 17:15 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_19' (140090974516992):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_19, started daemon 140090974516992)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_19, started daemon 140090974516992)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_19, started daemon 140090974516992)>
+    │    │        │    └ (<weakref at 0x7f6978c5d368; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_19, started daemon 140090974516992)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_19, started daemon 140090974516992)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad2b0>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ad0ad240 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad2b0>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ad0ad240 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ad0ad240 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad2b0>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ad0ad208>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad2b0>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad2b0>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ad0ad208>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f697bcdfba8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f697bcdfba8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f697bcdfba8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0b5940>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0b5940>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:15 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '今日人品', 'MsgType': 'TextMsg', 'MsgTime': 1598055332, 'MsgSeq': 130746, 'MsgRandom': 1727771348, 'RedBaginfo': None}
+2020-08-21 17:15 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_26' (140090932553472):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_26, started daemon 140090932553472)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_26, started daemon 140090932553472)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_26, started daemon 140090932553472)>
+    │    │        │    └ (<weakref at 0x7f6978c634a8; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_26, started daemon 140090932553472)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_26, started daemon 140090932553472)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0adcf8>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ad0adc50 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0adcf8>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ad0adc50 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ad0adc50 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0adcf8>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ad0adcc0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0adcf8>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0adcf8>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ad0adcc0>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69ad0b5ac8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69ad0b5ac8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69ad0b5ac8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0ad7b8>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0ad7b8>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:15 INFO	Heartbeat -> 845324058
+2020-08-21 17:16 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '人品', 'MsgType': 'TextMsg', 'MsgTime': 1598055373, 'MsgSeq': 5236, 'MsgRandom': 501671092, 'RedBaginfo': None}
+2020-08-21 17:16 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_16' (140090999957248):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_16, started daemon 140090999957248)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_16, started daemon 140090999957248)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_16, started daemon 140090999957248)>
+    │    │        │    └ (<weakref at 0x7f697bcdab38; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_16, started daemon 140090999957248)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_16, started daemon 140090999957248)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad588>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ad0ad860 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad588>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ad0ad860 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ad0ad860 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad588>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ad0adb00>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad588>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ad0ad588>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ad0adb00>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69ad0b5748>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69ad0b5748>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69ad0b5748>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0adda0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0adda0>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+2020-08-21 17:16 INFO	Heartbeat -> 845324058
+2020-08-21 17:16 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '人品', 'MsgType': 'TextMsg', 'MsgTime': 1598055417, 'MsgSeq': 5237, 'MsgRandom': 3361787623, 'RedBaginfo': None}
+2020-08-21 17:16 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (3395), thread 'ThreadPoolExecutor-0_18' (140090983171840):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f69ade8c0d0>
+    └ <Thread(ThreadPoolExecutor-0_18, started daemon 140090983171840)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f69ade8ae18>
+    └ <Thread(ThreadPoolExecutor-0_18, started daemon 140090983171840)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_18, started daemon 140090983171840)>
+    │    │        │    └ (<weakref at 0x7f697bcdadb8; to 'ThreadPoolExecutor' at 0x7f69ac1662b0>, <queue.Queue object at 0x7f69ac1662e8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_18, started daemon 140090983171840)>
+    │    └ <function _worker at 0x7f69abe24d90>
+    └ <Thread(ThreadPoolExecutor-0_18, started daemon 140090983171840)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f69abe24ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad32c9e8>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+    │    │      └ <function Future.set_exception at 0x7f69abea7bf8>
+    │    └ <Future at 0x7f69ad32c898 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f69ad32c9e8>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f69abea7598>
+    └ <Future at 0x7f69ad32c898 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f69ad32c898 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f69ad32c9e8>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f69ad32c9b0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f69ad32c9e8>
+             │    └ <function receive_group_msg at 0x7f69ac18dae8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f69ad32c9e8>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f69ad32c9b0>
+    │  └ <function insert_group_msg at 0x7f69aa5689d8>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ '123456'
+             │      │                    └ <util.db.config._config object at 0x7f69aa55ec50>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f69aa55ec50>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 3306, 'user': 'ffaxx', 'password': '123456', 'database': '123456', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f69aa561620>
+    └ <pymysql.connections.Connection object at 0x7f69ad0ad828>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 588, in connect
+    self._request_authentication()
+    │    └ <function Connection._request_authentication at 0x7f69aa561a60>
+    └ <pymysql.connections.Connection object at 0x7f69ad0ad828>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+                  │    └ <function Connection._read_packet at 0x7f69aa561730>
+                  └ <pymysql.connections.Connection object at 0x7f69ad0ad828>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+    │      └ <function MysqlPacket.raise_for_error at 0x7f69aa558c80>
+    └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0ad6a0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    │   │                     │    └ <member '_data' of 'MysqlPacket' objects>
+    │   │                     └ <pymysql.protocol.MysqlPacket object at 0x7f69ad0ad6a0>
+    │   └ <function raise_mysql_exception at 0x7f69aa5fd1e0>
+    └ <module 'pymysql.err' from '/usr/local/lib/python3.6/dist-packages/pymysql/err.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+          │          │      └ "Access denied for user 'ffaxx'@'localhost' to database '123456'"
+          │          └ 1044
+          └ <class 'pymysql.err.OperationalError'>
+
+pymysql.err.OperationalError: (1044, "Access denied for user 'ffaxx'@'localhost' to database '123456'")

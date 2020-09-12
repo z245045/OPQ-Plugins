@@ -1,0 +1,6 @@
+2020-08-26 06:59 INFO	Connecting to the server...
+2020-08-26 06:59 SUCCESS	Connected to server successfully!
+2020-08-26 06:59 INFO	GetWebConn -> 845324058 => OK
+2020-08-26 06:59 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '赞我', 'MsgType': 'TextMsg', 'MsgTime': 1598450349, 'MsgSeq': 5716, 'MsgRandom': 2149136867, 'RedBaginfo': None}
+2020-08-26 06:59 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n今日已赞!","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598450350, 'MsgSeq': 5717, 'MsgRandom': 1598450350, 'RedBaginfo': None}
+2020-08-26 06:59 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2741292486, 'FromNickName': 'da', 'Content': '绝了 还有这种操作', 'MsgType': 'TextMsg', 'MsgTime': 1598450366, 'MsgSeq': 525267, 'MsgRandom': 237733288, 'RedBaginfo': None}

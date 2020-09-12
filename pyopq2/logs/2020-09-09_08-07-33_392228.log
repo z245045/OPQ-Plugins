@@ -1,0 +1,517 @@
+2020-09-09 08:07 INFO	Connecting to the server...
+2020-09-09 08:07 SUCCESS	Connected to server successfully!
+2020-09-09 08:07 INFO	GetWebConn -> 1689236904 => 当前已存在活动的WebSocket 已为您切换当前Socket
+2020-09-09 08:07 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 1259927225, 'FromNickName': '初见。', 'Content': '福利多了，男主变成lsp了', 'MsgType': 'TextMsg', 'MsgTime': 1599610071, 'MsgSeq': 540412, 'MsgRandom': 1859812590, 'RedBaginfo': None}
+2020-09-09 08:07 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_1' (140357543532288):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+    │    │        │    └ (<weakref at 0x7fa78c073958; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa78c068668>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa78c068908 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa78c068668>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa78c068908 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa78c068908 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa78c068668>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa78c06b470>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa78c068668>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa78c068668>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:07 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 1259927225, 'FromNickName': '初见。', 'Content': '种马', 'MsgType': 'TextMsg', 'MsgTime': 1599610075, 'MsgSeq': 540413, 'MsgRandom': 1809861040, 'RedBaginfo': None}
+2020-09-09 08:07 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_0' (140357551924992):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+    │    │        │    └ (<weakref at 0x7fa78c073ae8; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa788026748>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa788026eb8 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa788026748>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa788026eb8 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa788026eb8 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa788026748>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa788026278>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa788026748>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa788026748>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:07 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': 'ph ha haha', 'MsgType': 'TextMsg', 'MsgTime': 1599610075, 'MsgSeq': 6743, 'MsgRandom': 871376957, 'RedBaginfo': None}
+2020-09-09 08:07 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_2' (140357535139584):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 140357535139584)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 140357535139584)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_2, started daemon 140357535139584)>
+    │    │        │    └ (<weakref at 0x7fa78c073cc8; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_2, started daemon 140357535139584)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_2, started daemon 140357535139584)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa788026f60>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa788026320 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa788026f60>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa788026320 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa788026320 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa788026f60>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa788026240>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa788026f60>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa788026f60>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '959562190_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/959562190_20200909.txt'
+2020-09-09 08:07 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 2723805276, 'FromNickName': 'James', 'Content': '这里有谁看过草莓的？', 'MsgType': 'TextMsg', 'MsgTime': 1599610079, 'MsgSeq': 540414, 'MsgRandom': 721221525, 'RedBaginfo': None}
+2020-09-09 08:07 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_3' (140357526746880):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+    │    │        │    └ (<weakref at 0x7fa78c073f98; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa78c06bc18>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa78c06b240 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa78c06bc18>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa78c06b240 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa78c06b240 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa78c06bc18>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa78c06b278>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa78c06bc18>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa78c06bc18>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:08 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 1723282688, 'FromNickName': '木之下千鹤', 'Content': '{"GroupPic":[{"FileId":2973234964,"FileMd5":"RIOnB/yWq1DRI+lKZj0ygQ==","FileSize":2948,"ForwordBuf":"EiQ0NDgzQTcwN0ZDOTZBQjUwRDEyM0U5NEE2NjNEMzI4MS5qcGcyVhU2IDg2ZUExQmIxMzdmNzE0ZGZhNzY4MjIgICAgICA1MEdEQ0tHbWVlNlRHQ0NTRmk0NDgzQTcwN0ZDOTZBQjUwRDEyM0U5NEE2NjNEMzI4MS5qcGdBOJTu34kLQKLQnf0NSFBQQloQR0RDS0dtZWU2VEdDQ1NGaWABahBEg6cH/JarUNEj6UpmPTKBclsvZ2NoYXRwaWNfbmV3LzE3MjMyODI2ODgvNTgxMTY4ODQ4LTI5NzMyMzQ5NjQtNDQ4M0E3MDdGQzk2QUI1MEQxMjNFOTRBNjYzRDMyODEvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xNzIzMjgyNjg4LzU4MTE2ODg0OC0yOTczMjM0OTY0LTQ0ODNBNzA3RkM5NkFCNTBEMTIzRTk0QTY2M0QzMjgxLzA/dGVybT0yNTWgAegHsAFQuAFFwAFnyAGEF9ABANgBUOABRegBAPABAPoBWy9nY2hhdHBpY19uZXcvMTcyMzI4MjY4OC81ODExNjg4NDgtMjk3MzIzNDk2NC00NDgzQTcwN0ZDOTZBQjUwRDEyM0U5NEE2NjNEMzI4MS80MDA/dGVybT0yNTWAAlCIAkWSAhoIARAAMgBKDlvliqjnlLvooajmg4VdUAB4BQ==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1723282688/581168848-2534335053-4483A707FC96AB50D123E94A663D3281/0?vuin=1689236904\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1599610084, 'MsgSeq': 540415, 'MsgRandom': 2133986251, 'RedBaginfo': None}
+2020-09-09 08:08 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 274034467, 'FromNickName': '莱恩哈特', 'Content': '本来就是搞笑担当', 'MsgType': 'TextMsg', 'MsgTime': 1599610085, 'MsgSeq': 540416, 'MsgRandom': 2083612567, 'RedBaginfo': None}
+2020-09-09 08:08 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_5' (140357039810304):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_5, started daemon 140357039810304)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_5, started daemon 140357039810304)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_5, started daemon 140357039810304)>
+    │    │        │    └ (<weakref at 0x7fa788021318; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_5, started daemon 140357039810304)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_5, started daemon 140357039810304)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa7880266d8>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa788026898 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa7880266d8>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa788026898 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa788026898 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa7880266d8>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa788026b70>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa7880266d8>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa7880266d8>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:08 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 80146505, 'FromNickName': 'MADAO', 'Content': '300话起步了', 'MsgType': 'TextMsg', 'MsgTime': 1599610091, 'MsgSeq': 540417, 'MsgRandom': 990187006, 'RedBaginfo': None}
+2020-09-09 08:08 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_1' (140357543532288):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+    │    │        │    └ (<weakref at 0x7fa78c073958; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_1, started daemon 140357543532288)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1c88>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa7880269b0 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1c88>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa7880269b0 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa7880269b0 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1c88>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa78c06b7b8>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1c88>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1c88>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:08 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 2723805276, 'FromNickName': 'James', 'Content': '草莓日常多吗？', 'MsgType': 'TextMsg', 'MsgTime': 1599610092, 'MsgSeq': 540418, 'MsgRandom': 1123247557, 'RedBaginfo': None}
+2020-09-09 08:08 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_0' (140357551924992):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+    │    │        │    └ (<weakref at 0x7fa78c073ae8; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 140357551924992)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd16d8>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa76afd1e10 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd16d8>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa76afd1e10 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa76afd1e10 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd16d8>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa76afd19b0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd16d8>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd16d8>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:08 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 527231292, 'FromNickName': '矢澤妮可Kazawa', 'Content': '不会完全按粉丝想要的画的，但是整体考量肯定有的，日常和主线一起展开', 'MsgType': 'TextMsg', 'MsgTime': 1599610094, 'MsgSeq': 540419, 'MsgRandom': 1652305220, 'RedBaginfo': None}
+2020-09-09 08:08 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_3' (140357526746880):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+    │    │        │    └ (<weakref at 0x7fa78c073f98; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 140357526746880)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1be0>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa76afd1a58 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1be0>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa76afd1a58 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa76afd1a58 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1be0>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa76afd1240>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1be0>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd1be0>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'
+2020-09-09 08:08 INFO	GroupMsg ->  {'FromGroupId': 581168848, 'FromGroupName': 'Diamond事务所·伍·楼', 'FromUserId': 274034467, 'FromNickName': '莱恩哈特', 'Content': '为啥上升人品高度', 'MsgType': 'TextMsg', 'MsgTime': 1599610097, 'MsgSeq': 540420, 'MsgRandom': 1632952433, 'RedBaginfo': None}
+2020-09-09 08:08 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6472), thread 'ThreadPoolExecutor-0_4' (140357048203008):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fa7a0c171e0>
+    └ <Thread(ThreadPoolExecutor-0_4, started daemon 140357048203008)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fa7a0c13f28>
+    └ <Thread(ThreadPoolExecutor-0_4, started daemon 140357048203008)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_4, started daemon 140357048203008)>
+    │    │        │    └ (<weakref at 0x7fa78c09d9f8; to 'ThreadPoolExecutor' at 0x7fa78ca5b9b0>, <queue.Queue object at 0x7fa78ca5ba58>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_4, started daemon 140357048203008)>
+    │    └ <function _worker at 0x7fa79f10d158>
+    └ <Thread(ThreadPoolExecutor-0_4, started daemon 140357048203008)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fa79f10d268>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd3e10>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, '没有那个文件或目录')
+    │    │      └ <function Future.set_exception at 0x7fa79f18af28>
+    │    └ <Future at 0x7fa76afd1c18 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd3e10>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fa79f18a8c8>
+    └ <Future at 0x7fa76afd1c18 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fa76afd1c18 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, '没有那个文件或目录')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd3e10>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fa76afd1470>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd3e10>
+             │    └ <function get_record at 0x7fa78c0678c8>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fa76afd3e10>
+
+  File "BotCore.py", line 90, in get_record
+    with open('record/' + filename, 'a+')as f:
+                          └ '581168848_20200909.txt'
+
+FileNotFoundError: [Errno 2] 没有那个文件或目录: 'record/581168848_20200909.txt'

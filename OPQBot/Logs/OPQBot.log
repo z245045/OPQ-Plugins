@@ -1,0 +1,121 @@
+2020/09/12 07:37:21.322 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137688 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4193512991 MsgSeq:137688 UserID:1689236904]
+2020/09/12 07:37:30.445 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137690 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3458508873 MsgSeq:137690 UserID:1689236904]
+2020/09/12 07:37:41.097 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137693 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2987520173 MsgSeq:137693 UserID:1689236904]
+2020/09/12 07:37:45.126 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137696 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2183655835 MsgSeq:137696 UserID:1689236904]
+2020/09/12 07:38:19.844 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137702 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1295547771 MsgSeq:137702 UserID:1689236904]
+2020/09/12 09:58:13.443 [E]  grouptogroup.lua
+2020/09/12 09:58:13.443 [E]  local log = require("log")
+local Api = require("coreApi")
+local json = require("json")
+local http = require("http")
+
+function ReceiveFriendMsg(CurrentQQ, data)
+    return 1
+end
+
+function ReceiveGroupMsg(CurrentQQ, data)
+    if data.FromGroupId == 1048779434 then
+    if data.content == data.content then
+        --log.notice("From Lua data.FromGroupId %d", data.FromGroupId)
+        luaRes =
+            Api.Api_SendMsg(
+            CurrentQQ,
+            {
+                toUser = 959562190,
+                sendToType = 2,
+                sendMsgType = "TextMsg",
+                groupid = 959562190,
+                content = "【就业指导群】：\n"..data.FromNickName.."："data.content,
+                atUser = 0
+            }
+        )
+        log.notice("From Lua SendMsg Ret-->%d", luaRes.Ret)
+    end
+    end
+    
+    if data.FromGroupId == 1048779434 then
+    if data.content == data.content then
+        --log.notice("From Lua data.FromGroupId %d", data.FromGroupId)
+        luaRes =
+            Api.Api_SendMsg(
+            CurrentQQ,
+            {
+                toUser = 383770908,
+                sendToType = 2,
+                sendMsgType = "TextMsg",
+                groupid = 383770908,
+                content = "【就业指导群】：\n"..data.content,
+                atUser = 0
+            }
+        )
+        log.notice("From Lua SendMsg Ret-->%d", luaRes.Ret)
+    end
+    end
+    
+    return 1
+end
+
+function ReceiveEvents(CurrentQQ, data, extData)
+    return 1
+end
+
+2020/09/12 10:56:51.098 [E]  QQLuaVmRun CallGlobal err Unknow Lua Function:ReceiveEvents detail File weatherfy4a.lua when  call ReceiveEvents params [0] 1689236904  [1] &{1002580618 1689236904 ON_EVENT_GROUP_EXIT 0 群成员退出群聊事件 <nil>}  [2] map[UserID:536579890]
+2020/09/12 16:41:01.983 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137745 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4033714577 MsgSeq:137745 UserID:1689236904]
+2020/09/12 16:50:24.356 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137747 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:923923901 MsgSeq:137747 UserID:1689236904]
+2020/09/12 16:50:52.847 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137749 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3656419068 MsgSeq:137749 UserID:1689236904]
+2020/09/12 16:51:04.263 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137751 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:810356576 MsgSeq:137751 UserID:1689236904]
+2020/09/12 16:51:17.084 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137753 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1416992376 MsgSeq:137753 UserID:1689236904]
+2020/09/12 16:53:24.046 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137758 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:2675304836 GroupID:383770908 MsgRandom:1599900780 MsgSeq:137758 UserID:1689236904]
+2020/09/12 16:53:32.084 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137756 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:2675304836 GroupID:383770908 MsgRandom:4153316561 MsgSeq:137756 UserID:1689236904]
+2020/09/12 17:08:44.127 [E]  sServiceCmd ConfigPushSvc.PushReq data 0000045010022c3c4c56235151536572766963652e436f6e666967507573685376632e4d61696e53657276616e746607507573685265717d0001040f0800010607507573685265711800010612436f6e666967507573682e507573685265711d000103e70a10012d000103d51900080a160e3131312e33302e3138312e323137211f9030014c5c600870018602746a9602636d0b0a160d33362e3135352e3234302e3338205030014c5c60087001860273689602636d0b0a160e33362e3135352e3234342e3138392136b030014c5c60087001860273689602636d0b0a160e3131312e33302e3138312e3231352101bb30014c5c600870018602746a9602636d0b0a160e3131312e33302e3138312e323137205030014c5c600870018602746a9602636d0b0a160d33362e3135352e3234302e3836205030014c5c60087001860273689602636d0b0a16116d7366776966692e33672e71712e636f6d211f9030014c5c60087c86066f746865727396066f74686572730b0a160e3131312e33302e3138312e313639205030014c5c600870018602746a9602636d0b3900080a160e3131312e33302e3138312e323137211f9030014c5c600870018602746a9602636d0b0a160d33362e3135352e3234302e3338205030014c5c60087001860273689602636d0b0a160e33362e3135352e3234342e3138392136b030014c5c60087001860273689602636d0b0a160e3131312e33302e3138312e3231352101bb30014c5c600870018602746a9602636d0b0a160e3131312e33302e3138312e323137205030014c5c600870018602746a9602636d0b0a160d33362e3135352e3234302e3836205030014c5c60087001860273689602636d0b0a16116d7366776966692e33672e71712e636f6d211f9030014c5c60087c86066f746865727396066f74686572730b0a160e3131312e33302e3138312e313639205030014c5c600870018602746a9602636d0b4c5c6c70018900050a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c860273689602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c860273689602636d0b0a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b0a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b9900050a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c860273689602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c860273689602636d0b0a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b0a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0ba90cb90cc90cd90cecfc0ff610003300000001e55dad890b8c980ca80c
+2020/09/12 17:09:01.760 [E]  Will ReConnect After:7 s TXSERVER msfwifi.3g.qq.com:8080 User 1689236904 Offline Nick 凤飞翱翔兮丷 
+2020/09/12 17:09:08.849 [E]  sServiceCmd ConfigPushSvc.PushReq data 000003ba10022c3c4c56235151536572766963652e436f6e666967507573685376632e4d61696e53657276616e746607507573685265717d000103790800010607507573685265711800010612436f6e666967507573682e507573685265711d000103510a10012d000103431900070a160d3131312e33302e3138312e3538211f9030014c5c600870018602746a9602636d0b0a160d3131312e33302e3138312e3232205030014c5c600870018602746a9602636d0b0a160e3132302e3233322e31392e3139372136b030014c5c600870018602737a9602636d0b0a160e3131312e33302e3138312e3234392101bb30014c5c600870018602746a9602636d0b0a160d33362e3135352e3234342e3333205030014c5c60087001860273689602636d0b0a160d33362e3135352e3234302e3836205030014c5c60087001860273689602636d0b0a16116d7366776966692e33672e71712e636f6d211f9030014c5c60087c86066f746865727396066f74686572730b3900070a160d3131312e33302e3138312e3538211f9030014c5c600870018602746a9602636d0b0a160d3131312e33302e3138312e3232205030014c5c600870018602746a9602636d0b0a160e3132302e3233322e31392e3139372136b030014c5c600870018602737a9602636d0b0a160e3131312e33302e3138312e3234392101bb30014c5c600870018602746a9602636d0b0a160d33362e3135352e3234342e3333205030014c5c60087001860273689602636d0b0a160d33362e3135352e3234302e3836205030014c5c60087001860273689602636d0b0a16116d7366776966692e33672e71712e636f6d211f9030014c5c60087c86066f746865727396066f74686572730b4c5c6c70018900040a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b0a160d3131312e33302e3137382e3338205030014c500360087c8602737a9602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c8602746a9602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c860273689602636d0b9900040a160d3131312e33302e3137382e3338205030014c500360087c8602746a9602636d0b0a160d3131312e33302e3137382e3338205030014c500360087c8602737a9602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c8602746a9602636d0b0a160d33362e3135352e3234302e3134205030014c500360087c860273689602636d0ba90cb90cc90cd90cecfc0ff61000320016e1970b8c980ca80c
+2020/09/12 17:11:38.899 [E]  Will ReConnect After:7 s TXSERVER 36.155.244.94:8080 User 1689236904 Offline Nick 凤飞翱翔兮丷 

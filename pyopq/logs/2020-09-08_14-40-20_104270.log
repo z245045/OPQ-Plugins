@@ -1,0 +1,205 @@
+2020-09-08 14:40 INFO	Connecting to the server...
+2020-09-08 14:40 SUCCESS	Connected to server successfully!
+2020-09-08 14:40 INFO	GetWebConn -> 1689236904 => OK
+2020-09-08 14:40 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '・_・', 'Content': '大师 胡春阳在学校吗', 'MsgType': 'TextMsg', 'MsgTime': 1599547227, 'MsgSeq': 136879, 'MsgRandom': 652730702, 'RedBaginfo': None}
+2020-09-08 14:40 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1689236904, 'FromNickName': '落伍机器人', 'Content': '\n显而易见', 'MsgType': 'TextMsg', 'MsgTime': 1599547227, 'MsgSeq': 136880, 'MsgRandom': 1599547227, 'RedBaginfo': None}
+2020-09-08 14:40 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '你崩坏三深渊掉级了.jpg', 'MsgType': 'TextMsg', 'MsgTime': 1599547234, 'MsgSeq': 6713, 'MsgRandom': 2911136906, 'RedBaginfo': None}
+2020-09-08 14:40 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (25335), thread 'ThreadPoolExecutor-0_14' (140280745424640):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f95e70856a8>
+    └ <Thread(ThreadPoolExecutor-0_14, started daemon 140280745424640)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f95e7085488>
+    └ <Thread(ThreadPoolExecutor-0_14, started daemon 140280745424640)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_14, started daemon 140280745424640)>
+    │    │        │    └ (<weakref at 0x7f95d223f2c8; to 'ThreadPoolExecutor' at 0x7f95d2206c88>, <queue.Queue object at 0x7f95d2206c18>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_14, started daemon 140280745424640)>
+    │    └ <function _worker at 0x7f95e555cf28>
+    └ <Thread(ThreadPoolExecutor-0_14, started daemon 140280745424640)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f95e555e0d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f95d2250550>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OSError('cannot open resource',)
+    │    │      └ <function Future.set_exception at 0x7f95e55dbd90>
+    │    └ <Future at 0x7f95d2250160 state=finished raised OSError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f95d2250550>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f95e55db730>
+    └ <Future at 0x7f95d2250160 state=finished raised OSError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f95d2250160 state=finished raised OSError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ OSError('cannot open resource',)
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f95d2250550>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f95d2250080>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f95d2250550>
+             │    └ <function receive_group_msg at 0x7f95d21f82f0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f95d2250550>
+
+  File "/root/pyopq/plugins/bot_image_custom.py", line 51, in receive_group_msg
+    mainEntrance(ctx.Content, ctx.FromUserId, ctx.FromGroupId, bot)
+    │            │   │        │   │           │   │            └ <iotbot.action.Action object at 0x7f95d21f90b8>
+    │            │   │        │   │           │   └ 959562190
+    │            │   │        │   │           └ <iotbot.model.GroupMsg object at 0x7f95d2250080>
+    │            │   │        │   └ 2450459910
+    │            │   │        └ <iotbot.model.GroupMsg object at 0x7f95d2250080>
+    │            │   └ '你崩坏三深渊掉级了.jpg'
+    │            └ <iotbot.model.GroupMsg object at 0x7f95d2250080>
+    └ <function mainEntrance at 0x7f95d21f8378>
+
+  File "/root/pyopq/plugins/bot_image_custom.py", line 176, in mainEntrance
+    result = drawing(emoticonId, text, userQQ)
+             │       │           │     └ 2450459910
+             │       │           └ '你崩坏三深渊掉级了'
+             │       └ 'kuangfen'
+             └ <function drawing at 0x7f95d21f8d08>
+
+  File "/root/pyopq/plugins/bot_image_custom.py", line 253, in drawing
+    ttfront = ImageFont.truetype(fontPath, fontSize)
+              │         │        │         └ 150
+              │         │        └ './resources/image-custom/font/simhei-emoji.ttf'
+              │         └ <function truetype at 0x7f95df4ab950>
+              └ <module 'PIL.ImageFont' from '/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py", line 655, in truetype
+    return freetype(font)
+           │        └ './resources/image-custom/font/simhei-emoji.ttf'
+           └ <function truetype.<locals>.freetype at 0x7f95d223db70>
+
+  File "/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py", line 652, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+           │            │     │     │      │         └ None
+           │            │     │     │      └ ''
+           │            │     │     └ 0
+           │            │     └ 150
+           │            └ './resources/image-custom/font/simhei-emoji.ttf'
+           └ <class 'PIL.ImageFont.FreeTypeFont'>
+
+  File "/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py", line 194, in __init__
+    font, size, index, encoding, layout_engine=layout_engine
+    │     │     │      │                       └ 0
+    │     │     │      └ ''
+    │     │     └ 0
+    │     └ 150
+    └ './resources/image-custom/font/simhei-emoji.ttf'
+
+OSError: cannot open resource
+2020-09-08 14:40 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '你崩坏三深渊掉级了.jpg', 'MsgType': 'TextMsg', 'MsgTime': 1599547248, 'MsgSeq': 6714, 'MsgRandom': 967334596, 'RedBaginfo': None}
+2020-09-08 14:40 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (25335), thread 'ThreadPoolExecutor-0_6' (140281173223168):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f95e70856a8>
+    └ <Thread(ThreadPoolExecutor-0_6, started daemon 140281173223168)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f95e7085488>
+    └ <Thread(ThreadPoolExecutor-0_6, started daemon 140281173223168)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_6, started daemon 140281173223168)>
+    │    │        │    └ (<weakref at 0x7f95d2229778; to 'ThreadPoolExecutor' at 0x7f95d2206c88>, <queue.Queue object at 0x7f95d2206c18>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_6, started daemon 140281173223168)>
+    │    └ <function _worker at 0x7f95e555cf28>
+    └ <Thread(ThreadPoolExecutor-0_6, started daemon 140281173223168)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f95e555e0d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f95d014c240>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OSError('cannot open resource',)
+    │    │      └ <function Future.set_exception at 0x7f95e55dbd90>
+    │    └ <Future at 0x7f95d014c1d0 state=finished raised OSError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f95d014c240>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f95e55db730>
+    └ <Future at 0x7f95d014c1d0 state=finished raised OSError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f95d014c1d0 state=finished raised OSError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <1689236904> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 350, in __thread_pool_callback
+    raise worker_exception
+          └ OSError('cannot open resource',)
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f95d014c240>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f95d014c198>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f95d014c240>
+             │    └ <function receive_group_msg at 0x7f95d21f82f0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f95d014c240>
+
+  File "/root/pyopq/plugins/bot_image_custom.py", line 51, in receive_group_msg
+    mainEntrance(ctx.Content, ctx.FromUserId, ctx.FromGroupId, bot)
+    │            │   │        │   │           │   │            └ <iotbot.action.Action object at 0x7f95d21f90b8>
+    │            │   │        │   │           │   └ 959562190
+    │            │   │        │   │           └ <iotbot.model.GroupMsg object at 0x7f95d014c198>
+    │            │   │        │   └ 2450459910
+    │            │   │        └ <iotbot.model.GroupMsg object at 0x7f95d014c198>
+    │            │   └ '你崩坏三深渊掉级了.jpg'
+    │            └ <iotbot.model.GroupMsg object at 0x7f95d014c198>
+    └ <function mainEntrance at 0x7f95d21f8378>
+
+  File "/root/pyopq/plugins/bot_image_custom.py", line 176, in mainEntrance
+    result = drawing(emoticonId, text, userQQ)
+             │       │           │     └ 2450459910
+             │       │           └ '你崩坏三深渊掉级了'
+             │       └ 'kuangfen'
+             └ <function drawing at 0x7f95d21f8d08>
+
+  File "/root/pyopq/plugins/bot_image_custom.py", line 253, in drawing
+    ttfront = ImageFont.truetype(fontPath, fontSize)
+              │         │        │         └ 150
+              │         │        └ './resources/image-custom/font/simhei-emoji.ttf'
+              │         └ <function truetype at 0x7f95df4ab950>
+              └ <module 'PIL.ImageFont' from '/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py'>
+
+  File "/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py", line 655, in truetype
+    return freetype(font)
+           │        └ './resources/image-custom/font/simhei-emoji.ttf'
+           └ <function truetype.<locals>.freetype at 0x7f95d0161378>
+
+  File "/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py", line 652, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+           │            │     │     │      │         └ None
+           │            │     │     │      └ ''
+           │            │     │     └ 0
+           │            │     └ 150
+           │            └ './resources/image-custom/font/simhei-emoji.ttf'
+           └ <class 'PIL.ImageFont.FreeTypeFont'>
+
+  File "/usr/local/lib/python3.6/dist-packages/PIL/ImageFont.py", line 194, in __init__
+    font, size, index, encoding, layout_engine=layout_engine
+    │     │     │      │                       └ 0
+    │     │     │      └ ''
+    │     │     └ 0
+    │     └ 150
+    └ './resources/image-custom/font/simhei-emoji.ttf'
+
+OSError: cannot open resource

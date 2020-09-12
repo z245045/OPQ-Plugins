@@ -1,0 +1,114 @@
+2020/09/09 12:54:09.751 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136986 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1351638621 MsgSeq:136986 UserID:1689236904]
+2020/09/09 12:54:13.024 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136988 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:723560806 MsgSeq:136988 UserID:1689236904]
+2020/09/09 12:54:14.395 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136989 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3830771395 MsgSeq:136989 UserID:1689236904]
+2020/09/09 12:54:14.975 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136990 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:261777441 MsgSeq:136990 UserID:1689236904]
+2020/09/09 12:54:15.534 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136991 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3120553206 MsgSeq:136991 UserID:1689236904]
+2020/09/09 12:54:18.191 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136992 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2526767025 MsgSeq:136992 UserID:1689236904]
+2020/09/09 12:54:18.721 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136993 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3911249031 MsgSeq:136993 UserID:1689236904]
+2020/09/09 12:54:41.404 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 136998 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1706736976 MsgSeq:136998 UserID:1689236904]
+2020/09/09 12:54:42.871 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137001 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2723459075 MsgSeq:137001 UserID:1689236904]
+2020/09/09 12:54:45.531 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137002 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:814036883 MsgSeq:137002 UserID:1689236904]
+2020/09/09 13:02:38.320 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137014 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3729384688 MsgSeq:137014 UserID:1689236904]
+2020/09/09 13:02:46.053 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137017 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3716559300 MsgSeq:137017 UserID:1689236904]
+2020/09/09 13:03:04.506 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137019 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2519644028 MsgSeq:137019 UserID:1689236904]
+2020/09/09 13:03:09.217 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137021 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2788475882 MsgSeq:137021 UserID:1689236904]
+2020/09/09 13:03:09.915 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137023 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:4141499712 MsgSeq:137023 UserID:1689236904]
+2020/09/09 13:03:18.612 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137025 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:2604450673 MsgSeq:137025 UserID:1689236904]
+2020/09/09 13:03:19.912 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137027 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:456277199 MsgSeq:137027 UserID:1689236904]
+2020/09/09 13:03:31.134 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137030 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1238285619 MsgSeq:137030 UserID:1689236904]
+2020/09/09 13:03:34.441 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137033 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:1379813564 MsgSeq:137033 UserID:1689236904]
+2020/09/09 13:03:44.313 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137035 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3591721035 MsgSeq:137035 UserID:1689236904]
+2020/09/09 22:40:40.085 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137228 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:3133182716 MsgSeq:137228 UserID:1689236904]
+2020/09/09 23:33:18.618 [E]  QQLuaVmRun CallGlobal err <string>:196: attempt to call a non-function object
+stack traceback:
+	<string>:196: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveGroupMsg params [0] 1689236904  [1] &{928308961 大 洗 女 子 学 园 2741292486 da 天气之子 TextMsg 1599665598 531281 1927488547 <nil>} 
+2020/09/09 23:49:47.890 [E]  QQLuaVmRun CallGlobal err <string>:999: attempt to index a non-table object(nil) with key 'GroupID'
+stack traceback:
+	<string>:999: in function 'CheHui'
+	<string>:417: in main chunk
+	[G]: ? detail File mimoio.lua when  call ReceiveEvents params [0] 1689236904  [1] &{383770908 0 ON_EVENT_GROUP_REVOKE 137261 群成员撤回消息事件 <nil>}  [2] map[AdminUserID:1689236904 GroupID:383770908 MsgRandom:935726677 MsgSeq:137261 UserID:1689236904]

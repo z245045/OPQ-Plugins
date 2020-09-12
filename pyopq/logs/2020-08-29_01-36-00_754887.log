@@ -1,0 +1,625 @@
+2020-08-29 01:36 INFO	Connecting to the server...
+2020-08-29 01:36 SUCCESS	Connected to server successfully!
+2020-08-29 01:36 INFO	Heartbeat -> 845324058
+2020-08-29 01:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '。', 'MsgType': 'TextMsg', 'MsgTime': 1598636165, 'MsgSeq': 133364, 'MsgRandom': 1542463160, 'RedBaginfo': None}
+2020-08-29 01:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '。', 'MsgType': 'TextMsg', 'MsgTime': 1598636212, 'MsgSeq': 133365, 'MsgRandom': 3334842301, 'RedBaginfo': None}
+2020-08-29 01:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598636215, 'MsgSeq': 133366, 'MsgRandom': 2767014320, 'RedBaginfo': None}
+2020-08-29 01:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n本群所有撤回的消息，第1页（10条/页）:\\n[呃，没有更多记录了]","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598636215, 'MsgSeq': 133367, 'MsgRandom': 1598636215, 'RedBaginfo': None}
+2020-08-29 01:37 INFO	Heartbeat -> 845324058
+2020-08-29 01:37 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '帝豪高級娛樂會所.jpg', 'MsgType': 'TextMsg', 'MsgTime': 1598636246, 'MsgSeq': 133368, 'MsgRandom': 476131353, 'RedBaginfo': None}
+2020-08-29 01:37 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"GroupPic":[{"FileId":2217956173,"FileMd5":"I2HwfkG7bgmlINalBtluKw==","FileSize":85534,"ForwordBuf":"Eip7MjM2MUYwN0UtNDFCQi02RTA5LUE1MjAtRDZBNTA2RDk2RTJCfS5qcGc4zabNoQhgAWoQI2HwfkG7bgmlINalBtluK3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMjE3OTU2MTczLTIzNjFGMDdFNDFCQjZFMDlBNTIwRDZBNTA2RDk2RTJCLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjIxNzk1NjE3My0yMzYxRjA3RTQxQkI2RTA5QTUyMEQ2QTUwNkQ5NkUyQi8wP3Rlcm09MjU1sAG4A7gB1QLIAZ6cBdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMjE3OTU2MTczLTIzNjFGMDdFNDFCQjZFMDlBNTIwRDZBNTA2RDk2RTJCLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-2361F07E41BB6E09A520D6A506D96E2B/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598636247, 'MsgSeq': 133369, 'MsgRandom': 893538808, 'RedBaginfo': None}
+2020-08-29 01:38 INFO	Heartbeat -> 845324058
+2020-08-29 01:39 INFO	Heartbeat -> 845324058
+2020-08-29 01:40 INFO	Heartbeat -> 845324058
+2020-08-29 01:40 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1296176321, 'FromNickName': '冰箱', 'Content': '完蛋', 'MsgType': 'TextMsg', 'MsgTime': 1598636434, 'MsgSeq': 525902, 'MsgRandom': 442683506, 'RedBaginfo': None}
+2020-08-29 01:40 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1296176321, 'FromNickName': '冰箱', 'Content': '睡不着了', 'MsgType': 'TextMsg', 'MsgTime': 1598636439, 'MsgSeq': 525903, 'MsgRandom': 1595700793, 'RedBaginfo': None}
+2020-08-29 01:40 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1293330856, 'FromNickName': '安', 'Content': '{"GroupPic":[{"FileId":2522693439,"FileMd5":"oMtx0qvBd3/XPLHXepJZpQ==","FileSize":87637,"ForwordBuf":"EiRBMENCNzFEMkFCQzE3NzdGRDczQ0IxRDc3QTkyNTlBNS5qcGcyVhU2IDg2ZUExQjk2NWQzZjNmNmZhMTQwNzkgICAgICA1MEhIenZLd0UzcnR2SEczRlJBMENCNzFEMkFCQzE3NzdGRDczQ0IxRDc3QTkyNTlBNS5qcGdBOL/+9LIJQPmAhf0GSFBQQloQSEh6dkt3RTNydHZIRzNGUmABahCgy3HSq8F3f9c8sdd6klmlclsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTI1MjI2OTM0MzktQTBDQjcxRDJBQkMxNzc3RkQ3M0NCMUQ3N0E5MjU5QTUvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xMjkzMzMwODU2LzkyODMwODk2MS0yNTIyNjkzNDM5LUEwQ0I3MUQyQUJDMTc3N0ZENzNDQjFENzdBOTI1OUE1LzA/dGVybT0yNTWgAesHsAGrBrgBuAjAAcgByAHVrAXQAQDYAZQB4AHGAegBisIB8AH7ywP6AVsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTI1MjI2OTM0MzktQTBDQjcxRDJBQkMxNzc3RkQ3M0NCMUQ3N0E5MjU5QTUvNDAwP3Rlcm09MjU1gAKgAogCgAOSAgJ4Ag==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1293330856/928308961-2534335053-A0CB71D2ABC1777FD73CB1D77A9259A5/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598636449, 'MsgSeq': 525904, 'MsgRandom': 2147066392, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	Heartbeat -> 845324058
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '晚安', 'MsgType': 'TextMsg', 'MsgTime': 1598636470, 'MsgSeq': 133370, 'MsgRandom': 1705036774, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n晚安凤飞翱翔兮丷~今天是第3个睡觉的哟~\\n今天工作学习了 6 小时 20 分钟 18 秒。今天过得开心吗？","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598636470, 'MsgSeq': 133371, 'MsgRandom': 1598636470, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Tips":"[语音]","Url":"http://grouptalk.c2c.qq.com/?ver=0\\u0026rkey=3062020101045b3059020101020101020432629f1a0424396f67674750396c54397a6f764731765a5158566c4e48506c6f6547536935546932344402045f4941b9041f0000000866696c6574797065000000013100000005636f64656300000001310400\\u0026filetype=1\\u0026voice_codec=1"}', 'MsgType': 'VoiceMsg', 'MsgTime': 1598636473, 'MsgSeq': 133372, 'MsgRandom': 1775109473, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 979636231, 'FromNickName': '祢', 'Content': '{"GroupPic":[{"FileId":2932352009,"FileMd5":"I9Xj+7Ihu55nDt7RmJ+KZg==","FileSize":35156,"ForwordBuf":"Eip7MjNENUUzRkItQjIyMS1CQjlFLTY3MEUtREVEMTk4OUY4QTY2fS5wbmciACoEDwAAADJgFTYgOTZrRTFBYWVjODI0MDliODhiMzM3OSAgICAgIDUwICAgICAgICAgICAgICAgIHsyM0Q1RTNGQi1CMjIxLUJCOUUtNjcwRS1ERUQxOTg5RjhBNjZ9LnBuZzEyMTJBOInIoPYKQPnmrMQLSFBQQVoAYAFqECPV4/uyIbueZw7e0ZifimZyWi9nY2hhdHBpY19uZXcvOTc5NjM2MjMxLzkyODMwODk2MS0yOTMyMzUyMDA5LTIzRDVFM0ZCQjIyMUJCOUU2NzBFREVEMTk4OUY4QTY2LzE5OD90ZXJtPTI1NYIBWC9nY2hhdHBpY19uZXcvOTc5NjM2MjMxLzkyODMwODk2MS0yOTMyMzUyMDA5LTIzRDVFM0ZCQjIyMUJCOUU2NzBFREVEMTk4OUY4QTY2LzA/dGVybT0yNTWgAekHsAG5AbgBb8gB1JIC2AG5AeABb/oBWi9nY2hhdHBpY19uZXcvOTc5NjM2MjMxLzkyODMwODk2MS0yOTMyMzUyMDA5LTIzRDVFM0ZCQjIyMUJCOUU2NzBFREVEMTk4OUY4QTY2LzQwMD90ZXJtPTI1NYACuQGIAm8=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/979636231/928308961-2534335053-23D5E3FBB221BB9E670EDED1989F8A66/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598636491, 'MsgSeq': 525905, 'MsgRandom': 1192128680, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 979636231, 'FromNickName': '祢', 'Content': '该打蹦蹦蹦了', 'MsgType': 'TextMsg', 'MsgTime': 1598636496, 'MsgSeq': 525906, 'MsgRandom': 1092004800, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '晚安', 'MsgType': 'TextMsg', 'MsgTime': 1598636517, 'MsgSeq': 122835, 'MsgRandom': 1302588096, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n已经晚安过啦！快去睡觉！","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598636518, 'MsgSeq': 122836, 'MsgRandom': 1598636518, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Tips":"[语音]","Url":"http://grouptalk.c2c.qq.com/?ver=0\\u0026rkey=3062020101045b3059020101020101020432629f1a0424396f67675750396c54397a6f764731765a5158566c4e48506c6f6547536935546932344402045f4941e6041f0000000866696c6574797065000000013100000005636f64656300000001310400\\u0026filetype=1\\u0026voice_codec=1"}', 'MsgType': 'VoiceMsg', 'MsgTime': 1598636518, 'MsgSeq': 122837, 'MsgRandom': 1143300296, 'RedBaginfo': None}
+2020-08-29 01:41 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Tips":"[语音]","Url":"http://grouptalk.c2c.qq.com/?ver=0\\u0026rkey=3062020101045b3059020101020101020432629f1a0424396f67675750396c54397a6f764731765a5158566c4e48506c6f6547536935546932344402045f4941e7041f0000000866696c6574797065000000013100000005636f64656300000001310400\\u0026filetype=1\\u0026voice_codec=1"}', 'MsgType': 'VoiceMsg', 'MsgTime': 1598636519, 'MsgSeq': 122838, 'MsgRandom': 736813470, 'RedBaginfo': None}
+2020-08-29 01:42 INFO	Heartbeat -> 845324058
+2020-08-29 01:43 INFO	Heartbeat -> 845324058
+2020-08-29 01:44 INFO	Heartbeat -> 845324058
+2020-08-29 01:44 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '。。。回学校收拾寝室就搞了一整天', 'MsgType': 'TextMsg', 'MsgTime': 1598636658, 'MsgSeq': 122839, 'MsgRandom': 2103743229, 'RedBaginfo': None}
+2020-08-29 01:44 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '终于把机器人登上去了捂脸', 'MsgType': 'TextMsg', 'MsgTime': 1598636672, 'MsgSeq': 122840, 'MsgRandom': 1373744710, 'RedBaginfo': None}
+2020-08-29 01:45 INFO	Heartbeat -> 845324058
+2020-08-29 01:46 INFO	Heartbeat -> 845324058
+2020-08-29 01:47 INFO	Heartbeat -> 845324058
+2020-08-29 01:48 INFO	Heartbeat -> 845324058
+2020-08-29 01:49 INFO	Heartbeat -> 845324058
+2020-08-29 01:49 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '涩图啊', 'MsgType': 'TextMsg', 'MsgTime': 1598636942, 'MsgSeq': 133373, 'MsgRandom': 1927620474, 'RedBaginfo': None}
+2020-08-29 01:49 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2316216772,"FileMd5":"1fIOpzidwWWqdYzVt+ECew==","FileSize":92891,"ForwordBuf":"Eip7RDVGMjBFQTctMzg5RC1DMTY1LUFBNzUtOENENUI3RTEwMjdCfS5qcGc4xNO60AhgAWoQ1fIOpzidwWWqdYzVt+ECe3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMzE2MjE2NzcyLUQ1RjIwRUE3Mzg5REMxNjVBQTc1OENENUI3RTEwMjdCLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjMxNjIxNjc3Mi1ENUYyMEVBNzM4OURDMTY1QUE3NThDRDVCN0UxMDI3Qi8wP3Rlcm09MjU1sAG4A7gB1QLIAdvVBdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMzE2MjE2NzcyLUQ1RjIwRUE3Mzg5REMxNjVBQTc1OENENUI3RTEwMjdCLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-D5F20EA7389DC165AA758CD5B7E1027B/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598636945, 'MsgSeq': 133374, 'MsgRandom': 3242394158, 'RedBaginfo': None}
+2020-08-29 01:49 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":3094335787,"FileMd5":"wGsG685y70TspQRkO2lZGA==","FileSize":59666,"ForwordBuf":"Eip7QzA2QjA2RUItQ0U3Mi1FRjQ0LUVDQTUtMDQ2NDNCNjk1OTE4fS5qcGc4q6K/wwtgAWoQwGsG685y70TspQRkO2lZGHJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0zMDk0MzM1Nzg3LUMwNkIwNkVCQ0U3MkVGNDRFQ0E1MDQ2NDNCNjk1OTE4LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMzA5NDMzNTc4Ny1DMDZCMDZFQkNFNzJFRjQ0RUNBNTA0NjQzQjY5NTkxOC8wP3Rlcm09MjU1sAG4A7gB1QLIAZLSA9gBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0zMDk0MzM1Nzg3LUMwNkIwNkVCQ0U3MkVGNDRFQ0E1MDQ2NDNCNjk1OTE4LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-C06B06EBCE72EF44ECA504643B695918/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598636948, 'MsgSeq': 133375, 'MsgRandom': 1349747134, 'RedBaginfo': None}
+2020-08-29 01:49 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 3242394158, 'MsgSeq': 133374, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133374, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 01:49 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 1349747134, 'MsgSeq': 133375, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133375, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 01:50 INFO	Heartbeat -> 845324058
+2020-08-29 01:50 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '炼铜', 'MsgType': 'TextMsg', 'MsgTime': 1598637017, 'MsgSeq': 133376, 'MsgRandom': 1365006547, 'RedBaginfo': None}
+2020-08-29 01:50 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '服务器截图', 'MsgType': 'TextMsg', 'MsgTime': 1598637032, 'MsgSeq': 133377, 'MsgRandom': 300815265, 'RedBaginfo': None}
+2020-08-29 01:50 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"✅当前正在运行Running😄\\r","GroupPic":[{"FileId":2424988074,"FileMd5":"dm0vyOSDPwTpNd9zEOrJfA==","FileSize":267212,"ForwordBuf":"Eip7NzY2RDJGQzgtRTQ4My0zRjA0LUU5MzUtREY3MzEwRUFDOTdDfS5qcGc4qsOphAlgAWoQdm0vyOSDPwTpNd9zEOrJfHJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNDI0OTg4MDc0LTc2NkQyRkM4RTQ4MzNGMDRFOTM1REY3MzEwRUFDOTdDLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjQyNDk4ODA3NC03NjZEMkZDOEU0ODMzRjA0RTkzNURGNzMxMEVBQzk3Qy8wP3Rlcm09MjU1sAG4A7gB1QLIAcynENgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNDI0OTg4MDc0LTc2NkQyRkM4RTQ4MzNGMDRFOTM1REY3MzEwRUFDOTdDLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-766D2FC8E4833F04E935DF7310EAC97C/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598637036, 'MsgSeq': 133378, 'MsgRandom': 3265458556, 'RedBaginfo': None}
+2020-08-29 01:51 INFO	Heartbeat -> 845324058
+2020-08-29 01:52 INFO	Heartbeat -> 845324058
+2020-08-29 01:53 INFO	Heartbeat -> 845324058
+2020-08-29 01:54 INFO	Heartbeat -> 845324058
+2020-08-29 01:55 INFO	Heartbeat -> 845324058
+2020-08-29 01:56 INFO	Heartbeat -> 845324058
+2020-08-29 01:57 INFO	Heartbeat -> 845324058
+2020-08-29 01:58 INFO	Heartbeat -> 845324058
+2020-08-29 01:58 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1293330856, 'FromNickName': '安', 'Content': '{"GroupPic":[{"FileId":2614121879,"FileMd5":"ypDsFsK2T761vrmYDwnvmw==","FileSize":2635,"ForwordBuf":"EiRDQTkwRUMxNkMyQjY0RkJFQjVCRUI5OTgwRjA5RUY5Qi5qcGcyVhU2IDg2ZUExQjliZDA1NTk3N2I5NzQ3OTggICAgICA1MEhIenZLd0UzcnR2SEczRlJDQTkwRUMxNkMyQjY0RkJFQjVCRUI5OTgwRjA5RUY5Qi5qcGdBOJerwd4JQJiP3dwHSFBQQloQSEh6dkt3RTNydHZIRzNGUmABahDKkOwWwrZPvrW+uZgPCe+bclsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTI2MTQxMjE4NzktQ0E5MEVDMTZDMkI2NEZCRUI1QkVCOTk4MEYwOUVGOUIvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xMjkzMzMwODU2LzkyODMwODk2MS0yNjE0MTIxODc5LUNBOTBFQzE2QzJCNjRGQkVCNUJFQjk5ODBGMDlFRjlCLzA/dGVybT0yNTWgAegHsAGAAbgBgAHAAWfIAcsU0AEA2AGAAeABgAHoAQDwAQD6AVsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTI2MTQxMjE4NzktQ0E5MEVDMTZDMkI2NEZCRUI1QkVCOTk4MEYwOUVGOUIvNDAwP3Rlcm09MjU1gAKAAYgCgAGSAhoIARAAMgBKDlvliqjnlLvooajmg4VdUAB4BQ==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1293330856/928308961-2534335053-CA90EC16C2B64FBEB5BEB9980F09EF9B/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598637535, 'MsgSeq': 525907, 'MsgRandom': 1137905742, 'RedBaginfo': None}
+2020-08-29 01:59 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1293330856, 'FromNickName': '安', 'Content': '爬啦 不打', 'MsgType': 'TextMsg', 'MsgTime': 1598637540, 'MsgSeq': 525908, 'MsgRandom': 493908605, 'RedBaginfo': None}
+2020-08-29 01:59 INFO	Heartbeat -> 845324058
+2020-08-29 01:59 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 979636231, 'FromNickName': '祢', 'Content': '{"Content":"清完日常了","GroupPic":[{"FileId":2778696367,"FileMd5":"Pw1KOXoPxAbvOMg8/HtpNg==","FileSize":2747,"ForwordBuf":"Eip7M0YwRDRBMzktN0EwRi1DNDA2LUVGMzgtQzgzQ0ZDN0I2OTM2fS5qcGciACoEDwAAADJgFTYgOTZrRTFBYTU5ZjhhYWYzODg4ZmEzYSAgICAgIDUwICAgICAgICAgICAgICAgIHszRjBENEEzOS03QTBGLUM0MDYtRUYzOC1DODNDRkM3QjY5MzZ9LmpwZzEyMTJBOK+V/qwKQLr0o8QDSFBQQVoAYAFqED8NSjl6D8QG7zjIPPx7aTZyWi9nY2hhdHBpY19uZXcvOTc5NjM2MjMxLzkyODMwODk2MS0yNzc4Njk2MzY3LTNGMEQ0QTM5N0EwRkM0MDZFRjM4QzgzQ0ZDN0I2OTM2LzE5OD90ZXJtPTI1NYIBWC9nY2hhdHBpY19uZXcvOTc5NjM2MjMxLzkyODMwODk2MS0yNzc4Njk2MzY3LTNGMEQ0QTM5N0EwRkM0MDZFRjM4QzgzQ0ZDN0I2OTM2LzA/dGVybT0yNTWgAegHsAFJuAFIyAG7FdgBSeABSPoBWi9nY2hhdHBpY19uZXcvOTc5NjM2MjMxLzkyODMwODk2MS0yNzc4Njk2MzY3LTNGMEQ0QTM5N0EwRkM0MDZFRjM4QzgzQ0ZDN0I2OTM2LzQwMD90ZXJtPTI1NYACSYgCSA==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/979636231/928308961-2534335053-3F0D4A397A0FC406EF38C83CFC7B6936/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598637596, 'MsgSeq': 525909, 'MsgRandom': 2134868895, 'RedBaginfo': None}
+2020-08-29 02:00 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 979636231, 'FromNickName': '祢', 'Content': '该歇了', 'MsgType': 'TextMsg', 'MsgTime': 1598637601, 'MsgSeq': 525910, 'MsgRandom': 1509746326, 'RedBaginfo': None}
+2020-08-29 02:00 INFO	Heartbeat -> 845324058
+2020-08-29 02:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598637604, 'MsgSeq': 122841, 'MsgRandom': 646121495, 'RedBaginfo': None}
+2020-08-29 02:01 INFO	Heartbeat -> 845324058
+2020-08-29 02:02 INFO	Heartbeat -> 845324058
+2020-08-29 02:03 INFO	Heartbeat -> 845324058
+2020-08-29 02:03 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1293330856, 'FromNickName': '安', 'Content': '{"GroupPic":[{"FileId":3027642233,"FileMd5":"oMtx0qvBd3/XPLHXepJZpQ==","FileSize":87637,"ForwordBuf":"EiRBMENCNzFEMkFCQzE3NzdGRDczQ0IxRDc3QTkyNTlBNS5qcGcyVhU2IDg2ZUExQmI0NzYyNzc5NmZhMTQwNzkgICAgICA1MEhIenZLd0UzcnR2SEczRlJBMENCNzFEMkFCQzE3NzdGRDczQ0IxRDc3QTkyNTlBNS5qcGdBOPnO2KMLQPmAhf0GSFBQQloQSEh6dkt3RTNydHZIRzNGUmABahCgy3HSq8F3f9c8sdd6klmlclsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTMwMjc2NDIyMzMtQTBDQjcxRDJBQkMxNzc3RkQ3M0NCMUQ3N0E5MjU5QTUvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xMjkzMzMwODU2LzkyODMwODk2MS0zMDI3NjQyMjMzLUEwQ0I3MUQyQUJDMTc3N0ZENzNDQjFENzdBOTI1OUE1LzA/dGVybT0yNTWgAesHsAGrBrgBuAjAAcgByAHVrAXQAQDYAZQB4AHGAegBisIB8AH7ywP6AVsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTMwMjc2NDIyMzMtQTBDQjcxRDJBQkMxNzc3RkQ3M0NCMUQ3N0E5MjU5QTUvNDAwP3Rlcm09MjU1gAKgAogCgAOSAgJ4Ag==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1293330856/928308961-2534335053-A0CB71D2ABC1777FD73CB1D77A9259A5/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598637810, 'MsgSeq': 525911, 'MsgRandom': 1990846121, 'RedBaginfo': None}
+2020-08-29 02:04 INFO	Heartbeat -> 845324058
+2020-08-29 02:05 INFO	Heartbeat -> 845324058
+2020-08-29 02:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598637904, 'MsgSeq': 122842, 'MsgRandom': 3544991317, 'RedBaginfo': None}
+2020-08-29 02:06 INFO	Heartbeat -> 845324058
+2020-08-29 02:07 INFO	Heartbeat -> 845324058
+2020-08-29 02:08 INFO	Heartbeat -> 845324058
+2020-08-29 02:09 INFO	Heartbeat -> 845324058
+2020-08-29 02:10 INFO	Heartbeat -> 845324058
+2020-08-29 02:11 INFO	Heartbeat -> 845324058
+2020-08-29 02:12 INFO	Heartbeat -> 845324058
+2020-08-29 02:13 INFO	Heartbeat -> 845324058
+2020-08-29 02:14 INFO	Heartbeat -> 845324058
+2020-08-29 02:15 INFO	Heartbeat -> 845324058
+2020-08-29 02:16 INFO	Heartbeat -> 845324058
+2020-08-29 02:17 INFO	Heartbeat -> 845324058
+2020-08-29 02:18 INFO	Heartbeat -> 845324058
+2020-08-29 02:19 INFO	Heartbeat -> 845324058
+2020-08-29 02:20 INFO	Heartbeat -> 845324058
+2020-08-29 02:20 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1293330856, 'FromNickName': '安', 'Content': '{"GroupPic":[{"FileId":3141480666,"FileMd5":"+jH1Wd+3rKfrlq4lGt3SmQ==","FileSize":55994,"ForwordBuf":"EiRGQTMxRjU1OURGQjdBQ0E3RUI5NkFFMjUxQURERDI5OS5qcGcyVhU2IDg2ZUExQmJiM2YzMGRhNmYwZDIyYjcgICAgICA1MEhIenZLd0UzcnR2SEczRlJGQTMxRjU1OURGQjdBQ0E3RUI5NkFFMjUxQURERDI5OS5qcGdBONrh/NkLQLfFtPgGSFBQQloQSEh6dkt3RTNydHZIRzNGUmABahD6MfVZ37esp+uWriUa3dKZclsvZ2NoYXRwaWNfbmV3LzEyOTMzMzA4NTYvOTI4MzA4OTYxLTMxNDE0ODA2NjYtRkEzMUY1NTlERkI3QUNBN0VCOTZBRTI1MUFEREQyOTkvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xMjkzMzMwODU2LzkyODMwODk2MS0zMTQxNDgwNjY2LUZBMzFGNTU5REZCN0FDQTdFQjk2QUUyNTFBREREMjk5LzA/dGVybT0yNTWgAegHsAHzBLgB+APAAcgByAG6tQPQAQDYAcYB4AGfAegBAPABAPoBWy9nY2hhdHBpY19uZXcvMTI5MzMzMDg1Ni85MjgzMDg5NjEtMzE0MTQ4MDY2Ni1GQTMxRjU1OURGQjdBQ0E3RUI5NkFFMjUxQURERDI5OS80MDA/dGVybT0yNTWAAoADiAK0ApICAngC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1293330856/928308961-2534335053-FA31F559DFB7ACA7EB96AE251ADDD299/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598638820, 'MsgSeq': 525912, 'MsgRandom': 1634289656, 'RedBaginfo': None}
+2020-08-29 02:21 INFO	Heartbeat -> 845324058
+2020-08-29 02:22 INFO	Heartbeat -> 845324058
+2020-08-29 02:23 INFO	Heartbeat -> 845324058
+2020-08-29 02:24 INFO	Heartbeat -> 845324058
+2020-08-29 02:25 INFO	Heartbeat -> 845324058
+2020-08-29 02:26 INFO	Heartbeat -> 845324058
+2020-08-29 02:27 INFO	Heartbeat -> 845324058
+2020-08-29 02:28 INFO	Heartbeat -> 845324058
+2020-08-29 02:29 INFO	Heartbeat -> 845324058
+2020-08-29 02:30 INFO	Heartbeat -> 845324058
+2020-08-29 02:31 INFO	Heartbeat -> 845324058
+2020-08-29 02:32 INFO	Heartbeat -> 845324058
+2020-08-29 02:33 INFO	Heartbeat -> 845324058
+2020-08-29 02:34 INFO	Heartbeat -> 845324058
+2020-08-29 02:35 INFO	Heartbeat -> 845324058
+2020-08-29 02:35 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 1296176321, 'FromNickName': '冰箱', 'Content': '失眠了', 'MsgType': 'TextMsg', 'MsgTime': 1598639721, 'MsgSeq': 525913, 'MsgRandom': 1202616351, 'RedBaginfo': None}
+2020-08-29 02:36 INFO	Heartbeat -> 845324058
+2020-08-29 02:37 INFO	Heartbeat -> 845324058
+2020-08-29 02:38 INFO	Heartbeat -> 845324058
+2020-08-29 02:39 INFO	Heartbeat -> 845324058
+2020-08-29 02:40 INFO	Heartbeat -> 845324058
+2020-08-29 02:41 INFO	Heartbeat -> 845324058
+2020-08-29 02:42 INFO	Heartbeat -> 845324058
+2020-08-29 02:43 INFO	Heartbeat -> 845324058
+2020-08-29 02:44 INFO	Heartbeat -> 845324058
+2020-08-29 02:45 INFO	Heartbeat -> 845324058
+2020-08-29 02:46 INFO	Heartbeat -> 845324058
+2020-08-29 02:47 INFO	Heartbeat -> 845324058
+2020-08-29 02:48 INFO	Heartbeat -> 845324058
+2020-08-29 02:49 INFO	Heartbeat -> 845324058
+2020-08-29 02:50 INFO	Heartbeat -> 845324058
+2020-08-29 02:51 INFO	Heartbeat -> 845324058
+2020-08-29 02:52 INFO	Heartbeat -> 845324058
+2020-08-29 02:53 INFO	Heartbeat -> 845324058
+2020-08-29 02:54 INFO	Heartbeat -> 845324058
+2020-08-29 02:55 INFO	Heartbeat -> 845324058
+2020-08-29 02:56 INFO	Heartbeat -> 845324058
+2020-08-29 02:57 INFO	Heartbeat -> 845324058
+2020-08-29 02:58 INFO	Heartbeat -> 845324058
+2020-08-29 02:59 INFO	Heartbeat -> 845324058
+2020-08-29 03:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598641204, 'MsgSeq': 122843, 'MsgRandom': 2509768796, 'RedBaginfo': None}
+2020-08-29 03:00 INFO	Heartbeat -> 845324058
+2020-08-29 03:01 INFO	Heartbeat -> 845324058
+2020-08-29 03:02 INFO	Heartbeat -> 845324058
+2020-08-29 03:03 INFO	Heartbeat -> 845324058
+2020-08-29 03:04 INFO	Heartbeat -> 845324058
+2020-08-29 03:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598641504, 'MsgSeq': 122844, 'MsgRandom': 2289863440, 'RedBaginfo': None}
+2020-08-29 03:05 INFO	Heartbeat -> 845324058
+2020-08-29 03:06 INFO	Heartbeat -> 845324058
+2020-08-29 03:07 INFO	Heartbeat -> 845324058
+2020-08-29 03:08 INFO	Heartbeat -> 845324058
+2020-08-29 03:09 INFO	Heartbeat -> 845324058
+2020-08-29 03:10 INFO	Heartbeat -> 845324058
+2020-08-29 03:11 INFO	Heartbeat -> 845324058
+2020-08-29 03:12 INFO	Heartbeat -> 845324058
+2020-08-29 03:13 INFO	Heartbeat -> 845324058
+2020-08-29 03:14 INFO	Heartbeat -> 845324058
+2020-08-29 03:15 INFO	Heartbeat -> 845324058
+2020-08-29 03:16 INFO	Heartbeat -> 845324058
+2020-08-29 03:17 INFO	Heartbeat -> 845324058
+2020-08-29 03:18 INFO	Heartbeat -> 845324058
+2020-08-29 03:19 INFO	Heartbeat -> 845324058
+2020-08-29 03:20 INFO	Heartbeat -> 845324058
+2020-08-29 03:21 INFO	Heartbeat -> 845324058
+2020-08-29 03:22 INFO	Heartbeat -> 845324058
+2020-08-29 03:23 INFO	Heartbeat -> 845324058
+2020-08-29 03:24 INFO	Heartbeat -> 845324058
+2020-08-29 03:25 INFO	Heartbeat -> 845324058
+2020-08-29 03:26 INFO	Heartbeat -> 845324058
+2020-08-29 03:27 INFO	Heartbeat -> 845324058
+2020-08-29 03:28 INFO	Heartbeat -> 845324058
+2020-08-29 03:29 INFO	Heartbeat -> 845324058
+2020-08-29 03:30 INFO	Heartbeat -> 845324058
+2020-08-29 03:31 INFO	Heartbeat -> 845324058
+2020-08-29 03:32 INFO	Heartbeat -> 845324058
+2020-08-29 03:33 INFO	Heartbeat -> 845324058
+2020-08-29 03:34 INFO	Heartbeat -> 845324058
+2020-08-29 03:35 INFO	Heartbeat -> 845324058
+2020-08-29 03:36 INFO	Heartbeat -> 845324058
+2020-08-29 03:37 INFO	Heartbeat -> 845324058
+2020-08-29 03:38 INFO	Heartbeat -> 845324058
+2020-08-29 03:39 INFO	Heartbeat -> 845324058
+2020-08-29 03:40 INFO	Heartbeat -> 845324058
+2020-08-29 03:41 INFO	Heartbeat -> 845324058
+2020-08-29 03:42 INFO	Heartbeat -> 845324058
+2020-08-29 03:43 INFO	Heartbeat -> 845324058
+2020-08-29 03:44 INFO	Heartbeat -> 845324058
+2020-08-29 03:45 INFO	Heartbeat -> 845324058
+2020-08-29 03:46 INFO	Heartbeat -> 845324058
+2020-08-29 03:47 INFO	Heartbeat -> 845324058
+2020-08-29 03:48 INFO	Heartbeat -> 845324058
+2020-08-29 03:49 INFO	Heartbeat -> 845324058
+2020-08-29 03:50 INFO	Heartbeat -> 845324058
+2020-08-29 03:51 INFO	Heartbeat -> 845324058
+2020-08-29 03:52 INFO	Heartbeat -> 845324058
+2020-08-29 03:53 INFO	Heartbeat -> 845324058
+2020-08-29 03:54 INFO	Heartbeat -> 845324058
+2020-08-29 03:55 INFO	Heartbeat -> 845324058
+2020-08-29 03:56 INFO	Heartbeat -> 845324058
+2020-08-29 03:57 INFO	Heartbeat -> 845324058
+2020-08-29 03:58 INFO	Heartbeat -> 845324058
+2020-08-29 03:59 INFO	Heartbeat -> 845324058
+2020-08-29 04:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598644804, 'MsgSeq': 122845, 'MsgRandom': 794610650, 'RedBaginfo': None}
+2020-08-29 04:00 INFO	Heartbeat -> 845324058
+2020-08-29 04:01 INFO	Heartbeat -> 845324058
+2020-08-29 04:02 INFO	Heartbeat -> 845324058
+2020-08-29 04:03 INFO	Heartbeat -> 845324058
+2020-08-29 04:04 INFO	Heartbeat -> 845324058
+2020-08-29 04:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598645104, 'MsgSeq': 122846, 'MsgRandom': 3755157676, 'RedBaginfo': None}
+2020-08-29 04:05 INFO	Heartbeat -> 845324058
+2020-08-29 04:06 INFO	Heartbeat -> 845324058
+2020-08-29 04:07 INFO	Heartbeat -> 845324058
+2020-08-29 04:08 INFO	Heartbeat -> 845324058
+2020-08-29 04:09 INFO	Heartbeat -> 845324058
+2020-08-29 04:10 INFO	Heartbeat -> 845324058
+2020-08-29 04:11 INFO	Heartbeat -> 845324058
+2020-08-29 04:12 INFO	Heartbeat -> 845324058
+2020-08-29 04:13 INFO	Heartbeat -> 845324058
+2020-08-29 04:14 INFO	Heartbeat -> 845324058
+2020-08-29 04:15 INFO	Heartbeat -> 845324058
+2020-08-29 04:16 INFO	Heartbeat -> 845324058
+2020-08-29 04:17 INFO	Heartbeat -> 845324058
+2020-08-29 04:18 INFO	Heartbeat -> 845324058
+2020-08-29 04:19 INFO	Heartbeat -> 845324058
+2020-08-29 04:20 INFO	Heartbeat -> 845324058
+2020-08-29 04:21 INFO	Heartbeat -> 845324058
+2020-08-29 04:22 INFO	Heartbeat -> 845324058
+2020-08-29 04:23 INFO	Heartbeat -> 845324058
+2020-08-29 04:24 INFO	Heartbeat -> 845324058
+2020-08-29 04:25 INFO	Heartbeat -> 845324058
+2020-08-29 04:26 INFO	Heartbeat -> 845324058
+2020-08-29 04:27 INFO	Heartbeat -> 845324058
+2020-08-29 04:28 INFO	Heartbeat -> 845324058
+2020-08-29 04:29 INFO	Heartbeat -> 845324058
+2020-08-29 04:30 INFO	Heartbeat -> 845324058
+2020-08-29 04:31 INFO	Heartbeat -> 845324058
+2020-08-29 04:32 INFO	Heartbeat -> 845324058
+2020-08-29 04:33 INFO	Heartbeat -> 845324058
+2020-08-29 04:34 INFO	Heartbeat -> 845324058
+2020-08-29 04:35 INFO	Heartbeat -> 845324058
+2020-08-29 04:36 INFO	Heartbeat -> 845324058
+2020-08-29 04:37 INFO	Heartbeat -> 845324058
+2020-08-29 04:38 INFO	Heartbeat -> 845324058
+2020-08-29 04:39 INFO	Heartbeat -> 845324058
+2020-08-29 04:40 INFO	Heartbeat -> 845324058
+2020-08-29 04:41 INFO	Heartbeat -> 845324058
+2020-08-29 04:42 INFO	Heartbeat -> 845324058
+2020-08-29 04:43 INFO	Heartbeat -> 845324058
+2020-08-29 04:44 INFO	Heartbeat -> 845324058
+2020-08-29 04:45 INFO	Heartbeat -> 845324058
+2020-08-29 04:46 INFO	Heartbeat -> 845324058
+2020-08-29 04:47 INFO	Heartbeat -> 845324058
+2020-08-29 04:48 INFO	Heartbeat -> 845324058
+2020-08-29 04:49 INFO	Heartbeat -> 845324058
+2020-08-29 04:50 INFO	Heartbeat -> 845324058
+2020-08-29 04:51 INFO	Heartbeat -> 845324058
+2020-08-29 04:52 INFO	Heartbeat -> 845324058
+2020-08-29 04:53 INFO	Heartbeat -> 845324058
+2020-08-29 04:54 INFO	Heartbeat -> 845324058
+2020-08-29 04:55 INFO	Heartbeat -> 845324058
+2020-08-29 04:56 INFO	Heartbeat -> 845324058
+2020-08-29 04:57 INFO	Heartbeat -> 845324058
+2020-08-29 04:58 INFO	Heartbeat -> 845324058
+2020-08-29 04:59 INFO	Heartbeat -> 845324058
+2020-08-29 05:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598648404, 'MsgSeq': 122847, 'MsgRandom': 847902728, 'RedBaginfo': None}
+2020-08-29 05:00 INFO	Heartbeat -> 845324058
+2020-08-29 05:01 INFO	Heartbeat -> 845324058
+2020-08-29 05:02 INFO	Heartbeat -> 845324058
+2020-08-29 05:03 INFO	Heartbeat -> 845324058
+2020-08-29 05:04 INFO	Heartbeat -> 845324058
+2020-08-29 05:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598648704, 'MsgSeq': 122848, 'MsgRandom': 2564878127, 'RedBaginfo': None}
+2020-08-29 05:05 INFO	Heartbeat -> 845324058
+2020-08-29 05:06 INFO	Heartbeat -> 845324058
+2020-08-29 05:07 INFO	Heartbeat -> 845324058
+2020-08-29 05:08 INFO	Heartbeat -> 845324058
+2020-08-29 05:09 INFO	Heartbeat -> 845324058
+2020-08-29 05:10 INFO	Heartbeat -> 845324058
+2020-08-29 05:11 INFO	Heartbeat -> 845324058
+2020-08-29 05:12 INFO	Heartbeat -> 845324058
+2020-08-29 05:13 INFO	Heartbeat -> 845324058
+2020-08-29 05:14 INFO	Heartbeat -> 845324058
+2020-08-29 05:15 INFO	Heartbeat -> 845324058
+2020-08-29 05:16 INFO	Heartbeat -> 845324058
+2020-08-29 05:17 INFO	Heartbeat -> 845324058
+2020-08-29 05:18 INFO	Heartbeat -> 845324058
+2020-08-29 05:19 INFO	Heartbeat -> 845324058
+2020-08-29 05:20 INFO	Heartbeat -> 845324058
+2020-08-29 05:21 INFO	Heartbeat -> 845324058
+2020-08-29 05:22 INFO	Heartbeat -> 845324058
+2020-08-29 05:23 INFO	Heartbeat -> 845324058
+2020-08-29 05:24 INFO	Heartbeat -> 845324058
+2020-08-29 05:25 INFO	Heartbeat -> 845324058
+2020-08-29 05:26 INFO	Heartbeat -> 845324058
+2020-08-29 05:27 INFO	Heartbeat -> 845324058
+2020-08-29 05:28 INFO	Heartbeat -> 845324058
+2020-08-29 05:29 INFO	Heartbeat -> 845324058
+2020-08-29 05:30 INFO	Heartbeat -> 845324058
+2020-08-29 05:31 INFO	Heartbeat -> 845324058
+2020-08-29 05:32 INFO	Heartbeat -> 845324058
+2020-08-29 05:33 INFO	Heartbeat -> 845324058
+2020-08-29 05:34 INFO	Heartbeat -> 845324058
+2020-08-29 05:35 INFO	Heartbeat -> 845324058
+2020-08-29 05:36 INFO	Heartbeat -> 845324058
+2020-08-29 05:37 INFO	Heartbeat -> 845324058
+2020-08-29 05:38 INFO	Heartbeat -> 845324058
+2020-08-29 05:38 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 1744213436, 'FromNickName': '优秀甲板清洁工', 'Content': '{"GroupPic":[{"FileId":2506642662,"FileMd5":"1qHWL2OgkpE0g1+3QK/tWA==","FileSize":35979,"ForwordBuf":"EiRENkExRDYyRjYzQTA5MjkxMzQ4MzVGQjc0MEFGRUQ1OC5qcGcyVhU2IDg2ZUExQjk1Njg1NGU2NzhmMWJhNWIgICAgMWY5MEk3bmptUURSSUZrOFJncTVENkExRDYyRjYzQTA5MjkxMzQ4MzVGQjc0MEFGRUQ1OC5qcGdBOOapoasJQNv0xscHSJA/UEJaEEk3bmptUURSSUZrOFJncTVgAWoQ1qHWL2OgkpE0g1+3QK/tWHJbL2djaGF0cGljX25ldy8xNzQ0MjEzNDM2LzY2MTc4MDA3Mi0yNTA2NjQyNjYyLUQ2QTFENjJGNjNBMDkyOTEzNDgzNUZCNzQwQUZFRDU4LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMTc0NDIxMzQzNi82NjE3ODAwNzItMjUwNjY0MjY2Mi1ENkExRDYyRjYzQTA5MjkxMzQ4MzVGQjc0MEFGRUQ1OC8wP3Rlcm09MjU1oAHoB7ABwAe4AcEDwAFoyAGLmQLQAQDYAcYB4AFc6AEA8AEA+gFbL2djaGF0cGljX25ldy8xNzQ0MjEzNDM2LzY2MTc4MDA3Mi0yNTA2NjQyNjYyLUQ2QTFENjJGNjNBMDkyOTEzNDgzNUZCNzQwQUZFRDU4LzQwMD90ZXJtPTI1NYACgAOIArMBkgICeAQ=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1744213436/661780072-2534335053-D6A1D62F63A0929134835FB740AFED58/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598650706, 'MsgSeq': 122849, 'MsgRandom': 378324191, 'RedBaginfo': None}
+2020-08-29 05:38 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 1744213436, 'FromNickName': '优秀甲板清洁工', 'Content': '兄弟们捂脸', 'MsgType': 'TextMsg', 'MsgTime': 1598650712, 'MsgSeq': 122850, 'MsgRandom': 1018071035, 'RedBaginfo': None}
+2020-08-29 05:38 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 1744213436, 'FromNickName': '优秀甲板清洁工', 'Content': '我水冲的只有一了[表情5]', 'MsgType': 'TextMsg', 'MsgTime': 1598650734, 'MsgSeq': 122851, 'MsgRandom': 526647199, 'RedBaginfo': None}
+2020-08-29 05:39 INFO	Heartbeat -> 845324058
+2020-08-29 05:40 INFO	Heartbeat -> 845324058
+2020-08-29 05:41 INFO	Heartbeat -> 845324058
+2020-08-29 05:42 INFO	Heartbeat -> 845324058
+2020-08-29 05:43 INFO	Heartbeat -> 845324058
+2020-08-29 05:44 INFO	Heartbeat -> 845324058
+2020-08-29 05:45 INFO	Heartbeat -> 845324058
+2020-08-29 05:46 INFO	Heartbeat -> 845324058
+2020-08-29 05:47 INFO	Heartbeat -> 845324058
+2020-08-29 05:48 INFO	Heartbeat -> 845324058
+2020-08-29 05:49 INFO	Heartbeat -> 845324058
+2020-08-29 05:50 INFO	Heartbeat -> 845324058
+2020-08-29 05:51 INFO	Heartbeat -> 845324058
+2020-08-29 05:52 INFO	Heartbeat -> 845324058
+2020-08-29 05:53 INFO	Heartbeat -> 845324058
+2020-08-29 05:54 INFO	Heartbeat -> 845324058
+2020-08-29 05:55 INFO	Heartbeat -> 845324058
+2020-08-29 05:56 INFO	Heartbeat -> 845324058
+2020-08-29 05:57 INFO	Heartbeat -> 845324058
+2020-08-29 05:58 INFO	Heartbeat -> 845324058
+2020-08-29 05:59 INFO	Heartbeat -> 845324058
+2020-08-29 06:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598652004, 'MsgSeq': 122852, 'MsgRandom': 2134736059, 'RedBaginfo': None}
+2020-08-29 06:00 INFO	Heartbeat -> 845324058
+2020-08-29 06:01 INFO	Heartbeat -> 845324058
+2020-08-29 06:02 INFO	Heartbeat -> 845324058
+2020-08-29 06:03 INFO	Heartbeat -> 845324058
+2020-08-29 06:04 INFO	Heartbeat -> 845324058
+2020-08-29 06:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598652304, 'MsgSeq': 122853, 'MsgRandom': 666156486, 'RedBaginfo': None}
+2020-08-29 06:05 INFO	Heartbeat -> 845324058
+2020-08-29 06:06 INFO	Heartbeat -> 845324058
+2020-08-29 06:07 INFO	Heartbeat -> 845324058
+2020-08-29 06:08 INFO	Heartbeat -> 845324058
+2020-08-29 06:09 INFO	Heartbeat -> 845324058
+2020-08-29 06:10 INFO	Heartbeat -> 845324058
+2020-08-29 06:11 INFO	Heartbeat -> 845324058
+2020-08-29 06:12 INFO	Heartbeat -> 845324058
+2020-08-29 06:13 INFO	Heartbeat -> 845324058
+2020-08-29 06:14 INFO	Heartbeat -> 845324058
+2020-08-29 06:15 INFO	Heartbeat -> 845324058
+2020-08-29 06:16 INFO	Heartbeat -> 845324058
+2020-08-29 06:17 INFO	Heartbeat -> 845324058
+2020-08-29 06:18 INFO	Heartbeat -> 845324058
+2020-08-29 06:19 INFO	Heartbeat -> 845324058
+2020-08-29 06:20 INFO	Heartbeat -> 845324058
+2020-08-29 06:21 INFO	Heartbeat -> 845324058
+2020-08-29 06:22 INFO	Heartbeat -> 845324058
+2020-08-29 06:23 INFO	Heartbeat -> 845324058
+2020-08-29 06:24 INFO	Heartbeat -> 845324058
+2020-08-29 06:25 INFO	Heartbeat -> 845324058
+2020-08-29 06:26 INFO	Heartbeat -> 845324058
+2020-08-29 06:27 INFO	Heartbeat -> 845324058
+2020-08-29 06:28 INFO	Heartbeat -> 845324058
+2020-08-29 06:29 INFO	Heartbeat -> 845324058
+2020-08-29 06:30 INFO	Heartbeat -> 845324058
+2020-08-29 06:31 INFO	Heartbeat -> 845324058
+2020-08-29 06:32 INFO	Heartbeat -> 845324058
+2020-08-29 06:33 INFO	Heartbeat -> 845324058
+2020-08-29 06:34 INFO	Heartbeat -> 845324058
+2020-08-29 06:35 INFO	Heartbeat -> 845324058
+2020-08-29 06:36 INFO	Heartbeat -> 845324058
+2020-08-29 06:37 INFO	Heartbeat -> 845324058
+2020-08-29 06:38 INFO	Heartbeat -> 845324058
+2020-08-29 06:39 INFO	Heartbeat -> 845324058
+2020-08-29 06:40 INFO	Heartbeat -> 845324058
+2020-08-29 06:41 INFO	Heartbeat -> 845324058
+2020-08-29 06:42 INFO	Heartbeat -> 845324058
+2020-08-29 06:43 INFO	Heartbeat -> 845324058
+2020-08-29 06:44 INFO	Heartbeat -> 845324058
+2020-08-29 06:45 INFO	Heartbeat -> 845324058
+2020-08-29 06:46 INFO	Heartbeat -> 845324058
+2020-08-29 06:47 INFO	Heartbeat -> 845324058
+2020-08-29 06:48 INFO	Heartbeat -> 845324058
+2020-08-29 06:49 INFO	Heartbeat -> 845324058
+2020-08-29 06:50 INFO	Heartbeat -> 845324058
+2020-08-29 06:51 INFO	Heartbeat -> 845324058
+2020-08-29 06:52 INFO	Heartbeat -> 845324058
+2020-08-29 06:53 INFO	Heartbeat -> 845324058
+2020-08-29 06:54 INFO	Heartbeat -> 845324058
+2020-08-29 06:55 INFO	Heartbeat -> 845324058
+2020-08-29 06:56 INFO	Heartbeat -> 845324058
+2020-08-29 06:57 INFO	Heartbeat -> 845324058
+2020-08-29 06:58 INFO	Heartbeat -> 845324058
+2020-08-29 06:59 INFO	Heartbeat -> 845324058
+2020-08-29 07:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598655604, 'MsgSeq': 122854, 'MsgRandom': 2386602307, 'RedBaginfo': None}
+2020-08-29 07:00 INFO	Heartbeat -> 845324058
+2020-08-29 07:01 INFO	Heartbeat -> 845324058
+2020-08-29 07:02 INFO	Heartbeat -> 845324058
+2020-08-29 07:03 INFO	Heartbeat -> 845324058
+2020-08-29 07:04 INFO	Heartbeat -> 845324058
+2020-08-29 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598655904, 'MsgSeq': 122855, 'MsgRandom': 3161338544, 'RedBaginfo': None}
+2020-08-29 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598655916, 'MsgSeq': 122856, 'MsgRandom': 796517168, 'RedBaginfo': None}
+2020-08-29 07:05 INFO	Heartbeat -> 845324058
+2020-08-29 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '很抱歉，你遗漏了连续签到，长达：1天的奖励将重置，再接再厉吧！', 'MsgType': 'TextMsg', 'MsgTime': 1598655919, 'MsgSeq': 122857, 'MsgRandom': 2777916060, 'RedBaginfo': None}
+2020-08-29 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '\r★：获得人品值：92\r☆：获得抽奖次数：3\r▲：当前签到次数已高达：1次\r◆：您是今天第1位签到的！\r◇：恭喜获得水晶币：3568\r●：您当前水晶币总合：28838\r○：签到时间：2020年8月29日7时5分18秒\r', 'MsgType': 'TextMsg', 'MsgTime': 1598655919, 'MsgSeq': 122858, 'MsgRandom': 3928280241, 'RedBaginfo': None}
+2020-08-29 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '{"Content":"【@凤飞翱翔兮丷 】发起了签到\\r","GroupPic":[{"FileId":2601656191,"FileMd5":"OrJklZihQg0k6vWmCTHjLQ==","FileSize":5545,"ForwordBuf":"Eip7M0FCMjY0OTUtOThBMS00MjBELTI0RUEtRjVBNjA5MzFFMzJEfS5qcGciACoEAAAAADJcFTYgOTJrQTFDOWIxMjFmN2Y2ZDhmZTM2NSAgICAgIDUwICAgICAgICAgICAgICAgIHszQUIyNjQ5NS05OEExLTQyMEQtMjRFQS1GNUE2MDkzMUUzMkR9LmpwZ0E4/77I2AlA5ca/7AZIUFBDWgBgAWoQOrJklZihQg0k6vWmCTHjLXJbL2djaGF0cGljX25ldy8zMjYxODUyOTIzLzY2MTc4MDA3Mi0yNjAxNjU2MTkxLTNBQjI2NDk1OThBMTQyMEQyNEVBRjVBNjA5MzFFMzJELzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMzI2MTg1MjkyMy82NjE3ODAwNzItMjYwMTY1NjE5MS0zQUIyNjQ5NTk4QTE0MjBEMjRFQUY1QTYwOTMxRTMyRC8wP3Rlcm09MjU1sAHGAbgBuQHIAakr2AHGAeABuQH6AVsvZ2NoYXRwaWNfbmV3LzMyNjE4NTI5MjMvNjYxNzgwMDcyLTI2MDE2NTYxOTEtM0FCMjY0OTU5OEExNDIwRDI0RUFGNUE2MDkzMUUzMkQvNDAwP3Rlcm09MjU1gALGAYgCuQE=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/3261852923/661780072-2534335053-3AB2649598A1420D24EAF5A60931E32D/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2450459910]}', 'MsgType': 'PicMsg', 'MsgTime': 1598655919, 'MsgSeq': 122859, 'MsgRandom': 3928280241, 'RedBaginfo': None}
+2020-08-29 07:05 WARNING	响应超时，但不代表处理未成功, 结果未知!
+2020-08-29 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n","GroupPic":[{"FileId":3063314673,"FileMd5":"1FwgkM6e3jNNGUTHh31Taw==","FileSize":411002,"ForwordBuf":"Eip7RDQ1QzIwOTAtQ0U5RS1ERTMzLTREMTktNDRDNzg3N0Q1MzZCfS5qcGc48fHZtAtgAWoQ1FwgkM6e3jNNGUTHh31Ta3JaL2djaGF0cGljX25ldy84NDUzMjQwNTgvNjYxNzgwMDcyLTMwNjMzMTQ2NzMtRDQ1QzIwOTBDRTlFREUzMzREMTk0NEM3ODc3RDUzNkIvMTk4P3Rlcm09MjU1ggFYL2djaGF0cGljX25ldy84NDUzMjQwNTgvNjYxNzgwMDcyLTMwNjMzMTQ2NzMtRDQ1QzIwOTBDRTlFREUzMzREMTk0NEM3ODc3RDUzNkIvMD90ZXJtPTI1NbABuAO4AdUCyAH6ihnYAcYB4AGZAfoBWi9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzY2MTc4MDA3Mi0zMDYzMzE0NjczLUQ0NUMyMDkwQ0U5RURFMzM0RDE5NDRDNzg3N0Q1MzZCLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/661780072-2534335053-D45C2090CE9EDE334D1944C7877D536B/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2450459910]}', 'MsgType': 'PicMsg', 'MsgTime': 1598655922, 'MsgSeq': 122860, 'MsgRandom': 8019440, 'RedBaginfo': None}
+2020-08-29 07:06 INFO	Heartbeat -> 845324058
+2020-08-29 07:07 INFO	Heartbeat -> 845324058
+2020-08-29 07:08 INFO	Heartbeat -> 845324058
+2020-08-29 07:09 INFO	Heartbeat -> 845324058
+2020-08-29 07:10 INFO	Heartbeat -> 845324058
+2020-08-29 07:11 INFO	Heartbeat -> 845324058
+2020-08-29 07:12 INFO	Heartbeat -> 845324058
+2020-08-29 07:13 INFO	Heartbeat -> 845324058
+2020-08-29 07:14 INFO	Heartbeat -> 845324058
+2020-08-29 07:15 INFO	Heartbeat -> 845324058
+2020-08-29 07:16 INFO	Heartbeat -> 845324058
+2020-08-29 07:17 INFO	Heartbeat -> 845324058
+2020-08-29 07:18 INFO	Heartbeat -> 845324058
+2020-08-29 07:19 INFO	Heartbeat -> 845324058
+2020-08-29 07:20 INFO	Heartbeat -> 845324058
+2020-08-29 07:21 INFO	Heartbeat -> 845324058
+2020-08-29 07:22 INFO	Heartbeat -> 845324058
+2020-08-29 07:23 INFO	Heartbeat -> 845324058
+2020-08-29 07:24 INFO	Heartbeat -> 845324058
+2020-08-29 07:25 INFO	Heartbeat -> 845324058
+2020-08-29 07:26 INFO	Heartbeat -> 845324058
+2020-08-29 07:27 INFO	Heartbeat -> 845324058
+2020-08-29 07:28 INFO	Heartbeat -> 845324058
+2020-08-29 07:29 INFO	Heartbeat -> 845324058
+2020-08-29 07:30 INFO	Heartbeat -> 845324058
+2020-08-29 07:31 INFO	Heartbeat -> 845324058
+2020-08-29 07:32 INFO	Heartbeat -> 845324058
+2020-08-29 07:33 INFO	Heartbeat -> 845324058
+2020-08-29 07:34 INFO	Heartbeat -> 845324058
+2020-08-29 07:35 INFO	Heartbeat -> 845324058
+2020-08-29 07:36 INFO	Heartbeat -> 845324058
+2020-08-29 07:37 INFO	Heartbeat -> 845324058
+2020-08-29 07:38 INFO	Heartbeat -> 845324058
+2020-08-29 07:39 INFO	Heartbeat -> 845324058
+2020-08-29 07:40 INFO	Heartbeat -> 845324058
+2020-08-29 07:41 INFO	Heartbeat -> 845324058
+2020-08-29 07:42 INFO	Heartbeat -> 845324058
+2020-08-29 07:43 INFO	Heartbeat -> 845324058
+2020-08-29 07:44 INFO	Heartbeat -> 845324058
+2020-08-29 07:45 INFO	Heartbeat -> 845324058
+2020-08-29 07:46 INFO	Heartbeat -> 845324058
+2020-08-29 07:47 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598658438, 'MsgSeq': 133379, 'MsgRandom': 2091768064, 'RedBaginfo': None}
+2020-08-29 07:47 INFO	Heartbeat -> 845324058
+2020-08-29 07:47 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '抽签', 'MsgType': 'TextMsg', 'MsgTime': 1598658441, 'MsgSeq': 133380, 'MsgRandom': 306253336, 'RedBaginfo': None}
+2020-08-29 07:47 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n","GroupPic":[{"FileId":2702498080,"FileMd5":"PpYAfRXVG1FFS9VMYPjRow==","FileSize":201520,"ForwordBuf":"Eip7M0U5NjAwN0QtMTVENS0xQjUxLTQ1NEItRDU0QzYwRjhEMUEzfS5qcGc4oLLTiApgAWoQPpYAfRXVG1FFS9VMYPjRo3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNzAyNDk4MDgwLTNFOTYwMDdEMTVENTFCNTE0NTRCRDU0QzYwRjhEMUEzLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjcwMjQ5ODA4MC0zRTk2MDA3RDE1RDUxQjUxNDU0QkQ1NEM2MEY4RDFBMy8wP3Rlcm09MjU1sAG4A7gB1QLIAbCmDNgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNzAyNDk4MDgwLTNFOTYwMDdEMTVENTFCNTE0NTRCRDU0QzYwRjhEMUEzLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-3E96007D15D51B51454BD54C60F8D1A3/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2450459910]}', 'MsgType': 'PicMsg', 'MsgTime': 1598658444, 'MsgSeq': 133381, 'MsgRandom': 3307407070, 'RedBaginfo': None}
+2020-08-29 07:47 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '赞我', 'MsgType': 'TextMsg', 'MsgTime': 1598658449, 'MsgSeq': 133382, 'MsgRandom': 463879955, 'RedBaginfo': None}
+2020-08-29 07:47 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '赞成功了', 'MsgType': 'TextMsg', 'MsgTime': 1598658449, 'MsgSeq': 133383, 'MsgRandom': 1598658449, 'RedBaginfo': None}
+2020-08-29 07:47 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n赞完啦~","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598658473, 'MsgSeq': 133384, 'MsgRandom': 1598658473, 'RedBaginfo': None}
+2020-08-29 07:48 INFO	Heartbeat -> 845324058
+2020-08-29 07:49 INFO	Heartbeat -> 845324058
+2020-08-29 07:50 INFO	Heartbeat -> 845324058
+2020-08-29 07:51 INFO	Heartbeat -> 845324058
+2020-08-29 07:52 INFO	Heartbeat -> 845324058
+2020-08-29 07:53 INFO	Heartbeat -> 845324058
+2020-08-29 07:54 INFO	Heartbeat -> 845324058
+2020-08-29 07:55 INFO	Heartbeat -> 845324058
+2020-08-29 07:56 INFO	Heartbeat -> 845324058
+2020-08-29 07:57 INFO	Heartbeat -> 845324058
+2020-08-29 07:58 INFO	Heartbeat -> 845324058
+2020-08-29 07:59 INFO	Heartbeat -> 845324058
+2020-08-29 08:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598659204, 'MsgSeq': 122861, 'MsgRandom': 2742476686, 'RedBaginfo': None}
+2020-08-29 08:00 INFO	Heartbeat -> 845324058
+2020-08-29 08:01 INFO	Heartbeat -> 845324058
+2020-08-29 08:01 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2698709629, 'FromNickName': '鳥の詩', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598659300, 'MsgSeq': 122862, 'MsgRandom': 1058713205, 'RedBaginfo': None}
+2020-08-29 08:01 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '很抱歉，你遗漏了连续签到，长达：1天的奖励将重置，再接再厉吧！', 'MsgType': 'TextMsg', 'MsgTime': 1598659301, 'MsgSeq': 122863, 'MsgRandom': 3038354860, 'RedBaginfo': None}
+2020-08-29 08:01 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '\r★：获得人品值：77\r☆：获得抽奖次数：3\r▲：当前签到次数已高达：1次\r◆：您是今天第2位签到的！\r◇：恭喜获得水晶币：4828\r●：您当前水晶币总合：15066\r○：签到时间：2020年8月29日8时1分40秒\r', 'MsgType': 'TextMsg', 'MsgTime': 1598659301, 'MsgSeq': 122864, 'MsgRandom': 3737137215, 'RedBaginfo': None}
+2020-08-29 08:01 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '{"Content":"【@鳥の詩 】发起了签到\\r","GroupPic":[{"FileId":2601656191,"FileMd5":"li5nJi31hm3kH55aSFPMnQ==","FileSize":5545,"ForwordBuf":"Eip7OTYyRTY3MjYtMkRGNS04NjZELUU0MUYtOUU1QTQ4NTNDQzlEfS5qcGciACoEAAAAADJcFTYgOTJrQTFDOWIxMjFmN2Y2ZDhmZTM2NSAgICAgIDUwICAgICAgICAgICAgICAgIHs5NjJFNjcyNi0yREY1LTg2NkQtRTQxRi05RTVBNDg1M0NDOUR9LmpwZ0E4/77I2AlA5ca/7AZIUFBDWgBgAWoQli5nJi31hm3kH55aSFPMnXJbL2djaGF0cGljX25ldy8zMjYxODUyOTIzLzY2MTc4MDA3Mi0yNjAxNjU2MTkxLTk2MkU2NzI2MkRGNTg2NkRFNDFGOUU1QTQ4NTNDQzlELzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMzI2MTg1MjkyMy82NjE3ODAwNzItMjYwMTY1NjE5MS05NjJFNjcyNjJERjU4NjZERTQxRjlFNUE0ODUzQ0M5RC8wP3Rlcm09MjU1sAHGAbgBuQHIAakr2AHGAeABuQH6AVsvZ2NoYXRwaWNfbmV3LzMyNjE4NTI5MjMvNjYxNzgwMDcyLTI2MDE2NTYxOTEtOTYyRTY3MjYyREY1ODY2REU0MUY5RTVBNDg1M0NDOUQvNDAwP3Rlcm09MjU1gALGAYgCuQE=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/3261852923/661780072-2534335053-962E67262DF5866DE41F9E5A4853CC9D/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2698709629]}', 'MsgType': 'PicMsg', 'MsgTime': 1598659303, 'MsgSeq': 122865, 'MsgRandom': 3737137215, 'RedBaginfo': None}
+2020-08-29 08:01 WARNING	响应超时，但不代表处理未成功, 结果未知!
+2020-08-29 08:01 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@鳥の詩 \\n","GroupPic":[{"FileId":2819163305,"FileMd5":"aToPJ2i7774Qn7CfkJVI+Q==","FileSize":428504,"ForwordBuf":"Eip7NjkzQTBGMjctNjhCQi1FRkJFLTEwOUYtQjA5RjkwOTU0OEY5fS5qcGc4qYmkwApgAWoQaToPJ2i7774Qn7CfkJVI+XJaL2djaGF0cGljX25ldy84NDUzMjQwNTgvNjYxNzgwMDcyLTI4MTkxNjMzMDUtNjkzQTBGMjc2OEJCRUZCRTEwOUZCMDlGOTA5NTQ4RjkvMTk4P3Rlcm09MjU1ggFYL2djaGF0cGljX25ldy84NDUzMjQwNTgvNjYxNzgwMDcyLTI4MTkxNjMzMDUtNjkzQTBGMjc2OEJCRUZCRTEwOUZCMDlGOTA5NTQ4RjkvMD90ZXJtPTI1NbABuAO4AdUCyAHYkxrYAcYB4AGZAfoBWi9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzY2MTc4MDA3Mi0yODE5MTYzMzA1LTY5M0EwRjI3NjhCQkVGQkUxMDlGQjA5RjkwOTU0OEY5LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/661780072-2534335053-693A0F2768BBEFBE109FB09F909548F9/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2698709629]}', 'MsgType': 'PicMsg', 'MsgTime': 1598659306, 'MsgSeq': 122866, 'MsgRandom': 3027600840, 'RedBaginfo': None}
+2020-08-29 08:02 INFO	Heartbeat -> 845324058
+2020-08-29 08:03 INFO	Heartbeat -> 845324058
+2020-08-29 08:04 INFO	Heartbeat -> 845324058
+2020-08-29 08:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598659504, 'MsgSeq': 122867, 'MsgRandom': 3995230624, 'RedBaginfo': None}
+2020-08-29 08:05 INFO	Heartbeat -> 845324058
+2020-08-29 08:06 INFO	Heartbeat -> 845324058
+2020-08-29 08:07 INFO	Heartbeat -> 845324058
+2020-08-29 08:08 INFO	Heartbeat -> 845324058
+2020-08-29 08:09 INFO	Heartbeat -> 845324058
+2020-08-29 08:10 INFO	Heartbeat -> 845324058
+2020-08-29 08:11 INFO	Heartbeat -> 845324058
+2020-08-29 08:12 INFO	Heartbeat -> 845324058
+2020-08-29 08:13 INFO	Heartbeat -> 845324058
+2020-08-29 08:14 INFO	Heartbeat -> 845324058
+2020-08-29 08:15 INFO	Heartbeat -> 845324058
+2020-08-29 08:16 INFO	Heartbeat -> 845324058
+2020-08-29 08:17 INFO	Heartbeat -> 845324058
+2020-08-29 08:18 INFO	Heartbeat -> 845324058
+2020-08-29 08:19 INFO	Heartbeat -> 845324058
+2020-08-29 08:20 INFO	Heartbeat -> 845324058
+2020-08-29 08:21 INFO	Heartbeat -> 845324058
+2020-08-29 08:22 INFO	Heartbeat -> 845324058
+2020-08-29 08:23 INFO	Heartbeat -> 845324058
+2020-08-29 08:24 INFO	Heartbeat -> 845324058
+2020-08-29 08:25 INFO	Heartbeat -> 845324058
+2020-08-29 08:26 INFO	Heartbeat -> 845324058
+2020-08-29 08:27 INFO	Heartbeat -> 845324058
+2020-08-29 08:28 INFO	Heartbeat -> 845324058
+2020-08-29 08:29 INFO	Heartbeat -> 845324058
+2020-08-29 08:30 INFO	Heartbeat -> 845324058
+2020-08-29 08:31 INFO	Heartbeat -> 845324058
+2020-08-29 08:32 INFO	Heartbeat -> 845324058
+2020-08-29 08:33 INFO	Heartbeat -> 845324058
+2020-08-29 08:34 INFO	Heartbeat -> 845324058
+2020-08-29 08:34 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 2841018513, 'FromNickName': '九歌', 'Content': '签到', 'MsgType': 'TextMsg', 'MsgTime': 1598661270, 'MsgSeq': 122868, 'MsgRandom': 1656865824, 'RedBaginfo': None}
+2020-08-29 08:34 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '很抱歉，你遗漏了连续签到，长达：1天的奖励将重置，再接再厉吧！', 'MsgType': 'TextMsg', 'MsgTime': 1598661271, 'MsgSeq': 122869, 'MsgRandom': 3600065320, 'RedBaginfo': None}
+2020-08-29 08:34 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '\r★：获得人品值：97\r☆：获得抽奖次数：2\r▲：当前签到次数已高达：1次\r◆：您是今天第3位签到的！\r◇：恭喜获得水晶币：1448\r●：您当前水晶币总合：101847\r○：签到时间：2020年8月29日8时34分30秒\r', 'MsgType': 'TextMsg', 'MsgTime': 1598661271, 'MsgSeq': 122870, 'MsgRandom': 572493469, 'RedBaginfo': None}
+2020-08-29 08:34 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '{"Content":"【@九歌 】发起了签到\\r","GroupPic":[{"FileId":2601656191,"FileMd5":"hoMmhvP449Ekz8+jEvBlFw==","FileSize":5545,"ForwordBuf":"Eip7ODY4MzI2ODYtRjNGOC1FM0QxLTI0Q0YtQ0ZBMzEyRjA2NTE3fS5qcGciACoEAAAAADJcFTYgOTJrQTFDOWIxMjFmN2Y2ZDhmZTM2NSAgICAgIDUwICAgICAgICAgICAgICAgIHs4NjgzMjY4Ni1GM0Y4LUUzRDEtMjRDRi1DRkEzMTJGMDY1MTd9LmpwZ0E4/77I2AlA5ca/7AZIUFBDWgBgAWoQhoMmhvP449Ekz8+jEvBlF3JbL2djaGF0cGljX25ldy8zMjYxODUyOTIzLzY2MTc4MDA3Mi0yNjAxNjU2MTkxLTg2ODMyNjg2RjNGOEUzRDEyNENGQ0ZBMzEyRjA2NTE3LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMzI2MTg1MjkyMy82NjE3ODAwNzItMjYwMTY1NjE5MS04NjgzMjY4NkYzRjhFM0QxMjRDRkNGQTMxMkYwNjUxNy8wP3Rlcm09MjU1sAHGAbgBuQHIAakr2AHGAeABuQH6AVsvZ2NoYXRwaWNfbmV3LzMyNjE4NTI5MjMvNjYxNzgwMDcyLTI2MDE2NTYxOTEtODY4MzI2ODZGM0Y4RTNEMTI0Q0ZDRkEzMTJGMDY1MTcvNDAwP3Rlcm09MjU1gALGAYgCuQE=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/3261852923/661780072-2534335053-86832686F3F8E3D124CFCFA312F06517/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2841018513]}', 'MsgType': 'PicMsg', 'MsgTime': 1598661272, 'MsgSeq': 122871, 'MsgRandom': 572493469, 'RedBaginfo': None}
+2020-08-29 08:34 WARNING	响应超时，但不代表处理未成功, 结果未知!
+2020-08-29 08:34 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@九歌 \\n","GroupPic":[{"FileId":2556663235,"FileMd5":"fGdMqiv13J6+czglgvcf+g==","FileSize":369346,"ForwordBuf":"Eip7N0M2NzRDQUEtMkJGNS1EQzlFLUJFNzMtMzgyNTgyRjcxRkZBfS5qcGc4w6uOwwlgAWoQfGdMqiv13J6+czglgvcf+nJaL2djaGF0cGljX25ldy84NDUzMjQwNTgvNjYxNzgwMDcyLTI1NTY2NjMyMzUtN0M2NzRDQUEyQkY1REM5RUJFNzMzODI1ODJGNzFGRkEvMTk4P3Rlcm09MjU1ggFYL2djaGF0cGljX25ldy84NDUzMjQwNTgvNjYxNzgwMDcyLTI1NTY2NjMyMzUtN0M2NzRDQUEyQkY1REM5RUJFNzMzODI1ODJGNzFGRkEvMD90ZXJtPTI1NbABuAO4AdUCyAHCxRbYAcYB4AGZAfoBWi9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzY2MTc4MDA3Mi0yNTU2NjYzMjM1LTdDNjc0Q0FBMkJGNURDOUVCRTczMzgyNTgyRjcxRkZBLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/661780072-2534335053-7C674CAA2BF5DC9EBE73382582F71FFA/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]","UserID":[2841018513]}', 'MsgType': 'PicMsg', 'MsgTime': 1598661278, 'MsgSeq': 122872, 'MsgRandom': 2650246757, 'RedBaginfo': None}
+2020-08-29 08:35 INFO	Heartbeat -> 845324058
+2020-08-29 08:36 INFO	Heartbeat -> 845324058
+2020-08-29 08:37 INFO	Heartbeat -> 845324058
+2020-08-29 08:38 INFO	Heartbeat -> 845324058
+2020-08-29 08:39 INFO	Heartbeat -> 845324058
+2020-08-29 08:40 INFO	Heartbeat -> 845324058
+2020-08-29 08:41 INFO	Heartbeat -> 845324058
+2020-08-29 08:42 INFO	Heartbeat -> 845324058
+2020-08-29 08:43 INFO	Heartbeat -> 845324058
+2020-08-29 08:44 INFO	Heartbeat -> 845324058
+2020-08-29 08:45 INFO	Heartbeat -> 845324058
+2020-08-29 08:46 INFO	Heartbeat -> 845324058
+2020-08-29 08:47 INFO	Heartbeat -> 845324058
+2020-08-29 08:48 INFO	Heartbeat -> 845324058
+2020-08-29 08:49 INFO	Heartbeat -> 845324058
+2020-08-29 08:50 INFO	Heartbeat -> 845324058
+2020-08-29 08:51 INFO	Heartbeat -> 845324058
+2020-08-29 08:52 INFO	Heartbeat -> 845324058
+2020-08-29 08:53 INFO	Heartbeat -> 845324058
+2020-08-29 08:54 INFO	Heartbeat -> 845324058
+2020-08-29 08:55 INFO	Heartbeat -> 845324058
+2020-08-29 08:56 INFO	Heartbeat -> 845324058
+2020-08-29 08:57 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2330915491, 'FromNickName': '夜', 'Content': '{"Content":"能在tx看见原神广告","GroupPic":[{"FileId":2989322205,"FileMd5":"cEiEah5KZTi4DFL5DtHa5g==","FileSize":89402,"ForwordBuf":"Eip7NzA0ODg0NkEtMUU0QS02NTM4LUI4MEMtNTJGOTBFRDFEQUU2fS5qcGcyXBU2IDkya0Ex62IyMmQ2ZmRkICAgICAgIDAgICAgICAgMGp0NHZrM0k5MkVjcm1xRGJ7NzA0ODg0NkEtMUU0QS02NTM4LUI4MEMtNTJGOTBFRDFEQUU2fS5qcGdBON3ftZELQABIAFDr////D1oQanQ0dmszSTkyRWNybXFEYmABahBwSIRqHkplOLgMUvkO0drmclsvZ2NoYXRwaWNfbmV3LzIzMzA5MTU0OTEvOTI4MzA4OTYxLTI5ODkzMjIyMDUtNzA0ODg0NkExRTRBNjUzOEI4MEM1MkY5MEVEMURBRTYvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8yMzMwOTE1NDkxLzkyODMwODk2MS0yOTg5MzIyMjA1LTcwNDg4NDZBMUU0QTY1MzhCODBDNTJGOTBFRDFEQUU2LzA/dGVybT0yNTWgAesHsAHuBbgB2AzAAckByAG6ugXQAQDYAVvgAcYB6AGtwQHwAfH9A/oBWy9nY2hhdHBpY19uZXcvMjMzMDkxNTQ5MS85MjgzMDg5NjEtMjk4OTMyMjIwNS03MDQ4ODQ2QTFFNEE2NTM4QjgwQzUyRjkwRUQxREFFNi80MDA/dGVybT0yNTWAArEBiAKAA5ICCggAEAAYAFAAeAI=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2330915491/928308961-2534335053-7048846A1E4A6538B80C52F90ED1DAE6/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598662632, 'MsgSeq': 525914, 'MsgRandom': 1734343467, 'RedBaginfo': None}
+2020-08-29 08:57 INFO	Heartbeat -> 845324058
+2020-08-29 08:58 INFO	Heartbeat -> 845324058
+2020-08-29 08:59 INFO	Heartbeat -> 845324058
+2020-08-29 09:00 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '抢楼开始啦。\r抢楼将在5分钟后结束，发送抢楼 抢占第一名', 'MsgType': 'TextMsg', 'MsgTime': 1598662804, 'MsgSeq': 122873, 'MsgRandom': 878423971, 'RedBaginfo': None}
+2020-08-29 09:00 INFO	Heartbeat -> 845324058
+2020-08-29 09:00 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2854196310, 'FromNickName': 'Q群管家', 'Content': '{"Content":"@全体成员 体温打卡\\nhttps://ding.tomatoform.com/f/g8lxczqx\\n——来自群管理员（2450459910）的编辑","UserID":[0]}', 'MsgType': 'AtMsg', 'MsgTime': 1598662830, 'MsgSeq': 133385, 'MsgRandom': 1842757248, 'RedBaginfo': None}
+2020-08-29 09:01 INFO	Heartbeat -> 845324058
+2020-08-29 09:02 INFO	Heartbeat -> 845324058
+2020-08-29 09:03 INFO	Heartbeat -> 845324058
+2020-08-29 09:04 INFO	Heartbeat -> 845324058
+2020-08-29 09:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '抢楼机器人', 'Content': '本局无人抢楼呢。大家都睡了吗？', 'MsgType': 'TextMsg', 'MsgTime': 1598663104, 'MsgSeq': 122874, 'MsgRandom': 824127154, 'RedBaginfo': None}
+2020-08-29 09:05 INFO	Heartbeat -> 845324058
+2020-08-29 09:06 INFO	Heartbeat -> 845324058
+2020-08-29 09:07 INFO	Heartbeat -> 845324058
+2020-08-29 09:07 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '赞我', 'MsgType': 'TextMsg', 'MsgTime': 1598663271, 'MsgSeq': 133386, 'MsgRandom': 27344382, 'RedBaginfo': None}
+2020-08-29 09:07 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@・_・ \\n正在赞...","UserID":[1967311084]}', 'MsgType': 'AtMsg', 'MsgTime': 1598663272, 'MsgSeq': 133387, 'MsgRandom': 1598663272, 'RedBaginfo': None}
+2020-08-29 09:07 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@・_・ 正在赞~~请稍等，大概花费50s左右","UserID":[1967311084]}', 'MsgType': 'AtMsg', 'MsgTime': 1598663272, 'MsgSeq': 133388, 'MsgRandom': 1598663272, 'RedBaginfo': None}
+2020-08-29 09:08 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1300894976, 'FromNickName': '会所创始人', 'Content': '{"Content":"赞他@敬启洲 ","UserID":[1967311084]}', 'MsgType': 'AtMsg', 'MsgTime': 1598663282, 'MsgSeq': 133389, 'MsgRandom': 1946731989, 'RedBaginfo': None}
+2020-08-29 09:08 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@・_・ \\n赞完啦~","UserID":[1967311084]}', 'MsgType': 'AtMsg', 'MsgTime': 1598663296, 'MsgSeq': 133390, 'MsgRandom': 1598663296, 'RedBaginfo': None}
+2020-08-29 09:08 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '{"Content":"赞他@会所创始人 ","UserID":[1300894976]}', 'MsgType': 'AtMsg', 'MsgTime': 1598663299, 'MsgSeq': 133391, 'MsgRandom': 141664027, 'RedBaginfo': None}
+2020-08-29 09:08 INFO	Heartbeat -> 845324058
+2020-08-29 09:08 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@・_・ 赞好啦~请查收","UserID":[1967311084]}', 'MsgType': 'AtMsg', 'MsgTime': 1598663326, 'MsgSeq': 133392, 'MsgRandom': 1598663326, 'RedBaginfo': None}
+2020-08-29 09:08 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '{"GroupPic":[{"FileId":2482286131,"FileMd5":"ixeULmvAtdlkd0WSopFf/A==","FileSize":15256,"ForwordBuf":"EiQ4QjE3OTQyRTZCQzBCNUQ5NjQ3NzQ1OTJBMjkxNUZGQy5qcGcyVhU2IDg2ZUExQjkzZjRhZTMzYTNiMTVjNzkgICAgICA1MGlXM01lQWRkeHNXQnBiYVg4QjE3OTQyRTZCQzBCNUQ5NjQ3NzQ1OTJBMjkxNUZGQy5qcGdBOLPc0p8JQPm4xZ0KSFBQQloQaVczTWVBZGR4c1dCcGJhWGABahCLF5Qua8C12WR3RZKikV/8clwvZ2NoYXRwaWNfbmV3LzE5NjczMTEwODQvMjY0ODc3MDkwOC0yNDgyMjg2MTMxLThCMTc5NDJFNkJDMEI1RDk2NDc3NDU5MkEyOTE1RkZDLzE5OD90ZXJtPTI1NYIBWi9nY2hhdHBpY19uZXcvMTk2NzMxMTA4NC8yNjQ4NzcwOTA4LTI0ODIyODYxMzEtOEIxNzk0MkU2QkMwQjVEOTY0Nzc0NTkyQTI5MTVGRkMvMD90ZXJtPTI1NaAB6AewAfABuAHwAcAByAHIAZh30AEA2AHGAeABxgHoAQDwAQD6AVwvZ2NoYXRwaWNfbmV3LzE5NjczMTEwODQvMjY0ODc3MDkwOC0yNDgyMjg2MTMxLThCMTc5NDJFNkJDMEI1RDk2NDc3NDU5MkEyOTE1RkZDLzQwMD90ZXJtPTI1NYAC8AGIAvABkgICeAY=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1967311084/383770908-2534335053-8B17942E6BC0B5D964774592A2915FFC/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663327, 'MsgSeq': 133393, 'MsgRandom': 2064610431, 'RedBaginfo': None}
+2020-08-29 09:09 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '攒不了', 'MsgType': 'TextMsg', 'MsgTime': 1598663353, 'MsgSeq': 133394, 'MsgRandom': 1786773282, 'RedBaginfo': None}
+2020-08-29 09:09 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '赞不了  我到时候把QQ换一下', 'MsgType': 'TextMsg', 'MsgTime': 1598663362, 'MsgSeq': 133395, 'MsgRandom': 79716101, 'RedBaginfo': None}
+2020-08-29 09:09 INFO	Heartbeat -> 845324058
+2020-08-29 09:09 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '这个呗举报了', 'MsgType': 'TextMsg', 'MsgTime': 1598663366, 'MsgSeq': 133396, 'MsgRandom': 3922489216, 'RedBaginfo': None}
+2020-08-29 09:09 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '{"GroupPic":[{"FileId":2455502925,"FileMd5":"IwHU5HSLNnCrLO0Nf3e00w==","FileSize":8603,"ForwordBuf":"EiQyMzAxRDRFNDc0OEIzNjcwQUIyQ0VEMEQ3Rjc3QjREMy5qcGcyVhU2IDg2ZUExQjkyNWMwMDRkYjcwM2UxM2EgICAgICA1MGlXM01lQWRkeHNXQnBiYVgyMzAxRDRFNDc0OEIzNjcwQUIyQ0VEMEQ3Rjc3QjREMy5qcGdBOM2A8JIJQLrCj7gLSFBQQloQaVczTWVBZGR4c1dCcGJhWGABahAjAdTkdIs2cKss7Q1/d7TTclwvZ2NoYXRwaWNfbmV3LzE5NjczMTEwODQvMjY0ODc3MDkwOC0yNDU1NTAyOTI1LTIzMDFENEU0NzQ4QjM2NzBBQjJDRUQwRDdGNzdCNEQzLzE5OD90ZXJtPTI1NYIBWi9nY2hhdHBpY19uZXcvMTk2NzMxMTA4NC8yNjQ4NzcwOTA4LTI0NTU1MDI5MjUtMjMwMUQ0RTQ3NDhCMzY3MEFCMkNFRDBEN0Y3N0I0RDMvMD90ZXJtPTI1NaAB6AewAfABuAHwAcAByAHIAZtD0AEA2AHGAeABxgHoAQDwAQD6AVwvZ2NoYXRwaWNfbmV3LzE5NjczMTEwODQvMjY0ODc3MDkwOC0yNDU1NTAyOTI1LTIzMDFENEU0NzQ4QjM2NzBBQjJDRUQwRDdGNzdCNEQzLzQwMD90ZXJtPTI1NYAC8AGIAvABkgICeAY=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1967311084/383770908-2534335053-2301D4E4748B3670AB2CED0D7F77B4D3/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663382, 'MsgSeq': 133397, 'MsgRandom': 1099665591, 'RedBaginfo': None}
+2020-08-29 09:10 INFO	Heartbeat -> 845324058
+2020-08-29 09:10 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2225458076, 'FromNickName': '没钱的小峰', 'Content': '{"GroupPic":[{"FileId":2531742057,"FileMd5":"Mm/tSFudfdt5mOijMyW7dQ==","FileSize":1623373,"ForwordBuf":"EiQzMjZGRUQ0ODVCOUQ3RERCNzk5OEU4QTMzMzI1QkI3NS5naWYyVhU2IDg2ZUExQjk2ZTc1MTY5NzkzMzhiYjggICAgICA1MGNIVFpObTdoaGVkVnZ0SWQzMjZGRUQ0ODVCOUQ3RERCNzk5OEU4QTMzMzI1QkI3NS5naWZBOOminbcJQLiXzskHSFBQQloQY0hUWk5tN2hoZWRWdnRJZGABahAyb+1IW51923mY6KMzJbt1clsvZ2NoYXRwaWNfbmV3LzIyMjU0NTgwNzYvOTI4MzA4OTYxLTI1MzE3NDIwNTctMzI2RkVENDg1QjlEN0REQjc5OThFOEEzMzMyNUJCNzUvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0yNTMxNzQyMDU3LTMyNkZFRDQ4NUI5RDdEREI3OTk4RThBMzMzMjVCQjc1LzA/dGVybT0yNTWgAdAPsAHAArgBsAPAAWfIAc2KY9ABANgBkgHgAcYB6AEA8AEA+gFbL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0yNTMxNzQyMDU3LTMyNkZFRDQ4NUI5RDdEREI3OTk4RThBMzMzMjVCQjc1LzQwMD90ZXJtPTI1NYACnAKIAoADkgIcCAEQABgAMgBKDlvliqjnlLvooajmg4VdUAB4BQ==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2225458076/928308961-2534335053-326FED485B9D7DDB7998E8A33325BB75/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663443, 'MsgSeq': 525915, 'MsgRandom': 635030320, 'RedBaginfo': None}
+2020-08-29 09:11 INFO	Heartbeat -> 845324058
+2020-08-29 09:12 INFO	Heartbeat -> 845324058
+2020-08-29 09:13 INFO	Heartbeat -> 845324058
+2020-08-29 09:14 INFO	Heartbeat -> 845324058
+2020-08-29 09:15 INFO	Heartbeat -> 845324058
+2020-08-29 09:15 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2225458076, 'FromNickName': '没钱的小峰', 'Content': '{"GroupPic":[{"FileId":2705259205,"FileMd5":"ZWGvj8LEmTlygth/95GGlA==","FileSize":238360,"ForwordBuf":"EiQ2NTYxQUY4RkMyQzQ5OTM5NzI4MkQ4N0ZGNzkxODY5NC5qcGcyVhU2IDg2ZUExQmExM2VmYWM1NzAzYzA4OGUgICAgICA1MGNIVFpObTdoaGVkVnZ0SWQ2NTYxQUY4RkMyQzQ5OTM5NzI4MkQ4N0ZGNzkxODY5NC5qcGdBOMX1+4kKQI6R8IEHSFBQQloQY0hUWk5tN2hoZWRWdnRJZGABahBlYa+PwsSZOXKC2H/3kYaUclsvZ2NoYXRwaWNfbmV3LzIyMjU0NTgwNzYvOTI4MzA4OTYxLTI3MDUyNTkyMDUtNjU2MUFGOEZDMkM0OTkzOTcyODJEODdGRjc5MTg2OTQvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0yNzA1MjU5MjA1LTY1NjFBRjhGQzJDNDk5Mzk3MjgyRDg3RkY3OTE4Njk0LzA/dGVybT0yNTWgAesHsAGgC7gBgA/AAcgByAGYxg7QAQDYAZQB4AHGAegBs+IE8AHAmgn6AVsvZ2NoYXRwaWNfbmV3LzIyMjU0NTgwNzYvOTI4MzA4OTYxLTI3MDUyNTkyMDUtNjU2MUFGOEZDMkM0OTkzOTcyODJEODdGRjc5MTg2OTQvNDAwP3Rlcm09MjU1gAKgAogCgAOSAgJ4Ag==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2225458076/928308961-2534335053-6561AF8FC2C499397282D87FF7918694/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663728, 'MsgSeq': 525916, 'MsgRandom': 367586157, 'RedBaginfo': None}
+2020-08-29 09:16 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2225458076, 'FromNickName': '没钱的小峰', 'Content': '{"GroupPic":[{"FileId":2262980954,"FileMd5":"8FsNParT2p33etAVR28Z1g==","FileSize":921,"ForwordBuf":"EiRGMDVCMEQzREFBRDNEQTlERjc3QUQwMTU0NzZGMTlENi5qcGcyVhU2IDg2ZUExQjg2ZTI1OTVhYTNiMTVjNzkgICAgICA1MGNIVFpObTdoaGVkVnZ0SWRGMDVCMEQzREFBRDNEQTlERjc3QUQwMTU0NzZGMTlENi5qcGdBONqyibcIQPm4xZ0KSFBQQloQY0hUWk5tN2hoZWRWdnRJZGABahDwWw09qtPanfd60BVHbxnWclsvZ2NoYXRwaWNfbmV3LzIyMjU0NTgwNzYvOTI4MzA4OTYxLTIyNjI5ODA5NTQtRjA1QjBEM0RBQUQzREE5REY3N0FEMDE1NDc2RjE5RDYvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0yMjYyOTgwOTU0LUYwNUIwRDNEQUFEM0RBOURGNzdBRDAxNTQ3NkYxOUQ2LzA/dGVybT0yNTWgAegHsAFAuAE2wAFnyAGZB9ABANgBQOABNugBAPABAPoBWy9nY2hhdHBpY19uZXcvMjIyNTQ1ODA3Ni85MjgzMDg5NjEtMjI2Mjk4MDk1NC1GMDVCMEQzREFBRDNEQTlERjc3QUQwMTU0NzZGMTlENi80MDA/dGVybT0yNTWAAkCIAjaSAhoIARAAMgBKDlvliqjnlLvooajmg4VdUAB4BQ==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2225458076/928308961-2534335053-F05B0D3DAAD3DA9DF77AD015476F19D6/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663784, 'MsgSeq': 525917, 'MsgRandom': 852847371, 'RedBaginfo': None}
+2020-08-29 09:16 INFO	Heartbeat -> 845324058
+2020-08-29 09:17 INFO	Heartbeat -> 845324058
+2020-08-29 09:17 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 570662148, 'FromNickName': '玖', 'Content': '{"GroupPic":[{"FileId":2743604117,"FileMd5":"rkvB+cnvTvr1epKZlRDBwg==","FileSize":157800,"ForwordBuf":"EiRBRTRCQzFGOUM5RUY0RUZBRjU3QTkyOTk5NTEwQzFDMi5qcGcyVhU2IDg2ZUExQmEzODgxMzk1YjcwM2U5ZTMgICAgICA1MGtJUzhUUnVwVGZzQkpUeDJBRTRCQzFGOUM5RUY0RUZBRjU3QTkyOTk5NTEwQzFDMi5qcGdBOJWnoJwKQOPTj7gLSFBQQloQa0lTOFRSdXBUZnNCSlR4MmABahCuS8H5ye9O+vV6kpmVEMHCclovZ2NoYXRwaWNfbmV3LzU3MDY2MjE0OC85MjgzMDg5NjEtMjc0MzYwNDExNy1BRTRCQzFGOUM5RUY0RUZBRjU3QTkyOTk5NTEwQzFDMi8xOTg/dGVybT0yNTWCAVgvZ2NoYXRwaWNfbmV3LzU3MDY2MjE0OC85MjgzMDg5NjEtMjc0MzYwNDExNy1BRTRCQzFGOUM5RUY0RUZBRjU3QTkyOTk5NTEwQzFDMi8wP3Rlcm09MjU1oAHrB7AB9ga4AYAPwAHIAcgB6NAJ0AEA2AFb4AHGAegBnZsD8AGhjgf6AVovZ2NoYXRwaWNfbmV3LzU3MDY2MjE0OC85MjgzMDg5NjEtMjc0MzYwNDExNy1BRTRCQzFGOUM5RUY0RUZBRjU3QTkyOTk5NTEwQzFDMi80MDA/dGVybT0yNTWAArEBiAKAA5ICAngC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/570662148/928308961-2534335053-AE4BC1F9C9EF4EFAF57A92999510C1C2/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663851, 'MsgSeq': 525918, 'MsgRandom': 697271368, 'RedBaginfo': None}
+2020-08-29 09:17 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 570662148, 'FromNickName': '玖', 'Content': '这个月水晶好少啊', 'MsgType': 'TextMsg', 'MsgTime': 1598663859, 'MsgSeq': 525919, 'MsgRandom': 321043257, 'RedBaginfo': None}
+2020-08-29 09:17 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '看腿', 'MsgType': 'TextMsg', 'MsgTime': 1598663862, 'MsgSeq': 133398, 'MsgRandom': 546102991, 'RedBaginfo': None}
+2020-08-29 09:17 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2650163678,"FileMd5":"AlRxoCWwqCLGVD0xpMPGOQ==","FileSize":20361,"ForwordBuf":"Eip7MDI1NDcxQTAtMjVCMC1BODIyLUM2NTQtM0QzMUE0QzNDNjM5fS5qcGc43pPZ7wlgAWoQAlRxoCWwqCLGVD0xpMPGOXJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNjUwMTYzNjc4LTAyNTQ3MUEwMjVCMEE4MjJDNjU0M0QzMUE0QzNDNjM5LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjY1MDE2MzY3OC0wMjU0NzFBMDI1QjBBODIyQzY1NDNEMzFBNEMzQzYzOS8wP3Rlcm09MjU1sAG4A7gB1QLIAYmfAdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNjUwMTYzNjc4LTAyNTQ3MUEwMjVCMEE4MjJDNjU0M0QzMUE0QzNDNjM5LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-025471A025B0A822C6543D31A4C3C639/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663863, 'MsgSeq': 133399, 'MsgRandom': 1346018197, 'RedBaginfo': None}
+2020-08-29 09:17 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '看腿', 'MsgType': 'TextMsg', 'MsgTime': 1598663875, 'MsgSeq': 133400, 'MsgRandom': 3389326043, 'RedBaginfo': None}
+2020-08-29 09:17 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2596849375,"FileMd5":"sy9Y/03on69fAFWhHQqNhw==","FileSize":14551,"ForwordBuf":"Eip7QjMyRjU4RkYtNERFOC05RkFGLTVGMDAtNTVBMTFEMEE4RDg3fS5qcGc4342j1glgAWoQsy9Y/03on69fAFWhHQqNh3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNTk2ODQ5Mzc1LUIzMkY1OEZGNERFODlGQUY1RjAwNTVBMTFEMEE4RDg3LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjU5Njg0OTM3NS1CMzJGNThGRjRERTg5RkFGNUYwMDU1QTExRDBBOEQ4Ny8wP3Rlcm09MjU1sAG4A7gB1QLIAddx2AHGAeABmQH6AVsvZ2NoYXRwaWNfbmV3Lzg0NTMyNDA1OC8yNjQ4NzcwOTA4LTI1OTY4NDkzNzUtQjMyRjU4RkY0REU4OUZBRjVGMDA1NUExMUQwQThEODcvNDAwP3Rlcm09MjU1gAKAA4gCqQI=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-B32F58FF4DE89FAF5F0055A11D0A8D87/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663876, 'MsgSeq': 133401, 'MsgRandom': 1397955117, 'RedBaginfo': None}
+2020-08-29 09:18 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '看腿', 'MsgType': 'TextMsg', 'MsgTime': 1598663880, 'MsgSeq': 133402, 'MsgRandom': 131065503, 'RedBaginfo': None}
+2020-08-29 09:18 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2878175509,"FileMd5":"JzAvM5pG6pGMvlnMefmXYw==","FileSize":31796,"ForwordBuf":"Eip7MjczMDJGMzMtOUE0Ni1FQTkxLThDQkUtNTlDQzc5Rjk5NzYzfS5qcGc4lfK13ApgAWoQJzAvM5pG6pGMvlnMefmXY3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yODc4MTc1NTA5LTI3MzAyRjMzOUE0NkVBOTE4Q0JFNTlDQzc5Rjk5NzYzLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjg3ODE3NTUwOS0yNzMwMkYzMzlBNDZFQTkxOENCRTU5Q0M3OUY5OTc2My8wP3Rlcm09MjU1sAG4A7gB1QLIAbT4AdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yODc4MTc1NTA5LTI3MzAyRjMzOUE0NkVBOTE4Q0JFNTlDQzc5Rjk5NzYzLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-27302F339A46EA918CBE59CC79F99763/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598663881, 'MsgSeq': 133403, 'MsgRandom': 2732168978, 'RedBaginfo': None}
+2020-08-29 09:18 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 1346018197, 'MsgSeq': 133399, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133399, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:18 INFO	Heartbeat -> 845324058
+2020-08-29 09:18 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 1397955117, 'MsgSeq': 133401, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133401, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:18 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 2732168978, 'MsgSeq': 133403, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133403, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:19 INFO	Heartbeat -> 845324058
+2020-08-29 09:19 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '服务器截图', 'MsgType': 'TextMsg', 'MsgTime': 1598663995, 'MsgSeq': 133404, 'MsgRandom': 30212536, 'RedBaginfo': None}
+2020-08-29 09:20 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"✅当前正在运行Running😄\\r","GroupPic":[{"FileId":2662378109,"FileMd5":"CPApPfuRbqrdc6dyAqW3BQ==","FileSize":346065,"ForwordBuf":"Eip7MDhGMDI5M0QtRkI5MS02RUFBLURENzMtQTc3MjAyQTVCNzA1fS5qcGc4/dTC9QlgAWoQCPApPfuRbqrdc6dyAqW3BXJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNjYyMzc4MTA5LTA4RjAyOTNERkI5MTZFQUFERDczQTc3MjAyQTVCNzA1LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjY2MjM3ODEwOS0wOEYwMjkzREZCOTE2RUFBREQ3M0E3NzIwMkE1QjcwNS8wP3Rlcm09MjU1sAG4A7gB1QLIAdGPFdgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNjYyMzc4MTA5LTA4RjAyOTNERkI5MTZFQUFERDczQTc3MjAyQTVCNzA1LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-08F0293DFB916EAADD73A77202A5B705/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598664000, 'MsgSeq': 133405, 'MsgRandom': 3727185836, 'RedBaginfo': None}
+2020-08-29 09:20 INFO	Heartbeat -> 845324058
+2020-08-29 09:21 INFO	Heartbeat -> 845324058
+2020-08-29 09:22 INFO	Heartbeat -> 845324058
+2020-08-29 09:23 INFO	Heartbeat -> 845324058
+2020-08-29 09:24 INFO	Heartbeat -> 845324058
+2020-08-29 09:25 INFO	Heartbeat -> 845324058
+2020-08-29 09:26 INFO	Heartbeat -> 845324058
+2020-08-29 09:26 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2225458076, 'FromNickName': '没钱的小峰', 'Content': '{"GroupPic":[{"FileId":3135395873,"FileMd5":"gjZYngQzJpOWHRyuh4SgQw==","FileSize":162588,"ForwordBuf":"EiQ4MjM2NTg5RTA0MzMyNjkzOTYxRDFDQUU4Nzg0QTA0My5qcGcyVhU2IDg2ZUExQmJhZTI1ODIxNzhmMWJhNWIgICAgICA1MGNIVFpObTdoaGVkVnZ0SWQ4MjM2NTg5RTA0MzMyNjkzOTYxRDFDQUU4Nzg0QTA0My5qcGdBOKGwidcLQNv0xscHSFBQQloQY0hUWk5tN2hoZWRWdnRJZGABahCCNlieBDMmk5YdHK6HhKBDclsvZ2NoYXRwaWNfbmV3LzIyMjU0NTgwNzYvOTI4MzA4OTYxLTMxMzUzOTU4NzMtODIzNjU4OUUwNDMzMjY5Mzk2MUQxQ0FFODc4NEEwNDMvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0zMTM1Mzk1ODczLTgyMzY1ODlFMDQzMzI2OTM5NjFEMUNBRTg3ODRBMDQzLzA/dGVybT0yNTWgAesHsAH2BrgBgA/AAcgByAGc9gnQAQDYAVvgAcYB6AHVmgPwAfKlB/oBWy9nY2hhdHBpY19uZXcvMjIyNTQ1ODA3Ni85MjgzMDg5NjEtMzEzNTM5NTg3My04MjM2NTg5RTA0MzMyNjkzOTYxRDFDQUU4Nzg0QTA0My80MDA/dGVybT0yNTWAArEBiAKAA5ICAngC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2225458076/928308961-2534335053-8236589E04332693961D1CAE8784A043/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598664401, 'MsgSeq': 525920, 'MsgRandom': 549153844, 'RedBaginfo': None}
+2020-08-29 09:26 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 2225458076, 'FromNickName': '没钱的小峰', 'Content': '{"GroupPic":[{"FileId":3004124937,"FileMd5":"Mm/tSFudfdt5mOijMyW7dQ==","FileSize":1623373,"ForwordBuf":"EiQzMjZGRUQ0ODVCOUQ3RERCNzk5OEU4QTMzMzI1QkI3NS5naWYyVhU2IDg2ZUExQmIzMGY0ZjA5YjcwM2UxM2EgICAgICA1MGNIVFpObTdoaGVkVnZ0SWQzMjZGRUQ0ODVCOUQ3RERCNzk5OEU4QTMzMzI1QkI3NS5naWZBOImevZgLQLrCj7gLSFBQQloQY0hUWk5tN2hoZWRWdnRJZGABahAyb+1IW51923mY6KMzJbt1clsvZ2NoYXRwaWNfbmV3LzIyMjU0NTgwNzYvOTI4MzA4OTYxLTMwMDQxMjQ5MzctMzI2RkVENDg1QjlEN0REQjc5OThFOEEzMzMyNUJCNzUvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0zMDA0MTI0OTM3LTMyNkZFRDQ4NUI5RDdEREI3OTk4RThBMzMzMjVCQjc1LzA/dGVybT0yNTWgAdAPsAHAArgBsAPAAWfIAc2KY9ABANgBkgHgAcYB6AEA8AEA+gFbL2djaGF0cGljX25ldy8yMjI1NDU4MDc2LzkyODMwODk2MS0zMDA0MTI0OTM3LTMyNkZFRDQ4NUI5RDdEREI3OTk4RThBMzMzMjVCQjc1LzQwMD90ZXJtPTI1NYACnAKIAoADkgIcCAEQABgAMgBKDlvliqjnlLvooajmg4VdUAB4BQ==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/2225458076/928308961-2534335053-326FED485B9D7DDB7998E8A33325BB75/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598664408, 'MsgSeq': 525921, 'MsgRandom': 2059672760, 'RedBaginfo': None}
+2020-08-29 09:27 INFO	Heartbeat -> 845324058
+2020-08-29 09:28 INFO	Heartbeat -> 845324058
+2020-08-29 09:29 INFO	Heartbeat -> 845324058
+2020-08-29 09:30 INFO	Heartbeat -> 845324058
+2020-08-29 09:31 INFO	Heartbeat -> 845324058
+2020-08-29 09:32 INFO	Heartbeat -> 845324058
+2020-08-29 09:33 INFO	Heartbeat -> 845324058
+2020-08-29 09:33 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 570662148, 'FromNickName': '玖', 'Content': '{"GroupPic":[{"FileId":2857968179,"FileMd5":"4yIuUSn4uvlei/Lcl3CsTA==","FileSize":2008,"ForwordBuf":"EiRFMzIyMkU1MTI5RjhCQUY5NUU4QkYyREM5NzcwQUM0Qy5qcGcyVhU2IDg2ZUExQmFhNTkyMjMzNzkzMzhkNDkgICAgICA1MGtJUzhUUnVwVGZzQkpUeDJFMzIyMkU1MTI5RjhCQUY5NUU4QkYyREM5NzcwQUM0Qy5qcGdBOLPE5NIKQMmazskHSFBQQloQa0lTOFRSdXBUZnNCSlR4MmABahDjIi5RKfi6+V6L8tyXcKxMclovZ2NoYXRwaWNfbmV3LzU3MDY2MjE0OC85MjgzMDg5NjEtMjg1Nzk2ODE3OS1FMzIyMkU1MTI5RjhCQUY5NUU4QkYyREM5NzcwQUM0Qy8xOTg/dGVybT0yNTWCAVgvZ2NoYXRwaWNfbmV3LzU3MDY2MjE0OC85MjgzMDg5NjEtMjg1Nzk2ODE3OS1FMzIyMkU1MTI5RjhCQUY5NUU4QkYyREM5NzcwQUM0Qy8wP3Rlcm09MjU1oAHoB7ABMLgBMMABZ8gB2A/QAQDYATDgATDoAQDwAQD6AVovZ2NoYXRwaWNfbmV3LzU3MDY2MjE0OC85MjgzMDg5NjEtMjg1Nzk2ODE3OS1FMzIyMkU1MTI5RjhCQUY5NUU4QkYyREM5NzcwQUM0Qy80MDA/dGVybT0yNTWAAjCIAjCSAhoIARAAMgBKDlvliqjnlLvooajmg4VdUAB4BQ==","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/570662148/928308961-2534335053-E3222E5129F8BAF95E8BF2DC9770AC4C/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598664815, 'MsgSeq': 525922, 'MsgRandom': 2062340859, 'RedBaginfo': None}
+2020-08-29 09:34 INFO	Heartbeat -> 845324058
+2020-08-29 09:35 INFO	Heartbeat -> 845324058
+2020-08-29 09:36 INFO	Heartbeat -> 845324058
+2020-08-29 09:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '看腿', 'MsgType': 'TextMsg', 'MsgTime': 1598664988, 'MsgSeq': 133406, 'MsgRandom': 1690111805, 'RedBaginfo': None}
+2020-08-29 09:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2775439814,"FileMd5":"gw5afxRoYDtnGb4oWq2Q1Q==","FileSize":12632,"ForwordBuf":"Eip7ODMwRTVBN0YtMTQ2OC02MDNCLTY3MTktQkUyODVBQUQ5MEQ1fS5qcGc4xrO3qwpgAWoQgw5afxRoYDtnGb4oWq2Q1XJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNzc1NDM5ODE0LTgzMEU1QTdGMTQ2ODYwM0I2NzE5QkUyODVBQUQ5MEQ1LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjc3NTQzOTgxNC04MzBFNUE3RjE0Njg2MDNCNjcxOUJFMjg1QUFEOTBENS8wP3Rlcm09MjU1sAG4A7gB1QLIAdhi2AHGAeABmQH6AVsvZ2NoYXRwaWNfbmV3Lzg0NTMyNDA1OC8yNjQ4NzcwOTA4LTI3NzU0Mzk4MTQtODMwRTVBN0YxNDY4NjAzQjY3MTlCRTI4NUFBRDkwRDUvNDAwP3Rlcm09MjU1gAKAA4gCqQI=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-830E5A7F1468603B6719BE285AAD90D5/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598664988, 'MsgSeq': 133407, 'MsgRandom': 2059986257, 'RedBaginfo': None}
+2020-08-29 09:36 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1300894976, 'FromNickName': '会所创始人', 'Content': '大早上就看', 'MsgType': 'TextMsg', 'MsgTime': 1598665014, 'MsgSeq': 133408, 'MsgRandom': 1572829970, 'RedBaginfo': None}
+2020-08-29 09:36 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 2059986257, 'MsgSeq': 133407, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133407, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:37 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '涩图啊', 'MsgType': 'TextMsg', 'MsgTime': 1598665024, 'MsgSeq': 133409, 'MsgRandom': 43729051, 'RedBaginfo': None}
+2020-08-29 09:37 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2154986813,"FileMd5":"tK37IhgBZtJt8JpyAVCz3g==","FileSize":73777,"ForwordBuf":"Eip7QjRBREZCMjItMTgwMS02NkQyLTZERjAtOUE3MjAxNTBCM0RFfS5qcGc4vfrJgwhgAWoQtK37IhgBZtJt8JpyAVCz3nJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMTU0OTg2ODEzLUI0QURGQjIyMTgwMTY2RDI2REYwOUE3MjAxNTBCM0RFLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjE1NDk4NjgxMy1CNEFERkIyMjE4MDE2NkQyNkRGMDlBNzIwMTUwQjNERS8wP3Rlcm09MjU1sAG4A7gB1QLIAbHABNgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yMTU0OTg2ODEzLUI0QURGQjIyMTgwMTY2RDI2REYwOUE3MjAxNTBCM0RFLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-B4ADFB22180166D26DF09A720150B3DE/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598665026, 'MsgSeq': 133410, 'MsgRandom': 2157605178, 'RedBaginfo': None}
+2020-08-29 09:37 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"30s自动撤回","GroupPic":[{"FileId":2623020056,"FileMd5":"z6aOklAEK9jOgFNOMuf2Mw==","FileSize":66853,"ForwordBuf":"Eip7Q0ZBNjhFOTItNTAwNC0yQkQ4LUNFODAtNTM0RTMyRTdGNjMzfS5qcGc4mLjg4glgAWoQz6aOklAEK9jOgFNOMuf2M3JbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNjIzMDIwMDU2LUNGQTY4RTkyNTAwNDJCRDhDRTgwNTM0RTMyRTdGNjMzLzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMjYyMzAyMDA1Ni1DRkE2OEU5MjUwMDQyQkQ4Q0U4MDUzNEUzMkU3RjYzMy8wP3Rlcm09MjU1sAG4A7gB1QLIAaWKBNgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0yNjIzMDIwMDU2LUNGQTY4RTkyNTAwNDJCRDhDRTgwNTM0RTMyRTdGNjMzLzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-CFA68E9250042BD8CE80534E32E7F633/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598665030, 'MsgSeq': 133411, 'MsgRandom': 4109057099, 'RedBaginfo': None}
+2020-08-29 09:37 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1967311084, 'FromNickName': '敬启洲', 'Content': '{"GroupPic":[{"FileId":2160769889,"FileMd5":"HXadY14LToxUpN+T/ETYYw==","FileSize":461903,"ForwordBuf":"EiQxRDc2OUQ2MzVFMEI0RThDNTRBNERGOTNGQzQ0RDg2My5naWYyVhU2IDg2ZUExQjgwY2FiYjYxNzkzMzhkNDkgICAgICA1MGlXM01lQWRkeHNXQnBiYVgxRDc2OUQ2MzVFMEI0RThDNTRBNERGOTNGQzQ0RDg2My5naWZBOOH2qoYIQMmazskHSFBQQloQaVczTWVBZGR4c1dCcGJhWGABahAddp1jXgtOjFSk35P8RNhjclwvZ2NoYXRwaWNfbmV3LzE5NjczMTEwODQvMjY0ODc3MDkwOC0yMTYwNzY5ODg5LTFENzY5RDYzNUUwQjRFOEM1NEE0REY5M0ZDNDREODYzLzE5OD90ZXJtPTI1NYIBWi9nY2hhdHBpY19uZXcvMTk2NzMxMTA4NC8yNjQ4NzcwOTA4LTIxNjA3Njk4ODktMUQ3NjlENjM1RTBCNEU4QzU0QTRERjkzRkM0NEQ4NjMvMD90ZXJtPTI1NaAB0A+wAfABuAHwAcAByAHIAc+YHNABANgBxgHgAcYB6AEA8AEA+gFcL2djaGF0cGljX25ldy8xOTY3MzExMDg0LzI2NDg3NzA5MDgtMjE2MDc2OTg4OS0xRDc2OUQ2MzVFMEI0RThDNTRBNERGOTNGQzQ0RDg2My80MDA/dGVybT0yNTWAAvABiALwAZICHAgAEAAYADIASg5b5Yqo55S76KGo5oOFXVAAeAU=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1967311084/383770908-2534335053-1D769D635E0B4E8C54A4DF93FC44D863/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598665046, 'MsgSeq': 133412, 'MsgRandom': 243187417, 'RedBaginfo': None}
+2020-08-29 09:37 INFO	Heartbeat -> 845324058
+2020-08-29 09:37 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 2157605178, 'MsgSeq': 133410, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133410, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:37 INFO	EventMsg ->  {'EventData': {'AdminUserID': 845324058, 'GroupID': 383770908, 'MsgRandom': 4109057099, 'MsgSeq': 133411, 'UserID': 845324058}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133411, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:38 INFO	Heartbeat -> 845324058
+2020-08-29 09:39 INFO	Heartbeat -> 845324058
+2020-08-29 09:40 INFO	Heartbeat -> 845324058
+2020-08-29 09:41 INFO	Heartbeat -> 845324058
+2020-08-29 09:42 INFO	Heartbeat -> 845324058
+2020-08-29 09:43 INFO	Heartbeat -> 845324058
+2020-08-29 09:44 INFO	Heartbeat -> 845324058
+2020-08-29 09:45 INFO	Heartbeat -> 845324058
+2020-08-29 09:46 INFO	Heartbeat -> 845324058
+2020-08-29 09:47 INFO	Heartbeat -> 845324058
+2020-08-29 09:48 INFO	Heartbeat -> 845324058
+2020-08-29 09:49 INFO	Heartbeat -> 845324058
+2020-08-29 09:49 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598665773, 'MsgSeq': 133413, 'MsgRandom': 972466939, 'RedBaginfo': None}
+2020-08-29 09:49 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n本群所有撤回的消息，第1页（10条/页）:\\n[呃，没有更多记录了]","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598665774, 'MsgSeq': 133414, 'MsgRandom': 1598665774, 'RedBaginfo': None}
+2020-08-29 09:50 INFO	Heartbeat -> 845324058
+2020-08-29 09:50 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 1300894976, 'FromNickName': '会所创始人', 'Content': '这句话是用键盘打出来的', 'MsgType': 'TextMsg', 'MsgTime': 1598665846, 'MsgSeq': 133415, 'MsgRandom': 237399453, 'RedBaginfo': None}
+2020-08-29 09:51 INFO	Heartbeat -> 845324058
+2020-08-29 09:52 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '。', 'MsgType': 'TextMsg', 'MsgTime': 1598665940, 'MsgSeq': 133416, 'MsgRandom': 894837678, 'RedBaginfo': None}
+2020-08-29 09:52 INFO	Heartbeat -> 845324058
+2020-08-29 09:52 INFO	GroupMsg ->  {'FromGroupId': 928308961, 'FromGroupName': '大 洗 女 子 学 园', 'FromUserId': 769276289, 'FromNickName': 'Vio·沉船（中）', 'Content': '{"GroupPic":[{"FileId":2798681510,"FileMd5":"33gLi8wBmG21NkeBKa0Ljw==","FileSize":34805,"ForwordBuf":"EiRERjc4MEI4QkNDMDE5ODZEQjUzNjQ3ODEyOUFEMEI4Ri5qcGcyVhU2IDg2ZUExQmE2ZDA3ZGE2NzkzMzhiYjggICAgICA1MEF0eWdSaFRyejZwaTZVblVERjc4MEI4QkNDMDE5ODZEQjUzNjQ3ODEyOUFEMEI4Ri5qcGdBOKb7wbYKQLiXzskHSFBQQloQQXR5Z1JoVHJ6NnBpNlVuVWABahDfeAuLzAGYbbU2R4EprQuPclovZ2NoYXRwaWNfbmV3Lzc2OTI3NjI4OS85MjgzMDg5NjEtMjc5ODY4MTUxMC1ERjc4MEI4QkNDMDE5ODZEQjUzNjQ3ODEyOUFEMEI4Ri8xOTg/dGVybT0yNTWCAVgvZ2NoYXRwaWNfbmV3Lzc2OTI3NjI4OS85MjgzMDg5NjEtMjc5ODY4MTUxMC1ERjc4MEI4QkNDMDE5ODZEQjUzNjQ3ODEyOUFEMEI4Ri8wP3Rlcm09MjU1oAHoB7AB2AS4AdkDwAHIAcgB9Y8C0AEA2AHGAeABnAHoAQDwAQD6AVovZ2NoYXRwaWNfbmV3Lzc2OTI3NjI4OS85MjgzMDg5NjEtMjc5ODY4MTUxMC1ERjc4MEI4QkNDMDE5ODZEQjUzNjQ3ODEyOUFEMEI4Ri80MDA/dGVybT0yNTWAAoADiAKuApICAngC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/769276289/928308961-2534335053-DF780B8BCC01986DB536478129AD0B8F/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598665978, 'MsgSeq': 525923, 'MsgRandom': 1075817435, 'RedBaginfo': None}

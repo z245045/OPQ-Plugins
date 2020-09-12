@@ -1,0 +1,211 @@
+2020-08-29 09:53 INFO	Connecting to the server...
+2020-08-29 09:53 SUCCESS	Connected to server successfully!
+2020-08-29 09:53 INFO	Heartbeat -> 845324058
+2020-08-29 09:53 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '.。', 'MsgType': 'TextMsg', 'MsgTime': 1598666010, 'MsgSeq': 133417, 'MsgRandom': 3781723144, 'RedBaginfo': None}
+2020-08-29 09:53 INFO	EventMsg ->  {'EventData': {'AdminUserID': 2450459910, 'GroupID': 383770908, 'MsgRandom': 3781723144, 'MsgSeq': 133417, 'UserID': 2450459910}, 'EventMsg': {'FromUin': 383770908, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 133417, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}
+2020-08-29 09:54 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598666044, 'MsgSeq': 133418, 'MsgRandom': 2894358236, 'RedBaginfo': None}
+2020-08-29 09:54 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598666058, 'MsgSeq': 133419, 'MsgRandom': 3821339337, 'RedBaginfo': None}
+2020-08-29 09:54 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '{"Content":"丢@会所创始人","UserID":[1300894976]}', 'MsgType': 'AtMsg', 'MsgTime': 1598666066, 'MsgSeq': 133420, 'MsgRandom': 3935449733, 'RedBaginfo': None}
+2020-08-29 09:54 INFO	Heartbeat -> 845324058
+2020-08-29 09:54 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"GroupPic":[{"FileId":3072243049,"FileMd5":"U6meISJbug4USW2XW4MA9A==","FileSize":206392,"ForwordBuf":"Eip7NTNBOTlFMjEtMjI1Qi1CQTBFLTE0NDktNkQ5NzVCODMwMEY0fS5qcGc46er6uAtgAWoQU6meISJbug4USW2XW4MA9HJbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0zMDcyMjQzMDQ5LTUzQTk5RTIxMjI1QkJBMEUxNDQ5NkQ5NzVCODMwMEY0LzE5OD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvODQ1MzI0MDU4LzI2NDg3NzA5MDgtMzA3MjI0MzA0OS01M0E5OUUyMTIyNUJCQTBFMTQ0OTZEOTc1QjgzMDBGNC8wP3Rlcm09MjU1sAG4A7gB1QLIAbjMDNgBxgHgAZkB+gFbL2djaGF0cGljX25ldy84NDUzMjQwNTgvMjY0ODc3MDkwOC0zMDcyMjQzMDQ5LTUzQTk5RTIxMjI1QkJBMEUxNDQ5NkQ5NzVCODMwMEY0LzQwMD90ZXJtPTI1NYACgAOIAqkC","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/845324058/383770908-2534335053-53A99E21225BBA0E14496D975B8300F4/0?vuin=845324058\\u0026term=255\\u0026pictype=0"}],"Tips":"[群图片]"}', 'MsgType': 'PicMsg', 'MsgTime': 1598666069, 'MsgSeq': 133421, 'MsgRandom': 2145293198, 'RedBaginfo': None}
+2020-08-29 09:54 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6516), thread 'ThreadPoolExecutor-0_3' (139856550295296):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f330d57f0d0>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139856550295296)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f330d57de18>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139856550295296)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 139856550295296)>
+    │    │        │    └ (<weakref at 0x7f33057b7c28; to 'ThreadPoolExecutor' at 0x7f33057a8b70>, <queue.Queue object at 0x7f33057a8ba8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_3, started daemon 139856550295296)>
+    │    └ <function _worker at 0x7f330b517d90>
+    └ <Thread(ThreadPoolExecutor-0_3, started daemon 139856550295296)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f330b517ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f330474c160>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(2013, 'Lost connection to MySQL server during query')
+    │    │      └ <function Future.set_exception at 0x7f330b59abf8>
+    │    └ <Future at 0x7f330474c390 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f330474c160>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f330b59a598>
+    └ <Future at 0x7f330474c390 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f330474c390 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2013, 'Lost connection to MySQL server during query')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f330474c160>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f330474c080>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f330474c160>
+             │    └ <function receive_group_msg at 0x7f330733b730>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f330474c160>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f330474c080>
+    │  └ <function insert_group_msg at 0x7f330733b268>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f3307331668>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f3307331668>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 888, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f3307333e18>
+    └ <pymysql.connections.Connection object at 0x7f330474c0f0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 587, in connect
+    self._get_server_information()
+    │    └ <function Connection._get_server_information at 0x7f33073346a8>
+    └ <pymysql.connections.Connection object at 0x7f330474c0f0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 969, in _get_server_information
+    packet = self._read_packet()
+             │    └ <function Connection._read_packet at 0x7f3307333f28>
+             └ <pymysql.connections.Connection object at 0x7f330474c0f0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 646, in _read_packet
+    packet_header = self._read_bytes(4)
+                    │    └ <function Connection._read_bytes at 0x7f3307334048>
+                    └ <pymysql.connections.Connection object at 0x7f330474c0f0>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 699, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+    │  └ 2013
+    └ <module 'pymysql.constants.CR' from '/usr/local/lib/python3.6/dist-packages/pymysql/constants/CR.py'>
+
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+2020-08-29 09:54 INFO	GroupMsg ->  {'FromGroupId': 383770908, 'FromGroupName': '帝豪高級娛樂會所', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598666074, 'MsgSeq': 133422, 'MsgRandom': 3906162212, 'RedBaginfo': None}
+2020-08-29 09:55 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (6516), thread 'ThreadPoolExecutor-0_11' (139856407684864):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f330d57f0d0>
+    └ <Thread(ThreadPoolExecutor-0_11, started daemon 139856407684864)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f330d57de18>
+    └ <Thread(ThreadPoolExecutor-0_11, started daemon 139856407684864)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_11, started daemon 139856407684864)>
+    │    │        │    └ (<weakref at 0x7f33047526d8; to 'ThreadPoolExecutor' at 0x7f33057a8b70>, <queue.Queue object at 0x7f33057a8ba8>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_11, started daemon 139856407684864)>
+    │    └ <function _worker at 0x7f330b517d90>
+    └ <Thread(ThreadPoolExecutor-0_11, started daemon 139856407684864)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f330b517ea0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f330475c780>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ OperationalError(2013, 'Lost connection to MySQL server during query')
+    │    │      └ <function Future.set_exception at 0x7f330b59abf8>
+    │    └ <Future at 0x7f330475c710 state=finished raised OperationalError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f330475c780>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7f330b59a598>
+    └ <Future at 0x7f330475c710 state=finished raised OperationalError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7f330475c710 state=finished raised OperationalError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 267, in __thread_pool_callback
+    raise worker_exception
+          └ OperationalError(2013, 'Lost connection to MySQL server during query')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f330475c780>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7f330475ca58>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f330475c780>
+             │    └ <function receive_group_msg at 0x7f330733b730>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f330475c780>
+
+  File "/root/pyopq/plugins/bot_record.py", line 25, in receive_group_msg
+    op.insert_group_msg(ctx)
+    │  │                └ <iotbot.model.GroupMsg object at 0x7f330475ca58>
+    │  └ <function insert_group_msg at 0x7f330733b268>
+    └ <module 'util.db.sql' from '/root/pyopq/util/db/sql.py'>
+
+  File "/root/pyopq/util/db/sql.py", line 320, in insert_group_msg
+    db = Mysql()
+         └ <class 'util.db.sql.Mysql'>
+
+  File "/root/pyopq/util/db/sql.py", line 21, in __init__
+    password=config.mysql_pass, database=config.mysql_db, charset='utf8mb4')
+             │      │                    │      └ 'ffaxx'
+             │      │                    └ <util.db.config._config object at 0x7f3307331668>
+             │      └ '123456'
+             └ <util.db.config._config object at 0x7f3307331668>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+           │           │       └ {'host': '127.0.0.1', 'port': 888, 'user': 'ffaxx', 'password': '123456', 'database': 'ffaxx', 'charset': 'utf8mb4'}
+           │           └ ()
+           └ <class 'pymysql.connections.Connection'>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+    │    └ <function Connection.connect at 0x7f3307333e18>
+    └ <pymysql.connections.Connection object at 0x7f330475cb38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 587, in connect
+    self._get_server_information()
+    │    └ <function Connection._get_server_information at 0x7f33073346a8>
+    └ <pymysql.connections.Connection object at 0x7f330475cb38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 969, in _get_server_information
+    packet = self._read_packet()
+             │    └ <function Connection._read_packet at 0x7f3307333f28>
+             └ <pymysql.connections.Connection object at 0x7f330475cb38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 646, in _read_packet
+    packet_header = self._read_bytes(4)
+                    │    └ <function Connection._read_bytes at 0x7f3307334048>
+                    └ <pymysql.connections.Connection object at 0x7f330475cb38>
+
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 699, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+    │  └ 2013
+    └ <module 'pymysql.constants.CR' from '/usr/local/lib/python3.6/dist-packages/pymysql/constants/CR.py'>
+
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')

@@ -1,0 +1,6 @@
+2020-08-30 18:31 INFO	Connecting to the server...
+2020-08-30 18:31 SUCCESS	Connected to server successfully!
+2020-08-30 18:31 INFO	Heartbeat -> 845324058
+2020-08-30 18:31 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '最近撤回', 'MsgType': 'TextMsg', 'MsgTime': 1598783504, 'MsgSeq': 5902, 'MsgRandom': 3884163724, 'RedBaginfo': None}
+2020-08-30 18:31 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n本群所有撤回的消息，第1页（10条/页）:\\n[呃，没有更多记录了]","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598783504, 'MsgSeq': 5903, 'MsgRandom': 1598783504, 'RedBaginfo': None}
+2020-08-30 18:31 INFO	EventMsg ->  {'EventData': {'AdminUserID': 2450459910, 'GroupID': 959562190, 'MsgRandom': 3884163724, 'MsgSeq': 5902, 'UserID': 2450459910}, 'EventMsg': {'FromUin': 959562190, 'ToUin': 0, 'MsgType': 'ON_EVENT_GROUP_REVOKE', 'MsgSeq': 5902, 'Content': '群成员撤回消息事件', 'RedBaginfo': None}, 'EventName': 'ON_EVENT_GROUP_REVOKE'}

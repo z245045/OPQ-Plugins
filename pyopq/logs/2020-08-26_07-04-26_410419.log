@@ -1,0 +1,75 @@
+2020-08-26 07:04 INFO	Connecting to the server...
+2020-08-26 07:04 SUCCESS	Connected to server successfully!
+2020-08-26 07:04 INFO	GetWebConn -> 845324058 => OK
+2020-08-26 07:04 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 2450459910, 'FromNickName': '凤飞翱翔兮丷', 'Content': '赞我', 'MsgType': 'TextMsg', 'MsgTime': 1598450675, 'MsgSeq': 5722, 'MsgRandom': 3236991722, 'RedBaginfo': None}
+2020-08-26 07:04 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 \\n今日已赞!","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598450676, 'MsgSeq': 5723, 'MsgRandom': 1598450676, 'RedBaginfo': None}
+2020-08-26 07:04 INFO	GroupMsg ->  {'FromGroupId': 959562190, 'FromGroupName': '测试群', 'FromUserId': 845324058, 'FromNickName': '凤飞翱翔兮丷🤖', 'Content': '{"Content":"@凤飞翱翔兮丷 正在赞~~请稍等，大概花费50s左右","UserID":[2450459910]}', 'MsgType': 'AtMsg', 'MsgTime': 1598450678, 'MsgSeq': 5724, 'MsgRandom': 1598450678, 'RedBaginfo': None}
+2020-08-26 07:04 ERROR	An error has been caught in function '_invoke_callbacks', process 'MainProcess' (10084), thread 'ThreadPoolExecutor-0_4' (140656336951040):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/threading.py", line 884, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fed38c120d0>
+    └ <Thread(ThreadPoolExecutor-0_4, started daemon 140656336951040)>
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fed38c0fe18>
+    └ <Thread(ThreadPoolExecutor-0_4, started daemon 140656336951040)>
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_4, started daemon 140656336951040)>
+    │    │        │    └ (<weakref at 0x7fed32e3ba48; to 'ThreadPoolExecutor' at 0x7fed32e2b780>, <queue.Queue object at 0x7fed32e2b898>)
+    │    │        └ <Thread(ThreadPoolExecutor-0_4, started daemon 140656336951040)>
+    │    └ <function _worker at 0x7fed36be46a8>
+    └ <Thread(ThreadPoolExecutor-0_4, started daemon 140656336951040)>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 69, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fed36be47b8>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fed303b5390>
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 58, in run
+    self.future.set_exception(exc)
+    │    │      │             └ FileNotFoundError(2, 'No such file or directory')
+    │    │      └ <function Future.set_exception at 0x7fed36c5f510>
+    │    └ <Future at 0x7fed303b51d0 state=finished raised FileNotFoundError>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fed303b5390>
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 534, in set_exception
+    self._invoke_callbacks()
+    │    └ <function Future._invoke_callbacks at 0x7fed36c5ee18>
+    └ <Future at 0x7fed303b51d0 state=finished raised FileNotFoundError>
+> File "/usr/lib/python3.6/concurrent/futures/_base.py", line 324, in _invoke_callbacks
+    callback(self)
+    │        └ <Future at 0x7fed303b51d0 state=finished raised FileNotFoundError>
+    └ <bound method IOTBOT.__thread_pool_callback of IOTBOT <845324058> <host-http://127.0.0.1> <port-8888>>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/client.py", line 320, in __thread_pool_callback
+    raise worker_exception
+          └ FileNotFoundError(2, 'No such file or directory')
+
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fed303b5390>
+             │    │   │    └ (<iotbot.model.GroupMsg object at 0x7fed303b50f0>,)
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fed303b5390>
+             │    └ <function not_botself.<locals>.inner at 0x7fed36f11048>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fed303b5390>
+
+  File "/usr/local/lib/python3.6/dist-packages/iotbot/decorators.py", line 49, in inner
+    return func(ctx)
+           │    └ <iotbot.model.GroupMsg object at 0x7fed303b50f0>
+           └ <function receive_group_msg at 0x7fed36f03d08>
+
+  File "/root/pyopq/plugins/bot_likeme.py", line 43, in receive_group_msg
+    save(nowTime,ctx.FromUserId)
+    │    │       │   └ 2450459910
+    │    │       └ <iotbot.model.GroupMsg object at 0x7fed303b50f0>
+    │    └ 1598450678.6462617
+    └ <function save at 0x7fed36f111e0>
+
+  File "/root/pyopq/plugins/bot_likeme.py", line 78, in save
+    with open(fullPath, 'w', encoding='utf-8') as f:
+              └ './resources/zan/date/2450459910.json'
+
+FileNotFoundError: [Errno 2] No such file or directory: './resources/zan/date/2450459910.json'
+2020-08-26 07:05 INFO	GroupMsg ->  {'FromGroupId': 661780072, 'FromGroupName': '艾琳后援团', 'FromUserId': 3261852923, 'FromNickName': '最讨厌紫了', 'Content': '{"Content":"本次抢楼已结束，请等待下一局开始\\r第一名：@晨曦 \\r第二名：\\r第三名：\\r第四名：\\r第五名：","UserID":[1326929802]}', 'MsgType': 'AtMsg', 'MsgTime': 1598450702, 'MsgSeq': 122006, 'MsgRandom': 169632931, 'RedBaginfo': None}
